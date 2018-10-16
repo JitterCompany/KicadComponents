@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LPC4337JBD144
+D 32-bit Arm Cortex-M4 + Cortex-M0 microcontroller, 1MB Flash, 136kB SRAM, USB HS, SGPIO, Ethernet, LQFP144
+K ARM, 32-bit, Cortex-M4, M4, Cortex-M0, M0, NXP, microcontroller
+F https://www.nxp.com/docs/en/data-sheet/LPC435X_3X_2X_1X.pdf
+$ENDCMP
+#
+$CMP SST26VF032B
+D Quad SPI Flash 4MB
+K FLASH, 4MB, NOR, SPIFI, Quad SPI
+F http://www.farnell.com/datasheets/2245044.pdf
+$ENDCMP
+#
+$CMP W25Q80DVSSIG
+D Quad SPI Flash 8Mbit
+K FLASH, 8Mb, NOR, SPIFI, Quad SPI
+F http://www.winbond.com/resource-files/w25q80dv%20dl_revh_10022015.pdf
+$ENDCMP
+#
+#End Doc Library
