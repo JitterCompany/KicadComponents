@@ -32,6 +32,12 @@ K nmos n-mos n-mosfet transistor DMN2011UFDF-7
 F ~
 $ENDCMP
 #
+$CMP Q_PMOS_RQ3E120AT
+D Transistor P-MOSFET with substrate diode (HSMT8 package)
+K pmos p-mos p-mosfet transistor
+F ~
+$ENDCMP
+#
 $CMP SST26VF032B
 D Quad SPI Flash 4MB
 K FLASH, 4MB, NOR, SPIFI, Quad SPI
