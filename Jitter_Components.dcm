@@ -18,4 +18,28 @@ K FLASH, 8Mb, NOR, SPIFI, Quad SPI
 F http://www.winbond.com/resource-files/w25q80dv%20dl_revh_10022015.pdf
 $ENDCMP
 #
+$CMP LTC1872ES6
+D Constant Frequency Current Mode Step-Up DC/DC controller
+K DC/DC Step-Up Regulator
+F http://www.linear.com/LTC1872
+$ENDCMP
+#
+$CMP Q_NMOS_DMN2011UFDF-7
+D N-MOSFET DMN2011UFDF-7
+K nmos n-mos n-mosfet transistor DMN2011UFDF-7
+F ~
+$ENDCMP
+#
+$CMP TLV70133_SOT23-5
+D 150 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv701.pdf
+$ENDCMP
+#
+$CMP TLV7031
+D Single 1.8V Nanopower Low-Voltage Comparator, SC-70
+K single comparator
+F http://www.ti.com/lit/ds/symlink/tlv7031.pdf
+$ENDCMP
+#
 #End Doc Library
