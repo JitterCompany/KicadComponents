@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3V
+D Power flag, Vlogic
+K power-flag
+$ENDCMP
+#
 $CMP LPC4337JBD144
 D 32-bit Arm Cortex-M4 + Cortex-M0 microcontroller, 1MB Flash, 136kB SRAM, USB HS, SGPIO, Ethernet, LQFP144
 K ARM, 32-bit, Cortex-M4, M4, Cortex-M0, M0, NXP, microcontroller
@@ -54,6 +59,11 @@ $CMP TLV7031
 D Single 1.8V Nanopower Low-Voltage Comparator, SC-70
 K single comparator
 F http://www.ti.com/lit/ds/symlink/tlv7031.pdf
+$ENDCMP
+#
+$CMP Vlogic
+D Power flag, Vlogic
+K power-flag
 $ENDCMP
 #
 $CMP W25Q80DVSSIG
