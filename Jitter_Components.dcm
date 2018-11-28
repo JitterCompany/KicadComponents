@@ -5,10 +5,22 @@ D Power flag, Vlogic
 K power-flag
 $ENDCMP
 #
+$CMP BQ2002T
+D NiCD/NiMH Fast-Charge Management IC
+K NiCD NiMH battery charger
+F http://www.ti.com/lit/ds/symlink/bq2002t.pdf
+$ENDCMP
+#
 $CMP LPC4337JBD144
 D 32-bit Arm Cortex-M4 + Cortex-M0 microcontroller, 1MB Flash, 136kB SRAM, USB HS, SGPIO, Ethernet, LQFP144
 K ARM, 32-bit, Cortex-M4, M4, Cortex-M0, M0, NXP, microcontroller
 F https://www.nxp.com/docs/en/data-sheet/LPC435X_3X_2X_1X.pdf
+$ENDCMP
+#
+$CMP LT1618EDD
+D Constant-Current / Constant-Voltage DC/DC boost converter
+K DC/DC DC-DC
+F http://www.linear.com/docs/3476
 $ENDCMP
 #
 $CMP LTC1872ES6
@@ -21,6 +33,10 @@ $CMP LTC4412ES6
 D Ideal Diode / Low Loss PowerPath Controller
 $ENDCMP
 #
+$CMP LTC4412ES6_0
+D Ideal Diode / Low Loss PowerPath Controller
+$ENDCMP
+#
 $CMP LTC4412HVIS6
 D Ideal Diode / Low Loss PowerPath Controller
 K Ideal Didode
@@ -28,6 +44,10 @@ F http://www.analog.com/media/en/technical-documentation/data-sheets/4412hvfs.pd
 $ENDCMP
 #
 $CMP LTC4412IS6
+D Ideal Diode / Low Loss PowerPath Controller
+$ENDCMP
+#
+$CMP LTC4412IS6_0
 D Ideal Diode / Low Loss PowerPath Controller
 $ENDCMP
 #
