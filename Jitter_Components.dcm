@@ -81,6 +81,11 @@ K single comparator
 F http://www.ti.com/lit/ds/symlink/tlv7031.pdf
 $ENDCMP
 #
+$CMP TPS61087DSC
+D step-up DC-DC converter with 3.2A switch
+F http://www.ti.com/lit/ds/symlink/tps61087.pdf
+$ENDCMP
+#
 $CMP Vlogic
 D Power flag, Vlogic
 K power-flag
