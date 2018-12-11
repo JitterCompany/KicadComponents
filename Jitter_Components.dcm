@@ -5,6 +5,11 @@ D Power flag, Vlogic
 K power-flag
 $ENDCMP
 #
+$CMP APA102-2020
+D RGB LED with integrated controller
+K RGB LED addressable APA dotstar
+$ENDCMP
+#
 $CMP BQ2002T
 D NiCD/NiMH Fast-Charge Management IC
 K NiCD NiMH battery charger
