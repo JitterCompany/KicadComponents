@@ -16,6 +16,12 @@ K NiCD NiMH battery charger
 F http://www.ti.com/lit/ds/symlink/bq2002t.pdf
 $ENDCMP
 #
+$CMP BQ24610
+D Stand-Alone Synchronous Switch-Mode Li-Ion or Li-Polymer Battery Charger with 5V–28V VCC Input
+K Li-Ion, Battery, Charger
+F http://www.ti.com/lit/ds/symlink/bq24610.pdf
+$ENDCMP
+#
 $CMP LPC4337JBD144
 D 32-bit Arm Cortex-M4 + Cortex-M0 microcontroller, 1MB Flash, 136kB SRAM, USB HS, SGPIO, Ethernet, LQFP144
 K ARM, 32-bit, Cortex-M4, M4, Cortex-M0, M0, NXP, microcontroller
