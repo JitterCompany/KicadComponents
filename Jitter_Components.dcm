@@ -22,6 +22,12 @@ K Li-Ion, Battery, Charger
 F http://www.ti.com/lit/ds/symlink/bq24610.pdf
 $ENDCMP
 #
+$CMP CSD17578Q3A
+D 30 V, 6.3 mΩ, NexFET N-Channel power MOSFET VSON8 3.3x3.3mm
+K NexFET Power MOSFET N-MOS
+F http://www.ti.com/lit/ds/symlink/csd17578q3a.pdf
+$ENDCMP
+#
 $CMP LPC4337JBD144
 D 32-bit Arm Cortex-M4 + Cortex-M0 microcontroller, 1MB Flash, 136kB SRAM, USB HS, SGPIO, Ethernet, LQFP144
 K ARM, 32-bit, Cortex-M4, M4, Cortex-M0, M0, NXP, microcontroller
@@ -78,6 +84,12 @@ $CMP SST26VF032B
 D Quad SPI Flash 4MB
 K FLASH, 4MB, NOR, SPIFI, Quad SPI
 F http://www.farnell.com/datasheets/2245044.pdf
+$ENDCMP
+#
+$CMP Si7617DN
+D Trans MOSFET P-CH 30V 13.9A 8-Pin PowerPAK 1212 T/R
+K P-Channel MOSFET
+F http://www.vishay.com/docs/65164/si7617dn.pdf
 $ENDCMP
 #
 $CMP TLV70133_SOT23-5
