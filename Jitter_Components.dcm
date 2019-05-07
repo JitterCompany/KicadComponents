@@ -28,6 +28,10 @@ K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/ds/symlink/csd17578q3a.pdf
 $ENDCMP
 #
+$CMP ISL85403
+F https://www.renesas.com/eu/en/www/doc/datasheet/isl85403.pdf
+$ENDCMP
+#
 $CMP LPC4337JBD144
 D 32-bit Arm Cortex-M4 + Cortex-M0 microcontroller, 1MB Flash, 136kB SRAM, USB HS, SGPIO, Ethernet, LQFP144
 K ARM, 32-bit, Cortex-M4, M4, Cortex-M0, M0, NXP, microcontroller
@@ -78,6 +82,12 @@ $CMP Q_PMOS_RQ3E120AT
 D Transistor P-MOSFET with substrate diode (HSMT8 package)
 K pmos p-mos p-mosfet transistor
 F ~
+$ENDCMP
+#
+$CMP SIA441DJ
+D -12A Id, -40V Vds, P-Channel MOSFET
+K P-Channel MOSFET
+F http://www.vishay.com/docs/62864/sia453edj.pdf
 $ENDCMP
 #
 $CMP SST26VF032B
