@@ -32,6 +32,12 @@ $CMP ISL85403
 F https://www.renesas.com/eu/en/www/doc/datasheet/isl85403.pdf
 $ENDCMP
 #
+$CMP LMV431A
+D Shunt Regulator, SOT-23-3
+K diode device shunt regulator
+F http://www.ti.com/lit/ds/symlink/tl431.pdf
+$ENDCMP
+#
 $CMP LPC4337JBD144
 D 32-bit Arm Cortex-M4 + Cortex-M0 microcontroller, 1MB Flash, 136kB SRAM, USB HS, SGPIO, Ethernet, LQFP144
 K ARM, 32-bit, Cortex-M4, M4, Cortex-M0, M0, NXP, microcontroller
@@ -87,13 +93,25 @@ $ENDCMP
 $CMP SIA441DJ
 D -12A Id, -40V Vds, P-Channel MOSFET
 K P-Channel MOSFET
-F http://www.vishay.com/docs/62864/sia453edj.pdf
+F https://nl.mouser.com/datasheet/2/427/sia441dj-107049.pdf
 $ENDCMP
 #
 $CMP SST26VF032B
 D Quad SPI Flash 4MB
 K FLASH, 4MB, NOR, SPIFI, Quad SPI
 F http://www.farnell.com/datasheets/2245044.pdf
+$ENDCMP
+#
+$CMP ShuntRegulator_RKA
+D Shunt Regulator (1=REF,2=k,3=A)
+K diode device shunt regulator
+F http://www.ti.com/lit/ds/symlink/lmv431a.pdf
+$ENDCMP
+#
+$CMP Si7060
+D I2C Temperature Sensor, ±1.0ºC, SOT-23-5
+K I2C Temperature Sensor
+F https://www.silabs.com/documents/public/data-sheets/si7060-datasheet.pdf
 $ENDCMP
 #
 $CMP Si7617DN
