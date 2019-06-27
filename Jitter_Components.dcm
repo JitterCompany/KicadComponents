@@ -28,6 +28,18 @@ K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/ds/symlink/csd17578q3a.pdf
 $ENDCMP
 #
+$CMP DMPH6050SPD-13
+D 60 V, 36 mΩ, dual P-Channel power MOSFET  PowerDI5060-8 5x6mm
+K MOSFET N-MOS
+F http://www.farnell.com/datasheets/2263983.pdf
+$ENDCMP
+#
+$CMP IPG20N06S4L26ATMA
+D 60 V, 26 mΩ, dual N-Channel power MOSFET PG-TDSON-8-4 5x5mm
+K MOSFET N-MOS
+F http://www.farnell.com/datasheets/1932537.pdf
+$ENDCMP
+#
 $CMP ISL85403
 F https://www.renesas.com/eu/en/www/doc/datasheet/isl85403.pdf
 $ENDCMP
