@@ -1,4 +1,4 @@
-(module AEDR-8300 (layer F.Cu) (tedit 5D91FAB1)
+(module AEDR-8300 (layer F.Cu) (tedit 5D9362BF)
   (fp_text reference REF** (at -0.2 -3.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -20,4 +20,9 @@
   (pad 4 smd rect (at 1.48 1.96) (size 1.08 0.72) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 1.48 0) (size 1.08 0.72) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 1.48 -1.96) (size 1.08 0.72) (layers F.Cu F.Paste F.Mask))
+  (model :jitter:AEDR-8300_encoder.STEP
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
+  )
 )
