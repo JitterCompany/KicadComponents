@@ -5,6 +5,12 @@ D Power flag, Vlogic
 K power-flag
 $ENDCMP
 #
+$CMP AEDR-8300
+D Reflective Surface Mount Optical Encoder
+K encoder, optical
+F https://datasheet.octopart.com/AEDR-8300-1K2-Avago-datasheet-76201850.pdf
+$ENDCMP
+#
 $CMP APA102-2020
 D RGB LED with integrated controller
 K RGB LED addressable APA dotstar
