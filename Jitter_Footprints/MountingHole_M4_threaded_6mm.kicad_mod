@@ -1,4 +1,4 @@
-(module MountingHole_M4_threaded_6mm (layer F.Cu) (tedit 5D9354EF)
+(module MountingHole_M4_threaded_6mm (layer F.Cu) (tedit 5D9360A1)
   (descr "Standoff, SMT, Non Stop, Steel, Round Female, M4, 8.2 mm x 6 mm, 7.4 mm Overall, WA-SMSI Series")
   (tags "mounting, hole, screw, standoff")
   (attr smd)
@@ -62,6 +62,11 @@
       (gr_circle (center -3.9 0) (end 0 0) (width 2))
     ))
   (model "${MODEL3D}/spacer_M4x6mm_Wurth_ 9774060482R.STEP"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${MODEL3D}/spacer_M4x6mm_Wurth_9774060482R.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
