@@ -120,6 +120,11 @@ K FLASH, 4MB, NOR, SPIFI, Quad SPI
 F http://www.farnell.com/datasheets/2245044.pdf
 $ENDCMP
 #
+$CMP STM32F103_Blackpill_Board
+D STM32F103 Black Pill Development Board 64kB Flash, 20kB RAM
+K STM32F103 64kB 20kB
+$ENDCMP
+#
 $CMP ShuntRegulator_RKA
 D Shunt Regulator (1=REF,2=k,3=A)
 K diode device shunt regulator
