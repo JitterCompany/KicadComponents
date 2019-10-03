@@ -1,4 +1,4 @@
-(module STM32F103_BlackPill (layer F.Cu) (tedit 5D949987)
+(module STM32F103_BlackPill (layer F.Cu) (tedit 5D961756)
   (fp_text reference REF** (at 0 -40.14) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -106,4 +106,9 @@
   (pad PB13 thru_hole circle (at -8.89 -20.32) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad PB11 thru_hole circle (at 8.89 -22.86) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad PB12 thru_hole circle (at -8.89 -22.86) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
+  (model :jitter:blackpill_mcu_board.STEP
+    (offset (xyz 0 2.5 2.54))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )
