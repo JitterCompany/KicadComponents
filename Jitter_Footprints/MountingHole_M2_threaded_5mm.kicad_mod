@@ -1,11 +1,11 @@
-(module MountingHole_M2_threaded_5mm (layer F.Cu) (tedit 5CF7B2B8)
+(module MountingHole_M2_threaded_5mm (layer F.Cu) (tedit 5D93371F)
   (descr "Mounting Hole 2.7mm")
   (tags "mounting hole 2.7mm")
   (attr virtual)
-  (fp_text reference REF** (at 0 -3.7) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -3.7) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value MountingHole_M2_threaded_5mm (at 0 3.7) (layer F.Fab)
+  (fp_text value MountingHole_M2_threaded_5mm (at 0 3.7) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user %R (at 0.3 0) (layer F.Fab)
