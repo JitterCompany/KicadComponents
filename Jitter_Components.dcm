@@ -108,6 +108,12 @@ K pmos p-mos p-mosfet transistor
 F ~
 $ENDCMP
 #
+$CMP Rotary_Encoder_Switch_RGB
+D Rotary encoder, dual channel, incremental quadrate outputs, with switch and RGB LEDs
+K rotary switch encoder switch push button LED RGB
+F http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Components/Switches/EC12PLRGBSDVBF-D-25K-24-24C-6108-6HSPEC.pdf
+$ENDCMP
+#
 $CMP SIA441DJ
 D -12A Id, -40V Vds, P-Channel MOSFET
 K P-Channel MOSFET
@@ -169,6 +175,12 @@ $CMP W25Q80DVSSIG
 D Quad SPI Flash 8Mbit
 K FLASH, 8Mb, NOR, SPIFI, Quad SPI
 F http://www.winbond.com/resource-files/w25q80dv%20dl_revh_10022015.pdf
+$ENDCMP
+#
+$CMP heltec_lora_wifi_V2
+D Heltec lora wifi V2 breakout board
+K microcontroller lora wifi arduino
+F https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/PinoutDiagram/WIFI_LoRa_32_V2.pdf
 $ENDCMP
 #
 #End Doc Library
