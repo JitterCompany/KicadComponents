@@ -56,6 +56,10 @@ K diode device shunt regulator
 F http://www.ti.com/lit/ds/symlink/tl431.pdf
 $ENDCMP
 #
+$CMP LOGO
+D Schematic symbol for logo
+$ENDCMP
+#
 $CMP LPC4337JBD144
 D 32-bit Arm Cortex-M4 + Cortex-M0 microcontroller, 1MB Flash, 136kB SRAM, USB HS, SGPIO, Ethernet, LQFP144
 K ARM, 32-bit, Cortex-M4, M4, Cortex-M0, M0, NXP, microcontroller
@@ -94,6 +98,12 @@ $ENDCMP
 #
 $CMP LTC4412IS6_0
 D Ideal Diode / Low Loss PowerPath Controller
+$ENDCMP
+#
+$CMP NT3H2X11
+D Passive NFC interface with a contact I2C interface
+K NFC, I2C, Contactless, NTAG, NT3H2111, NT3H2211
+F https://www.nxp.com/docs/en/data-sheet/NT3H2111_2211.pdf
 $ENDCMP
 #
 $CMP Q_NMOS_DMN2011UFDF-7
