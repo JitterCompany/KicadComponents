@@ -1,0 +1,13 @@
+(module JitterLogo (layer F.Cu) (tedit 5D9730A6)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value JitterLogo (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_poly (pts (xy 3.261333 2.694) (xy -2.326667 2.694) (xy -2.326667 -1.962667) (xy -1.649334 -1.962667)
+    (xy -1.649334 2.101333) (xy -1.056667 2.101333) (xy -1.056667 -1.454667) (xy 0.633231 -1.454667)
+    (xy 0.656115 0.302167) (xy 0.679 2.059) (xy 2.922666 2.106248) (xy 2.922666 1.508667)
+    (xy 1.229333 1.508667) (xy 1.229333 -1.962667) (xy -1.649334 -1.962667) (xy -2.326667 -1.962667)
+    (xy -2.326667 -2.894) (xy 3.261333 -2.894) (xy 3.261333 2.694)) (layer F.SilkS) (width 0.01))
+)
