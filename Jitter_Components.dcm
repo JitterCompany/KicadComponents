@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +16V
+D Power flag, Vlogic
+K power-flag
+$ENDCMP
+#
 $CMP +3V
 D Power flag, Vlogic
 K power-flag
@@ -38,6 +43,12 @@ $CMP DMPH6050SPD-13
 D 60 V, 36 mΩ, dual P-Channel power MOSFET  PowerDI5060-8 5x6mm
 K MOSFET N-MOS
 F http://www.farnell.com/datasheets/2263983.pdf
+$ENDCMP
+#
+$CMP ELW2106AA
+D 256x64 pixel OLED display 50.67x12.39mm, SPI,  white on black
+K OLED 256x64
+F https://nl.mouser.com/datasheet/2/921/Futaba-10-02-2018-ELW2106AA_A_03_SHORT-1487521.pdf
 $ENDCMP
 #
 $CMP IPG20N06S4L26ATMA
@@ -100,6 +111,16 @@ $CMP LTC4412IS6_0
 D Ideal Diode / Low Loss PowerPath Controller
 $ENDCMP
 #
+$CMP MCOT128064E1V-YM
+D 128x64 pixel OLED display. 60.50x37.00x2.15mm, Parallel / SPI/ I2C, yellow on black
+$ENDCMP
+#
+$CMP MCOT256064DY-WM
+D 256x64 pixel OLED display. 82.50x19x1.6mm, Parallel / SPI/ I2C, white on black
+K OLED, 256x64 , display
+F http://www.farnell.com/datasheets/2822958.pdf
+$ENDCMP
+#
 $CMP NT3H2X11
 D Passive NFC interface with a contact I2C interface
 K NFC, I2C, Contactless, NTAG, NT3H2111, NT3H2211
@@ -116,6 +137,12 @@ $CMP Q_PMOS_RQ3E120AT
 D Transistor P-MOSFET with substrate diode (HSMT8 package)
 K pmos p-mos p-mosfet transistor
 F ~
+$ENDCMP
+#
+$CMP Rotary_Encoder_Switch_DualLED
+D Rotary encoder, dual channel, incremental quadrate outputs, with switch and dual LEDs
+K rotary switch encoder switch push button LED
+F https://nl.mouser.com/datasheet/2/54/PEL12D-777459.pdf
 $ENDCMP
 #
 $CMP Rotary_Encoder_Switch_RGB
@@ -139,6 +166,12 @@ $ENDCMP
 $CMP STM32F103_Blackpill_Board
 D STM32F103 Black Pill Development Board 64kB Flash, 20kB RAM
 K STM32F103 64kB 20kB
+$ENDCMP
+#
+$CMP STM32G070KBT6
+D ARM Cortex-M0+ MCU, 128KB flash, 36KB RAM, 64MHz, 2.0-3.6V, 29 GPIO, LQFP-32ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 2.4-3.6V, 39 GPIO, LQFP-48
+K ARM Cortex-M0+ STM32G0 STM32G0x0 Value Line
+F https://www.st.com/resource/en/datasheet/stm32g070kb.pdf
 $ENDCMP
 #
 $CMP ShuntRegulator_RKA
@@ -191,6 +224,12 @@ $CMP heltec_lora_wifi_V2
 D Heltec lora wifi V2 breakout board
 K microcontroller lora wifi arduino
 F https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/PinoutDiagram/WIFI_LoRa_32_V2.pdf
+$ENDCMP
+#
+$CMP sn74lv1t34
+D SN74LV1T34 Single Power Supply Single Buffer GATE CMOS Logic Level Shifter
+K Level shifter buffer
+F http://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf
 $ENDCMP
 #
 #End Doc Library
