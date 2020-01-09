@@ -1,4 +1,4 @@
-(module MountingHole_M4_threaded_6mm (layer F.Cu) (tedit 5D9360A1)
+(module MountingHole_M4_threaded_6mm (layer F.Cu) (tedit 5DB9A79D)
   (descr "Standoff, SMT, Non Stop, Steel, Round Female, M4, 8.2 mm x 6 mm, 7.4 mm Overall, WA-SMSI Series")
   (tags "mounting, hole, screw, standoff")
   (attr smd)
@@ -55,11 +55,11 @@
   (pad 1 thru_hole circle (at -2.757716 -2.757716 135) (size 1.6 1.6) (drill 0.6) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 2.757716 2.757716 315) (size 1.6 1.6) (drill 0.6) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -2.757716 2.757716 225) (size 1.6 1.6) (drill 0.6) (layers *.Cu *.Mask))
-  (pad 1 thru_hole custom (at 0 -3.9 90) (size 1.6 1.6) (drill 0.6) (layers *.Cu *.Mask)
+  (pad 1 thru_hole custom (at 0 -3.94 90) (size 1.6 1.6) (drill 0.6) (layers *.Cu *.Mask)
     (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
-      (gr_circle (center -3.9 0) (end 0 0) (width 2))
+      (gr_circle (center -3.94 0) (end 0 0) (width 1.92))
     ))
   (model :jitter:spacer_M4x6mm_Wurth_9774060482R.STEP
     (at (xyz 0 0 0))
