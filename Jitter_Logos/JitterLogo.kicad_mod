@@ -1,4 +1,5 @@
-(module JitterLogo (layer F.Cu) (tedit 5D9730A6)
+(module JitterLogo (layer F.Cu) (tedit 5E176D22)
+  (attr virtual)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
