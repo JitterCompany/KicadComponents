@@ -21,6 +21,18 @@ D RGB LED with integrated controller
 K RGB LED addressable APA dotstar
 $ENDCMP
 #
+$CMP AT25SF081-SSHF-X
+D 8-Mbit, 2.3V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
+K SPI DSPI QSPI 8Mbit 2.3V
+F https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
+$ENDCMP
+#
+$CMP AT25SF641-SUB-T
+D 64-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
+K SPI DSPI QSPI 64Mbit 3V Flash
+F http://www.farnell.com/datasheets/2720345.pdf
+$ENDCMP
+#
 $CMP BQ2002T
 D NiCD/NiMH Fast-Charge Management IC
 K NiCD NiMH battery charger
@@ -43,6 +55,12 @@ $CMP DMPH6050SPD-13
 D 60 V, 36 mΩ, dual P-Channel power MOSFET  PowerDI5060-8 5x6mm
 K MOSFET N-MOS
 F http://www.farnell.com/datasheets/2263983.pdf
+$ENDCMP
+#
+$CMP DPS422
+D Barometric pressure & temp sensor
+K Pressure
+F https://www.infineon.com/dgdl/Infineon-DPS422-DS-v01_03-EN.pdf?fileId=5546d46264fee02f01650249502c1ddf
 $ENDCMP
 #
 $CMP ELW2106AA
@@ -207,6 +225,17 @@ $ENDCMP
 $CMP TPS61087DSC
 D step-up DC-DC converter with 3.2A switch
 F http://www.ti.com/lit/ds/symlink/tps61087.pdf
+$ENDCMP
+#
+$CMP VL6180X
+D Proximity and ambient light sensing (ALS) module
+K Proximity I2C ambient light time-of-flight laser
+F http://www.farnell.com/datasheets/2308888.pdf
+$ENDCMP
+#
+$CMP Vbatt
+D Power flag, Vbatt
+K power-flag battery voltage
 $ENDCMP
 #
 $CMP Vlogic
