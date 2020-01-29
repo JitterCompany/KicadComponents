@@ -1,4 +1,4 @@
-(module connector_jtag_10pin_shrouded (layer F.Cu) (tedit 5BCF2843)
+(module connector_jtag_10pin_shrouded (layer F.Cu) (tedit 5E31AA8C)
   (descr "surface-mounted straight pin header, 2x05, 1.27mm pitch, double rows")
   (tags "Surface mounted pin header SMD 2x05 1.27mm double row")
   (attr smd)
@@ -58,6 +58,7 @@
   (fp_line (start 3.6 6.9) (end 3.6 -6.9) (layer F.CrtYd) (width 0.1))
   (fp_line (start 3.6 -6.9) (end -3.6 -6.9) (layer F.CrtYd) (width 0.1))
   (fp_line (start -3.6 -6.9) (end -3.6 6.9) (layer F.CrtYd) (width 0.1))
+  (fp_poly (pts (xy -3.5 1.1) (xy -3.8 1.1) (xy -3.8 -1.1) (xy -3.5 -1.1)) (layer F.SilkS) (width 0.1))
   (pad 1 smd rect (at -1.95 -2.54) (size 2.4 0.74) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.95 -2.54) (size 2.4 0.74) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -1.95 -1.27) (size 2.4 0.74) (layers F.Cu F.Paste F.Mask))
