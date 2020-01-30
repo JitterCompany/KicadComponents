@@ -1,5 +1,5 @@
-(module Molex_503480-1400-1x14-1MP_P0.5mm_Horizontal (layer F.Cu) (tedit 5E145870)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+(module Molex_503480-1400-1x14-1MP_P0.5mm_Horizontal (layer F.Cu) (tedit 5E32D452)
+  (fp_text reference REF** (at 0.4 2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Molex_503480-1400-1x14-1MP_P0.5mm_Horizontal (at 0 -0.5) (layer F.Fab)
@@ -31,7 +31,7 @@
   (pad 14 smd rect (at 3.25 0.35) (size 0.3 0.7) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at -4.04 3) (size 0.3 1) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 4.04 3) (size 0.3 1) (layers F.Cu F.Paste F.Mask))
-  (model ${MODEL3D}/Molex_503480-1400.stp
+  (model :jitter:Molex_503480-1400.stp
     (offset (xyz 0 -3.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 180))

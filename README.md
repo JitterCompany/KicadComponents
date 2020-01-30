@@ -16,7 +16,7 @@ To install the schematic library, open the *Symbol Library Editor*. Then go to *
  
  ### 3D footprints
  
- Open a footprint in the *Footprint Editor*. Go to *Footprint Properties*, open the tab *3D settings* and choose *Configure Paths*.
- Then add an alias *'jitter'*. The path should be the absolute path to the *3D* folder in this repository.
+ Open the *Footprint Editor*. Go to *Preferences*, *configure paths*.
+ Under *3D Search Paths*, add an alias *'jitter'*. The path should be the absolute path to the *3D* folder in this repository.
  
  All footprints pointing to a 3d file in te format *jitter:<my3dshape.step>* should now resolve correctly.

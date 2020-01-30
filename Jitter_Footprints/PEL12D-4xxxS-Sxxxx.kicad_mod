@@ -1,4 +1,4 @@
-(module PEL12D-4xxxS-Sxxxx (layer F.Cu) (tedit 5E171BA6)
+(module PEL12D-4xxxS-Sxxxx (layer F.Cu) (tedit 5E32D4A2)
   (fp_text reference REF** (at -7 4.5 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -32,7 +32,7 @@
   (pad B thru_hole circle (at 2.5 7.5) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask))
   (pad MP thru_hole rect (at -5.6 0) (size 3 3) (drill oval 2 2.4) (layers *.Cu *.Mask))
   (pad MP thru_hole rect (at 5.6 0) (size 3 3) (drill oval 2 2.4) (layers *.Cu *.Mask))
-  (model ${MODEL3D}/PEL12D-4x18G-xxxxx.stp
+  (model :jitter:PEL12D-4x18G-xxxxx.stp
     (offset (xyz 72.3 -90 -31.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -105))
