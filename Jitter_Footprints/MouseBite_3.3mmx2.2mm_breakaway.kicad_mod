@@ -1,4 +1,4 @@
-(module MouseBite_3.5mmx2.2mm_breakaway (layer F.Cu) (tedit 5DEC0087)
+(module MouseBite_3.3mmx2.2mm_breakaway (layer F.Cu) (tedit 5E53CE1C)
   (attr virtual)
   (fp_text reference REF** (at 1.25 1.5 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))

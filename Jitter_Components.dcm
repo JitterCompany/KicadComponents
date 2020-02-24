@@ -21,6 +21,12 @@ D RGB LED with integrated controller
 K RGB LED addressable APA dotstar
 $ENDCMP
 #
+$CMP AT25DF021A-SSHN-T
+D 2-Mbit, 1.65-3.6V SPI Flash Memory, JEDEC SOIC-8
+K SPI DSPI 2Mbit 1.65V 3.3V 3.6V
+F http://www.farnell.com/datasheets/2631738.pdf
+$ENDCMP
+#
 $CMP AT25SF081-SSHF-X
 D 8-Mbit, 2.3V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8
 K SPI DSPI QSPI 8Mbit 2.3V
@@ -49,6 +55,12 @@ $CMP CSD17578Q3A
 D 30 V, 6.3 mΩ, NexFET N-Channel power MOSFET VSON8 3.3x3.3mm
 K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/ds/symlink/csd17578q3a.pdf
+$ENDCMP
+#
+$CMP CapacitiveTouchButton
+D Capacitive Touch button
+K Capacitive Touch button
+F ~
 $ENDCMP
 #
 $CMP DMPH6050SPD-13
