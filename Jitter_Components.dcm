@@ -10,6 +10,34 @@ D Power flag, Vlogic
 K power-flag
 $ENDCMP
 #
+$CMP 40PC100G
+D Gauge pressure sensor, 0 to 100PSI, 5V supply, 0.2% accuracy, integrated signal conditioning, excellent media compatibility
+K gage gauge pressure sensor
+F http://www.honeywellscportal.com//index.php?ci_id=138832
+$ENDCMP
+#
+$CMP 40PC150G
+D Gauge pressure sensor, 0 to 150PSI, 5V supply, 0.2% accuracy, integrated signal conditioning, excellent media compatibility
+K gage gauge pressure sensor
+F http://www.honeywellscportal.com//index.php?ci_id=138832
+$ENDCMP
+#
+$CMP 40PC250G
+D Gauge pressure sensor, 0 to 250PSI, 5V supply, 0.2% accuracy, integrated signal conditioning, excellent media compatibility
+K gage gauge pressure sensor
+F http://www.honeywellscportal.com//index.php?ci_id=138832
+$ENDCMP
+#
+$CMP ABPMXXX000XX0XX
+D Gauge pressure sensor
+K gage gauge pressure sensor
+F https://nl.mouser.com/datasheet/2/187/honeywell-sensing-basic-board-mount-pressure-abp-s-916690.pdf
+$ENDCMP
+#
+$CMP AD5410AREZ
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5410_5420.pdf
+$ENDCMP
+#
 $CMP AEDR-8300
 D Reflective Surface Mount Optical Encoder
 K encoder, optical
@@ -149,6 +177,12 @@ $CMP MCOT256064DY-WM
 D 256x64 pixel OLED display. 82.50x19x1.6mm, Parallel / SPI/ I2C, white on black
 K OLED, 256x64 , display
 F http://www.farnell.com/datasheets/2822958.pdf
+$ENDCMP
+#
+$CMP MPRLS0001PG0000SA
+D Gauge pressure sensor
+K gage gauge pressure sensor
+F http://www.honeywellscportal.com//index.php?ci_id=138832
 $ENDCMP
 #
 $CMP NT3H2X11

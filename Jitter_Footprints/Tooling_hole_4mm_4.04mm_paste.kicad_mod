@@ -1,4 +1,4 @@
-(module "Tooling hole 4mm_4.04mm_paste" locked (layer F.Cu) (tedit 5C8006A4)
+(module Tooling_hole_4mm_4.04mm_paste locked (layer F.Cu) (tedit 5C8006A4)
   (fp_text reference REF** (at -4.8 -1.5) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
