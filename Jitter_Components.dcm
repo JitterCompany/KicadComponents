@@ -91,6 +91,12 @@ K Capacitive Touch button
 F ~
 $ENDCMP
 #
+$CMP CommonModeChoke_744282010
+D EMI common mode choke
+K EMI filter
+F ~
+$ENDCMP
+#
 $CMP DMPH6050SPD-13
 D 60 V, 36 mΩ, dual P-Channel power MOSFET  PowerDI5060-8 5x6mm
 K MOSFET N-MOS
@@ -109,6 +115,12 @@ K OLED 256x64
 F https://nl.mouser.com/datasheet/2/921/Futaba-10-02-2018-ELW2106AA_A_03_SHORT-1487521.pdf
 $ENDCMP
 #
+$CMP EMI_Filter_CommonMode
+D EMI 2-inductor common mode filter
+K EMI common mode filter
+F ~
+$ENDCMP
+#
 $CMP IPG20N06S4L26ATMA
 D 60 V, 26 mΩ, dual N-Channel power MOSFET PG-TDSON-8-4 5x5mm
 K MOSFET N-MOS
@@ -117,6 +129,12 @@ $ENDCMP
 #
 $CMP ISL85403
 F https://www.renesas.com/eu/en/www/doc/datasheet/isl85403.pdf
+$ENDCMP
+#
+$CMP ITS4142NHUMA1
+D load switch
+K Load switch
+F http://www.farnell.com/datasheets/85603.pdf
 $ENDCMP
 #
 $CMP LMV431A
@@ -215,6 +233,11 @@ K rotary switch encoder switch push button LED RGB
 F http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Components/Switches/EC12PLRGBSDVBF-D-25K-24-24C-6108-6HSPEC.pdf
 $ENDCMP
 #
+$CMP S24SE05004PDFA_DC-DC
+D 150 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+$ENDCMP
+#
 $CMP SIA441DJ
 D -12A Id, -40V Vds, P-Channel MOSFET
 K P-Channel MOSFET
@@ -271,6 +294,12 @@ $ENDCMP
 $CMP TPS61087DSC
 D step-up DC-DC converter with 3.2A switch
 F http://www.ti.com/lit/ds/symlink/tps61087.pdf
+$ENDCMP
+#
+$CMP ULT-5_5-D48NM-C_DC-DC
+D 150 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K 150mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv701.pdf
 $ENDCMP
 #
 $CMP VL6180X
