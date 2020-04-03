@@ -28,6 +28,12 @@ K gage gauge pressure sensor
 F http://www.honeywellscportal.com//index.php?ci_id=138832
 $ENDCMP
 #
+$CMP ABPDXXX000XXAX5
+D Gauge pressure sensor
+K gage gauge pressure sensor
+F https://nl.mouser.com/datasheet/2/187/honeywell-sensing-basic-board-mount-pressure-abp-s-916690.pdf
+$ENDCMP
+#
 $CMP ABPMXXX000XX0XX
 D Gauge pressure sensor
 K gage gauge pressure sensor
@@ -195,6 +201,12 @@ $CMP MCOT256064DY-WM
 D 256x64 pixel OLED display. 82.50x19x1.6mm, Parallel / SPI/ I2C, white on black
 K OLED, 256x64 , display
 F http://www.farnell.com/datasheets/2822958.pdf
+$ENDCMP
+#
+$CMP MCP4725
+D 12-bit digital to analog converter, 2.048V internal reference, integrated EEPROM, I2C interface
+K dac i2c
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22039c.pdf
 $ENDCMP
 #
 $CMP MPRLS0001PG0000SA
