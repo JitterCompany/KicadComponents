@@ -97,6 +97,12 @@ K Capacitive Touch button
 F ~
 $ENDCMP
 #
+$CMP CapacitiveTouchButton_1pin
+D Capacitive Touch button
+K Capacitive Touch button
+F ~
+$ENDCMP
+#
 $CMP CommonModeChoke_744282010
 D EMI common mode choke
 K EMI filter
@@ -256,6 +262,12 @@ K P-Channel MOSFET
 F https://nl.mouser.com/datasheet/2/427/sia441dj-107049.pdf
 $ENDCMP
 #
+$CMP SIM_Card_SF53S006VCBR2000
+D SIM Card
+K SIM card UICC
+F  ~
+$ENDCMP
+#
 $CMP SST26VF032B
 D Quad SPI Flash 4MB
 K FLASH, 4MB, NOR, SPIFI, Quad SPI
@@ -291,6 +303,18 @@ K P-Channel MOSFET
 F http://www.vishay.com/docs/65164/si7617dn.pdf
 $ENDCMP
 #
+$CMP TCA9406DC
+D 2-Bit Bidirectional 1-MHz, I2C Bus and SMBus Voltage-Level Translator With 8-kV HBM ESD
+K Bidirectional 1-MHz I2C SMBus Voltage-Level Translator 8kV HBM ESD
+F www.ti.com/lit/ds/symlink/tca9406.pdf
+$ENDCMP
+#
+$CMP TLV62585DRLR
+D 2.5V-5.5V input, 3-A high efficiency step-down converter
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62568.pdf
+$ENDCMP
+#
 $CMP TLV70133_SOT23-5
 D 150 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
 K 150mA LDO Regulator Fixed Positive
@@ -301,6 +325,12 @@ $CMP TLV7031
 D Single 1.8V Nanopower Low-Voltage Comparator, SC-70
 K single comparator
 F http://www.ti.com/lit/ds/symlink/tlv7031.pdf
+$ENDCMP
+#
+$CMP TPD3F303DQDR
+D TPD3F303DQDR ESD/EMI filter for SIM card interface
+K ESD-Protection
+F https://www.ti.com/lit/ds/symlink/tpd3f303.pdf
 $ENDCMP
 #
 $CMP TPS61087DSC
