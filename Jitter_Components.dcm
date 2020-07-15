@@ -73,6 +73,18 @@ K SPI DSPI QSPI 64Mbit 3V Flash
 F http://www.farnell.com/datasheets/2720345.pdf
 $ENDCMP
 #
+$CMP AT89S52-40PU
+D 33MHz, 8kB Flash, 256B SRAM, DIP-40
+K MCS-51 8bit Flash Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc0368.pdf
+$ENDCMP
+#
+$CMP BD82039FVJ
+D 1.0A Current Limit High Side Switch ICs Active Low
+K Active Low Switch 1A Limit
+F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/power_switch/bd82039fvj-e.pdf
+$ENDCMP
+#
 $CMP BQ2002T
 D NiCD/NiMH Fast-Charge Management IC
 K NiCD NiMH battery charger
@@ -283,6 +295,12 @@ $CMP STM32G070KBT6
 D ARM Cortex-M0+ MCU, 128KB flash, 36KB RAM, 64MHz, 2.0-3.6V, 29 GPIO, LQFP-32ARM Cortex-M0 MCU, 64KB flash, 8KB RAM, 48MHz, 2.4-3.6V, 39 GPIO, LQFP-48
 K ARM Cortex-M0+ STM32G0 STM32G0x0 Value Line
 F https://www.st.com/resource/en/datasheet/stm32g070kb.pdf
+$ENDCMP
+#
+$CMP STM32WLE5JCI6
+D STM32L4 with intergrated LoRa Radio
+K LoRa, sub GHz, STM32, L4, Microcontroller
+F https://www.st.com/resource/en/datasheet/stm32wle5j8.pdf
 $ENDCMP
 #
 $CMP ShuntRegulator_RKA
