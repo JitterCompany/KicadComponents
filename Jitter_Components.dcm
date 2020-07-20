@@ -239,6 +239,12 @@ K NFC, I2C, Contactless, NTAG, NT3H2111, NT3H2211
 F https://www.nxp.com/docs/en/data-sheet/NT3H2111_2211.pdf
 $ENDCMP
 #
+$CMP PE4259
+D RF Switch from 10 MHz to 3000 MHz SC70-6 footprint
+K RF Switch
+F https://www.psemi.com/pdf/datasheets/pe4259ds.pdf
+$ENDCMP
+#
 $CMP Q_NMOS_DMN2011UFDF-7
 D N-MOSFET DMN2011UFDF-7
 K nmos n-mos n-mosfet transistor DMN2011UFDF-7
