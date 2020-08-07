@@ -55,6 +55,12 @@ D RGB LED with integrated controller
 K RGB LED addressable APA dotstar
 $ENDCMP
 #
+$CMP ASTX-13-xxxMHz
+D Miniature SMD TCXO, 2.0x1.6x0.8, Abracon
+K 1.8V TCXO
+F https://abracon.com/Oscillators/ASVTX13.pdf
+$ENDCMP
+#
 $CMP AT25DF021A-SSHN-T
 D 2-Mbit, 1.65-3.6V SPI Flash Memory, JEDEC SOIC-8
 K SPI DSPI 2Mbit 1.65V 3.3V 3.6V
