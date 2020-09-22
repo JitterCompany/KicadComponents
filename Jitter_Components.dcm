@@ -217,6 +217,12 @@ $CMP LTC4412IS6_0
 D Ideal Diode / Low Loss PowerPath Controller
 $ENDCMP
 #
+$CMP MAX13487EESA
+D RS485 transceiver, half duplex
+K rs485 transceiver
+F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
+$ENDCMP
+#
 $CMP MCOT128064E1V-YM
 D 128x64 pixel OLED display. 60.50x37.00x2.15mm, Parallel / SPI/ I2C, yellow on black
 $ENDCMP
@@ -331,6 +337,12 @@ $CMP Si7617DN
 D Trans MOSFET P-CH 30V 13.9A 8-Pin PowerPAK 1212 T/R
 K P-Channel MOSFET
 F http://www.vishay.com/docs/65164/si7617dn.pdf
+$ENDCMP
+#
+$CMP TBU
+D Transient Blocking Unit
+K transient surge
+F ~
 $ENDCMP
 #
 $CMP TCA9406DC
