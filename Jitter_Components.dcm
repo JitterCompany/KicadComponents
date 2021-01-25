@@ -44,6 +44,17 @@ $CMP AD5410AREZ
 F https://www.analog.com/media/en/technical-documentation/data-sheets/AD5410_5420.pdf
 $ENDCMP
 #
+$CMP ADS1263
+D 32-bit ADC with 24-bit auxiliary ADC
+K 32bit 24bit ADC PGA SPI
+F http://www.ti.com/lit/ds/symlink/ads1263.pdf
+$ENDCMP
+#
+$CMP ADXL355
+D 3-axis 20-bit accelerometer (2g-8g range)
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adxl354_adxl355.pdf
+$ENDCMP
+#
 $CMP AEDR-8300
 D Reflective Surface Mount Optical Encoder
 K encoder, optical
@@ -239,6 +250,12 @@ K dac i2c
 F http://ww1.microchip.com/downloads/en/DeviceDoc/22039c.pdf
 $ENDCMP
 #
+$CMP MIC5239YMM
+D 500mA low dropout linear regulator, adjustable output, MSOP-8
+K 500mA ultra-low-noise LDO linear voltage regulator adjustable positive
+F https://datasheet.octopart.com/MIC5239YMM-Microchip-datasheet-119620.pdf
+$ENDCMP
+#
 $CMP MPRLS0001PG0000SA
 D Gauge pressure sensor
 K gage gauge pressure sensor
@@ -367,6 +384,12 @@ $CMP TLV7031
 D Single 1.8V Nanopower Low-Voltage Comparator, SC-70
 K single comparator
 F http://www.ti.com/lit/ds/symlink/tlv7031.pdf
+$ENDCMP
+#
+$CMP TMUX1136
+D Dual 2:1 precision analog switch
+K analog switch, low leakage, multiplexer
+F https://www.ti.com/lit/ds/symlink/tmux1136.pdf
 $ENDCMP
 #
 $CMP TPD3F303DQDR
