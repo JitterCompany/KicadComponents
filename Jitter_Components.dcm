@@ -102,6 +102,11 @@ K Active Low Switch 1A Limit
 F https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/power_switch/bd82039fvj-e.pdf
 $ENDCMP
 #
+$CMP BG95
+K Quectel, BG95,BG96,4g,LTE-M,NB-IOT,wireless,GPRS,modem
+F https://www.quectel.com/UploadImage/Downlad/Quectel_BG95_Series_Hardware_Design_V1.3.pdf
+$ENDCMP
+#
 $CMP BQ2002T
 D NiCD/NiMH Fast-Charge Management IC
 K NiCD NiMH battery charger
@@ -178,6 +183,78 @@ K Load switch
 F http://www.farnell.com/datasheets/85603.pdf
 $ENDCMP
 #
+$CMP KA78M05_TO252
+D Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
+K Voltage Regulator 500mA Positive
+F https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF
+$ENDCMP
+#
+$CMP LF120_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 12.0V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF15_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 1.5V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF18_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 1.8V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF25_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 2.5V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF33_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 3.3V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF47_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 4.7V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF50_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 5.0V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF60_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 6.0V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF80_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 8.0V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF85_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 8.5V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
+$CMP LF90_TO252
+D Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 9.0V, TO-252 (DPAK)
+K LDO regulator voltage
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
+$ENDCMP
+#
 $CMP LMV431A
 D Shunt Regulator, SOT-23-3
 K diode device shunt regulator
@@ -186,6 +263,24 @@ $ENDCMP
 #
 $CMP LOGO
 D Schematic symbol for logo
+$ENDCMP
+#
+$CMP LP2950-3.0_TO252
+D Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.0V, TO-252
+K Micropower Voltage Regulator 100mA Positive
+F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
+$ENDCMP
+#
+$CMP LP2950-3.3_TO252
+D Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.3V, TO-252
+K Micropower Voltage Regulator 100mA Positive
+F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
+$ENDCMP
+#
+$CMP LP2950-5.0_TO252
+D Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 5.0V, TO-252
+K Micropower Voltage Regulator 100mA Positive
+F http://www.ti.com/lit/ds/symlink/lp2950-n.pdf
 $ENDCMP
 #
 $CMP LPC4337JBD144
@@ -232,6 +327,12 @@ $CMP MAX13487EESA
 D RS485 transceiver, half duplex
 K rs485 transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
+$ENDCMP
+#
+$CMP MC78M05_TO252
+D Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
+K Voltage Regulator 500mA Positive
+F https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF
 $ENDCMP
 #
 $CMP MCOT128064E1V-YM
@@ -284,6 +385,12 @@ $CMP Q_PMOS_RQ3E120AT
 D Transistor P-MOSFET with substrate diode (HSMT8 package)
 K pmos p-mos p-mosfet transistor
 F ~
+$ENDCMP
+#
+$CMP RT9048
+D low-cost adjustable linear regulator, 2A
+K Voltage Regulator 2A
+F http://www.farnell.com/datasheets/2259315.pdf
 $ENDCMP
 #
 $CMP Rotary_Encoder_Switch_DualLED
