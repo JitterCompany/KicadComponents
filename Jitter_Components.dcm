@@ -393,6 +393,10 @@ K Voltage Regulator 2A
 F http://www.farnell.com/datasheets/2259315.pdf
 $ENDCMP
 #
+$CMP RaspberryPi-CM4
+F https://datasheets.raspberrypi.org/cm4/cm4-datasheet.pdf
+$ENDCMP
+#
 $CMP Rotary_Encoder_Switch_DualLED
 D Rotary encoder, dual channel, incremental quadrate outputs, with switch and dual LEDs
 K rotary switch encoder switch push button LED
