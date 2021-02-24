@@ -1,4 +1,4 @@
-(module antenna_1002427_868-915MHz (layer F.Cu) (tedit 602D1DBC)
+(module antenna_1002427_868-915MHz (layer F.Cu) (tedit 60365481)
   (fp_text reference REF** (at 2.18 -1.95) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -68,23 +68,21 @@
   (fp_line (start 25 8.1) (end 29 0) (layer Dwgs.User) (width 0.05))
   (fp_line (start 27 8.1) (end 31 0) (layer Dwgs.User) (width 0.05))
   (fp_line (start 24 8.1) (end 28 0) (layer Dwgs.User) (width 0.05))
-  (fp_text user "No copper features below antenna!" (at 5.2 3.8) (layer Dwgs.User)
-    (effects (font (size 1.8 1.8) (thickness 0.3)))
-  )
   (fp_line (start -18.1 0) (end 31.5 0) (layer F.CrtYd) (width 0.12))
   (fp_line (start 31.5 0) (end 31.5 9.6) (layer F.CrtYd) (width 0.12))
   (fp_line (start 31.5 9.6) (end 29 9.6) (layer F.CrtYd) (width 0.12))
-  (fp_line (start 29 9.6) (end 29 5) (layer F.CrtYd) (width 0.12))
-  (fp_line (start 29 5) (end 24.3 5) (layer F.CrtYd) (width 0.12))
-  (fp_line (start 24.3 5) (end 24.3 9.6) (layer F.CrtYd) (width 0.12))
+  (fp_line (start 29 9.6) (end 29 4.5) (layer F.CrtYd) (width 0.12))
+  (fp_line (start 29 4.5) (end 24.3 4.5) (layer F.CrtYd) (width 0.12))
+  (fp_line (start 24.3 4.5) (end 24.3 9.6) (layer F.CrtYd) (width 0.12))
   (fp_line (start 24.3 9.6) (end -18.1 9.6) (layer F.CrtYd) (width 0.12))
   (fp_line (start -18.1 9.6) (end -18.1 0) (layer F.CrtYd) (width 0.12))
+  (fp_text user "No copper features below antenna!" (at 5.2 3.8) (layer Dwgs.User)
+    (effects (font (size 1.8 1.8) (thickness 0.3)))
+  )
   (pad "" np_thru_hole circle (at 2.46 1.3) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask)
     (clearance 0.15) (zone_connect 0))
   (pad "" np_thru_hole circle (at 30.2 1.3) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask)
     (clearance 0.15) (zone_connect 0))
-  (pad 1 smd rect (at 25.115 5.795) (size 1.15 3.71) (layers F.Cu))
-  (pad 1 smd rect (at 24.82 1.97) (size 0.56 3.94) (layers F.Cu))
   (pad 1 smd rect (at 24.045 1) (size 3.29 2) (layers F.Cu))
   (pad 5 smd rect (at 10.1 3.78 90) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 8.95 3.78 90) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask))
@@ -99,7 +97,8 @@
   (pad 6 smd rect (at -16.9 5.1) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at -16.9 3.85) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -16.9 2.7) (size 0.7 0.7) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd custom (at 27.7 1.45) (size 2.6 2.9) (layers F.Paste F.Mask)
+  (pad 2 smd custom (at 27.7 1.45) (size 2.6 2.9) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -138,7 +137,7 @@
          (xy 1.82 -2.2)) (width 0))
     ))
   (pad 2 smd custom (at 27.39 1.45) (size 2 2.9) (layers F.Cu)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -164,7 +163,7 @@
          (xy 2.61 -1.45)) (width 0))
     ))
   (pad 2 smd custom (at 27.39 1.45) (size 2 2.9) (layers B.Cu)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_poly (pts
@@ -188,6 +187,13 @@
          (xy 2.14 0.29) (xy 2.16 0.32) (xy 2.21 0.38) (xy 2.29 0.46) (xy 2.37 0.52)
          (xy 2.46 0.57) (xy 2.56 0.61) (xy 2.58 0.62) (xy 2.61 1.17) (xy 2.61 1.45)
          (xy 1 1.45) (xy 1 -1.45) (xy 2.61 -1.45)) (width 0))
+    ))
+  (pad 1 smd custom (at 25.115 5.795) (size 1.15 3.71) (layers F.Cu)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.015 -1.845) (xy 0.055 -1.535) (xy -0.575 -1.085) (xy -0.575 -4.265) (xy -2.615 -4.045)
+         (xy -2.635 -5.665) (xy -0.015 -5.445)) (width 0))
     ))
   (model :jitter:1002427_ME_fit.stp
     (offset (xyz 7.73 0 -3.8))
