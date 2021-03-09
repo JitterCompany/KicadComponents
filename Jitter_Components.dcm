@@ -28,6 +28,12 @@ K gage gauge pressure sensor
 F http://www.honeywellscportal.com//index.php?ci_id=138832
 $ENDCMP
 #
+$CMP 8P8C_LED_100MB_74980111211
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45
+K 8P8C RJ female connector led
+F https://www.we-online.com/catalog/datasheet/74980111211.pdf
+$ENDCMP
+#
 $CMP ABPDXXX000XXAX5
 D Gauge pressure sensor
 K gage gauge pressure sensor
@@ -149,6 +155,12 @@ K EMI filter
 F ~
 $ENDCMP
 #
+$CMP CommonModeChoke_ESD_ECMF02-2AMX6
+D CommonMode Choke with ESD protection for high-speed interfaces
+K EMI filter commonmode-choke ESD
+F https://www.st.com/resource/en/datasheet/ecmf02-2amx6.pdf
+$ENDCMP
+#
 $CMP DMPH6050SPD-13
 D 60 V, 36 mΩ, dual P-Channel power MOSFET  PowerDI5060-8 5x6mm
 K MOSFET N-MOS
@@ -193,6 +205,10 @@ $CMP KA78M05_TO252
 D Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
 K Voltage Regulator 500mA Positive
 F https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF
+$ENDCMP
+#
+$CMP KSZ8794CN
+F https://datasheet.octopart.com/KSZ8794CNXIC-Microchip-datasheet-68418802.pdf
 $ENDCMP
 #
 $CMP LF120_TO252
@@ -397,6 +413,11 @@ K pmos p-mos p-mosfet transistor
 F ~
 $ENDCMP
 #
+$CMP RJ45_LED_100MB_74980111211
+D RJ connector, 8P8C (8 positions 8 connected), two LEDs
+F ~
+$ENDCMP
+#
 $CMP RT9048
 D low-cost adjustable linear regulator, 2A
 K Voltage Regulator 2A
@@ -519,6 +540,12 @@ K ESD-Protection
 F https://www.ti.com/lit/ds/symlink/tpd3f303.pdf
 $ENDCMP
 #
+$CMP TPS22975NDSGT
+D load switch 25mOhm
+K Load switch
+F https://www.ti.com/lit/ds/symlink/tps22975.pdf
+$ENDCMP
+#
 $CMP TPS61087DSC
 D step-up DC-DC converter with 3.2A switch
 F http://www.ti.com/lit/ds/symlink/tps61087.pdf
@@ -550,6 +577,12 @@ $CMP W25Q80DVSSIG
 D Quad SPI Flash 8Mbit
 K FLASH, 8Mb, NOR, SPIFI, Quad SPI
 F http://www.winbond.com/resource-files/w25q80dv%20dl_revh_10022015.pdf
+$ENDCMP
+#
+$CMP Wurth_824015_4ch_TVS
+D 4-Channel ESD Protection for high-speed I/O channels
+K ESD protection ethernet
+F https://datasheet.octopart.com/824015-W%C3%BCrth-Elektronik-Midcom-datasheet-8814689.pdf
 $ENDCMP
 #
 $CMP heltec_lora_wifi_V2
