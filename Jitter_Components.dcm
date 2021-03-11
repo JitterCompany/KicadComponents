@@ -102,6 +102,24 @@ K MCS-51 8bit Flash Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/doc0368.pdf
 $ENDCMP
 #
+$CMP ATSAME53J18A-A
+D SAM E53 Microchip SMART ARM Cortex-M4F based MCU, 256K Flash, 128K SRAM, QFN-64
+K 32-bit ARM Cortex-M4F MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf
+$ENDCMP
+#
+$CMP ATSAME53J19A-M
+D SAM E53 Microchip SMART ARM Cortex-M4F based MCU, 512K Flash, 128K SRAM, QFN-64
+K 32-bit ARM Cortex-M4F MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf
+$ENDCMP
+#
+$CMP ATSAME53J20A-M
+D SAM E53 Microchip SMART ARM Cortex-M4F based MCU, 1024K Flash, 128K SRAM, QFN-64
+K 32-bit ARM Cortex-M4F MCU Microcontroller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf
+$ENDCMP
+#
 $CMP BD82039FVJ
 D 1.0A Current Limit High Side Switch ICs Active Low
 K Active Low Switch 1A Limit
