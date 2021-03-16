@@ -1,4 +1,4 @@
-(module TI_VQFN-HR-14 (layer F.Cu) (tedit 6047F17E)
+(module TI_VQFN-HR-14 (layer F.Cu) (tedit 604FAB1E)
   (attr smd)
   (fp_text reference REF** (at 0 -3) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -10,9 +10,6 @@
   (fp_line (start -2 -1.75) (end -2 1.75) (layer F.Fab) (width 0.05))
   (fp_line (start 2 -1.75) (end -2 -1.75) (layer F.Fab) (width 0.05))
   (fp_line (start 2 1.75) (end 2 -1.75) (layer F.Fab) (width 0.05))
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 0.7 0.7) (thickness 0.1)))
-  )
   (fp_line (start 2.025 1.85) (end 2.1 1.85) (layer F.SilkS) (width 0.15))
   (fp_line (start 2.1 1.85) (end 2.1 1.625) (layer F.SilkS) (width 0.15))
   (fp_line (start 2.1 -1.85) (end 2.1 -1.625) (layer F.SilkS) (width 0.15))
@@ -27,13 +24,16 @@
   (fp_line (start -2.4 2.2) (end 2.4 2.2) (layer F.CrtYd) (width 0.12))
   (fp_line (start 2.4 2.2) (end 2.4 -2.2) (layer F.CrtYd) (width 0.12))
   (fp_line (start 2.4 -2.2) (end -2.4 -2.2) (layer F.CrtYd) (width 0.12))
+  (fp_text user %R (at 0 0) (layer F.Fab)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
   (pad 2 smd roundrect (at -1.85 -0.525 90) (size 0.25 0.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 3 smd roundrect (at -1.85 0 90) (size 0.3 0.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 4 smd roundrect (at -1.85 0.525 90) (size 0.25 0.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 14 smd roundrect (at -1.125 -1.6 180) (size 0.25 0.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 13 smd roundrect (at -0.625 -1.6 180) (size 0.25 0.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 5 smd custom (at -1.675 1.45) (size 0.35 0.35) (layers F.Cu F.Mask)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -57,7 +57,7 @@
          (xy -0.165 0.44) (xy -0.175 0.41) (xy -0.175 0) (xy 0.075 -0.38)) (width 0))
     ))
   (pad 1 smd custom (at -1.675 -1.45) (size 0.35 0.35) (layers F.Cu F.Mask)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -85,7 +85,7 @@
   (pad 8 smd roundrect (at 0.45 1.45 180) (size 0.4 1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 12 smd roundrect (at 0.45 -1.45 180) (size 0.4 1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 11 smd custom (at 1.6 -1.45) (size 0.4 0.4) (layers F.Cu F.Mask)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -109,7 +109,7 @@
          (xy -0.14 -0.49) (xy -0.11 -0.5) (xy -0.1 -0.5) (xy -0.1 -0.4)) (width 0))
     ))
   (pad 9 smd custom (at 1.6 1.45) (size 0.4 0.4) (layers F.Cu F.Mask)
-    (zone_connect 0)
+    (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -229,8 +229,8 @@
          (xy -0.25 -0.15) (xy -0.46 -0.15) (xy -0.49 -0.16) (xy -0.51 -0.17) (xy -0.53 -0.19)
          (xy -0.54 -0.21) (xy -0.55 -0.24) (xy -0.55 -0.25) (xy 0.05 -0.42)) (width 0))
     ))
-  (pad 10 smd roundrect (at 0.35 0) (size 1.1 0.4) (layers F.Paste) (roundrect_rratio 0.25))
-  (pad 10 smd roundrect (at 1.65 0) (size 1.1 0.4) (layers F.Paste) (roundrect_rratio 0.25))
+  (pad "" smd roundrect (at 0.35 0) (size 1.1 0.4) (layers F.Paste) (roundrect_rratio 0.25))
+  (pad "" smd roundrect (at 1.65 0) (size 1.1 0.4) (layers F.Paste) (roundrect_rratio 0.25))
   (model :jitter:LMQ61460.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
