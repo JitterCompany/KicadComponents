@@ -419,6 +419,10 @@ K NFC, I2C, Contactless, NTAG, NT3H2111, NT3H2211
 F https://www.nxp.com/docs/en/data-sheet/NT3H2111_2211.pdf
 $ENDCMP
 #
+$CMP NUCLEO-H755ZI-Q
+F https://www.st.com/resource/en/user_manual/dm00499171-stm32h7-nucleo144-boards-mb1363-stmicroelectronics.pdf
+$ENDCMP
+#
 $CMP PE4259
 D RF Switch from 10 MHz to 3000 MHz SC70-6 footprint
 K RF Switch
