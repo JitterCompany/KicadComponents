@@ -373,6 +373,12 @@ K rs485 transceiver
 F https://datasheets.maximintegrated.com/en/ds/MAX13430E-MAX13433E.pdf
 $ENDCMP
 #
+$CMP MAX33040EAKA+
+D High-Speed CAN Transceiver, 5Mbps, 3.3V supply, SOT-23-8, 40kV ESD, 40V fault protected
+K High-Speed CAN Transceiver
+F https://datasheet.octopart.com/MAX33040EAKA%2B-Maxim-Integrated-datasheet-150864315.pdf
+$ENDCMP
+#
 $CMP MC78M05_TO252
 D Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
 K Voltage Regulator 500mA Positive
@@ -556,6 +562,12 @@ $CMP TPD3F303DQDR
 D TPD3F303DQDR ESD/EMI filter for SIM card interface
 K ESD-Protection
 F https://www.ti.com/lit/ds/symlink/tpd3f303.pdf
+$ENDCMP
+#
+$CMP TPS22958DGK
+D load switch 20mOhm
+K Load switch
+F https://www.ti.com/lit/ds/symlink/tps22958.pdf
 $ENDCMP
 #
 $CMP TPS22975NDSGT
