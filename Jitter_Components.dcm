@@ -67,6 +67,12 @@ K encoder, optical
 F https://datasheet.octopart.com/AEDR-8300-1K2-Avago-datasheet-76201850.pdf
 $ENDCMP
 #
+$CMP ALZ12B24T_SPDT
+D Panasonic SPDT relay, 24V coil, 16A contact rating @30VDC
+K Single Pole Relay SPDT
+F http://www.farnell.com/datasheets/1155224.pdf
+$ENDCMP
+#
 $CMP APA102-2020
 D RGB LED with integrated controller
 K RGB LED addressable APA dotstar
@@ -177,6 +183,12 @@ $CMP CommonModeChoke_ESD_ECMF02-2AMX6
 D CommonMode Choke with ESD protection for high-speed interfaces
 K EMI filter commonmode-choke ESD
 F https://www.st.com/resource/en/datasheet/ecmf02-2amx6.pdf
+$ENDCMP
+#
+$CMP CommonModeChoke_PLT10HH101150PNL
+D EMI common mode choke
+K EMI filter
+F https://www.murata.com/en-us/products/productdetail?partno=PLT10HH101150PN%23
 $ENDCMP
 #
 $CMP DMPH6050SPD-13
