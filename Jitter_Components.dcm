@@ -311,6 +311,12 @@ $CMP LMQ61460AASRJRR
 F https://www.ti.com/lit/ds/symlink/lmq61460.pdf
 $ENDCMP
 #
+$CMP LMR50410-Q1
+D 1A, 4-36V in miniature DC-DC step-down buck converter, 2MHz Frequency, SOT-23-6
+K Miniature Step-Down Buck Voltage Regulator
+F https://www.ti.com/lit/ds/symlink/lmr50410-q1.pdf
+$ENDCMP
+#
 $CMP LMV431A
 D Shunt Regulator, SOT-23-3
 K diode device shunt regulator
@@ -425,6 +431,12 @@ K gage gauge pressure sensor
 F http://www.honeywellscportal.com//index.php?ci_id=138832
 $ENDCMP
 #
+$CMP NCP59744MN2ADJTBG
+D low-cost adjustable linear regulator with slew-rate control, 3A
+K Voltage Regulator 3A
+F http://www.farnell.com/datasheets/2355801.pdf
+$ENDCMP
+#
 $CMP NT3H2X11
 D Passive NFC interface with a contact I2C interface
 K NFC, I2C, Contactless, NTAG, NT3H2111, NT3H2211
@@ -433,6 +445,18 @@ $ENDCMP
 #
 $CMP NUCLEO-H755ZI-Q
 F https://www.st.com/resource/en/user_manual/dm00499171-stm32h7-nucleo144-boards-mb1363-stmicroelectronics.pdf
+$ENDCMP
+#
+$CMP NUD3124DMT1G
+D Industrial inductive load driver, dual channel 150mA@24V in SOT-23-6 package
+K low side switch, miniature, load switch, dual channel
+F https://www.onsemi.com/pdf/datasheet/nud3124-d.pdf
+$ENDCMP
+#
+$CMP NUD3160DMT1G
+D Industrial inductive load driver, dual channel 150mA@48V in SOT-23-6 package
+K low side switch, miniature, load switch, dual channel
+F https://www.onsemi.com/pdf/datasheet/nud3160-d.pdf
 $ENDCMP
 #
 $CMP PE4259
