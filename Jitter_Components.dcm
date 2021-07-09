@@ -203,6 +203,10 @@ K Pressure
 F https://www.infineon.com/dgdl/Infineon-DPS422-DS-v01_03-EN.pdf?fileId=5546d46264fee02f01650249502c1ddf
 $ENDCMP
 #
+$CMP EEEFPV680XAV
+F https://nl.mouser.com/datasheet/2/315/ABA0000C1184-947404.pdf
+$ENDCMP
+#
 $CMP ELW2106AA
 D 256x64 pixel OLED display 50.67x12.39mm, SPI,  white on black
 K OLED 256x64
@@ -307,6 +311,12 @@ K LDO regulator voltage
 F http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf
 $ENDCMP
 #
+$CMP LM339V2
+D Quad Differential Comparators, QFN
+K cmp open collector
+F https://www.st.com/resource/en/datasheet/lm139.pdf
+$ENDCMP
+#
 $CMP LMQ61460AASRJRR
 F https://www.ti.com/lit/ds/symlink/lmq61460.pdf
 $ENDCMP
@@ -315,6 +325,12 @@ $CMP LMR50410-Q1
 D 1A, 4-36V in miniature DC-DC step-down buck converter, 2MHz Frequency, SOT-23-6
 K Miniature Step-Down Buck Voltage Regulator
 F https://www.ti.com/lit/ds/symlink/lmr50410-q1.pdf
+$ENDCMP
+#
+$CMP LMV339
+D Quad General-Purpose Low-Voltage Comparator, SOIC-14/TSSOP-14
+K cmp open collector
+F https://www.st.com/resource/en/datasheet/lmv331.pdf
 $ENDCMP
 #
 $CMP LMV431A
@@ -465,6 +481,11 @@ K RF Switch
 F https://www.psemi.com/pdf/datasheets/pe4259ds.pdf
 $ENDCMP
 #
+$CMP PESD3V3L5UF,115
+D NXP PESD3V3L5UF,115, Quint Uni-Directional ESD Protection Diode, 25W, 6-Pin SOT-886
+F https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf
+$ENDCMP
+#
 $CMP Q_NMOS_DMN2011UFDF-7
 D N-MOSFET DMN2011UFDF-7
 K nmos n-mos n-mosfet transistor DMN2011UFDF-7
@@ -578,6 +599,11 @@ $CMP TCA9406DC
 D 2-Bit Bidirectional 1-MHz, I2C Bus and SMBus Voltage-Level Translator With 8-kV HBM ESD
 K Bidirectional 1-MHz I2C SMBus Voltage-Level Translator 8kV HBM ESD
 F www.ti.com/lit/ds/symlink/tca9406.pdf
+$ENDCMP
+#
+$CMP TLV4333IPWR
+D 350 kHz, Low-Noise, RRIO, CMOS Operational Amplifier for Cost-Sensitive Systems
+F http://www.ti.com/lit/gpn/tlv4333
 $ENDCMP
 #
 $CMP TLV62585DRLR
