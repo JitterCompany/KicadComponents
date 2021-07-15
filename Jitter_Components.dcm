@@ -321,6 +321,12 @@ $CMP LMQ61460AASRJRR
 F https://www.ti.com/lit/ds/symlink/lmq61460.pdf
 $ENDCMP
 #
+$CMP LMR36506R3
+D DC/DC controller 3-65V 0.6A ultra-small, low Iq
+K synchronous buck step-down voltage-regulator DC/DC
+F https://www.ti.com/lit/ds/symlink/lmr36506.pdf
+$ENDCMP
+#
 $CMP LMR50410-Q1
 D 1A, 4-36V in miniature DC-DC step-down buck converter, 2MHz Frequency, SOT-23-6
 K Miniature Step-Down Buck Voltage Regulator
