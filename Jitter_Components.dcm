@@ -67,6 +67,11 @@ K encoder, optical
 F https://datasheet.octopart.com/AEDR-8300-1K2-Avago-datasheet-76201850.pdf
 $ENDCMP
 #
+$CMP AFBR-S50MV85G
+D BROADCOM LIMITED - AFBR-S50MV85G - TIME-OF-FLIGHT SENSOR MODULE
+F https://docs.broadcom.com/docs/AFBR-S50MV85G-DS102
+$ENDCMP
+#
 $CMP ALZ12B24T_SPDT
 D Panasonic SPDT relay, 24V coil, 16A contact rating @30VDC
 K Single Pole Relay SPDT
