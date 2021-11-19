@@ -107,6 +107,12 @@ K SPI DSPI QSPI 64Mbit 3V Flash
 F http://www.farnell.com/datasheets/2720345.pdf
 $ENDCMP
 #
+$CMP AT30TS74-MA8M-T
+D  Digital Temperature Sensor & Thermal Watchdog
+K Temperature sensor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Web_AT30TS74_0217.pdf
+$ENDCMP
+#
 $CMP AT89S52-40PU
 D 33MHz, 8kB Flash, 256B SRAM, DIP-40
 K MCS-51 8bit Flash Microcontroller
@@ -129,6 +135,30 @@ $CMP ATSAME53J20A-M
 D SAM E53 Microchip SMART ARM Cortex-M4F based MCU, 1024K Flash, 128K SRAM, QFN-64
 K 32-bit ARM Cortex-M4F MCU Microcontroller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf
+$ENDCMP
+#
+$CMP ATxmega128A4U-AU
+D 32MHz, 128kB Flash, 8kB Boot, 8kB SRAM, 2kB EEPROM, JTAG, USB, TQFP-44
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATxmega16A4U-AU
+D 32MHz, 16kB Flash, 4kB Boot, 2kB SRAM, 1kB EEPROM, JTAG, USB, TQFP-44
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATxmega32A4U-AU
+D 32MHz, 32kB Flash, 4kB Boot, 4kB SRAM, 1kB EEPROM, JTAG, USB, TQFP-44
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATxmega64A4U-AU
+D 32MHz, 64kB Flash, 4kB Boot, 4kB SRAM, 2kB EEPROM, JTAG, USB, TQFP-44
+K AVR 8/16bit Microcontroller XMegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8387-8-and16-bit-AVR-Microcontroller-XMEGA-A4U_Datasheet.pdf
 $ENDCMP
 #
 $CMP BD82039FVJ
@@ -194,6 +224,12 @@ $CMP CommonModeChoke_PLT10HH101150PNL
 D EMI common mode choke
 K EMI filter
 F https://www.murata.com/en-us/products/productdetail?partno=PLT10HH101150PN%23
+$ENDCMP
+#
+$CMP Conn_ARM_JTAG_SWD_10
+D Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface
+K Cortex Debug Connector ARM SWD JTAG
+F http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf
 $ENDCMP
 #
 $CMP DMPH6050SPD-13
@@ -322,6 +358,12 @@ K cmp open collector
 F https://www.st.com/resource/en/datasheet/lm139.pdf
 $ENDCMP
 #
+$CMP LM75B
+D Digital Temperature Sensor & Thermal Watchdog with LP on I2C and bus fault timeout, SOIC-8 and VSSOP-8
+K Temperature sensor
+F http://www.ti.com/lit/ds/symlink/lm75b.pdf
+$ENDCMP
+#
 $CMP LMQ61460AASRJRR
 F https://www.ti.com/lit/ds/symlink/lmq61460.pdf
 $ENDCMP
@@ -382,6 +424,12 @@ $CMP LT1618EDD
 D Constant-Current / Constant-Voltage DC/DC boost converter
 K DC/DC DC-DC
 F http://www.linear.com/docs/3476
+$ENDCMP
+#
+$CMP LT8336
+D 40V, 2.5A Step-Up DC/DC Converter, low EMI
+K dc-dc converter boost
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt8336.pdf
 $ENDCMP
 #
 $CMP LTC1872ES6
@@ -547,6 +595,10 @@ K P-Channel MOSFET
 F https://nl.mouser.com/datasheet/2/427/sia441dj-107049.pdf
 $ENDCMP
 #
+$CMP SIC472ED-T1-GE3
+F https://www.vishay.com/docs/75786/sic47x.pdf
+$ENDCMP
+#
 $CMP SIM_Card_SF53S006VCBR2000
 D SIM Card
 K SIM card UICC
@@ -635,6 +687,12 @@ K single comparator
 F http://www.ti.com/lit/ds/symlink/tlv7031.pdf
 $ENDCMP
 #
+$CMP TMP117AIYBG
+D Temperature Sensor with I2C/SMBus Interface, 6-pin BGA
+K temperature sensor i2c smbus
+F https://datasheet.octopart.com/TMP117AIYBGT-Texas-Instruments-datasheet-150443877.pdf
+$ENDCMP
+#
 $CMP TMUX1136
 D Dual 2:1 precision analog switch
 K analog switch, low leakage, multiplexer
@@ -696,6 +754,12 @@ $CMP Wurth_824015_4ch_TVS
 D 4-Channel ESD Protection for high-speed I/O channels
 K ESD protection ethernet
 F https://datasheet.octopart.com/824015-W%C3%BCrth-Elektronik-Midcom-datasheet-8814689.pdf
+$ENDCMP
+#
+$CMP antenna_1002427
+D Antenna
+K antenna
+F ~
 $ENDCMP
 #
 $CMP heltec_lora_wifi_V2
