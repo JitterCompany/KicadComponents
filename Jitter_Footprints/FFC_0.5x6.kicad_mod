@@ -1,0 +1,18 @@
+(module FFC_0.5x6 (layer F.Cu) (tedit 6183CB96)
+  (fp_text reference REF** (at 9.5 -2.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value FFC_0.5x6 (at 11.5 -4) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.75 0) (end 1.75 0) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 1.75 0) (end 1.75 -5) (layer F.CrtYd) (width 0.15))
+  (fp_line (start 1.75 -5) (end -1.75 -5) (layer F.CrtYd) (width 0.15))
+  (fp_line (start -1.75 -5) (end -1.75 0) (layer F.CrtYd) (width 0.15))
+  (pad 1 connect rect (at -1.25 -2) (size 0.35 4) (layers F.Cu F.Mask))
+  (pad 2 connect rect (at -0.75 -2) (size 0.35 4) (layers F.Cu F.Mask))
+  (pad 3 connect rect (at -0.25 -2) (size 0.35 4) (layers F.Cu F.Mask))
+  (pad 4 connect rect (at 0.25 -2) (size 0.35 4) (layers F.Cu F.Mask))
+  (pad 5 connect rect (at 0.75 -2) (size 0.35 4) (layers F.Cu F.Mask))
+  (pad 6 connect rect (at 1.25 -2) (size 0.35 4) (layers F.Cu F.Mask))
+)
