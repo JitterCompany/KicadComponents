@@ -13774,7 +13774,7 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
-      (arc (start -0.381 -2.794) (mid 2.3622 -0.0508) (end -0.381 2.667)
+      (arc (start -0.381 -2.794) (mid 2.3622 -0.0635) (end -0.381 2.667)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type none))
       )
@@ -14053,7 +14053,7 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type outline))
       )
-      (arc (start -0.381 -2.794) (mid 2.3622 -0.0508) (end -0.381 2.667)
+      (arc (start -0.381 -2.794) (mid 2.3622 -0.0635) (end -0.381 2.667)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type none))
       )
@@ -18846,7 +18846,7 @@
     (symbol "uart_client_2.54_0_1"
       (rectangle (start 0 12.7) (end 14.224 0)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "uart_client_2.54_1_1"
@@ -18884,7 +18884,7 @@
     (symbol "uart_host_2.54_0_1"
       (rectangle (start 0 12.7) (end 15.748 0)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "uart_host_2.54_1_1"
