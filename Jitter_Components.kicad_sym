@@ -14751,7 +14751,7 @@
       )
     )
     (symbol "SI1003_1_1"
-      (pin no_connect line (at -2.54 -11.43 90) (length 2.54) hide
+      (pin no_connect line (at -5.08 -11.43 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -14770,6 +14770,10 @@
       (pin no_connect line (at -2.54 -11.43 90) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 0 -11.43 90) (length 2.54) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -8.89 -1.27 0) (length 2.54)
         (name "ST" (effects (font (size 1.27 1.27))))
