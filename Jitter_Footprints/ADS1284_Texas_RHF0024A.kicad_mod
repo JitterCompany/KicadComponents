@@ -58,4 +58,9 @@
   (pad "23" smd roundrect (at -0.5 -2.4 90) (size 0.6 0.24) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp 7b9da8ff-d6be-4fc1-b850-1a860f168180))
   (pad "24" smd roundrect (at -1 -2.4 90) (size 0.6 0.24) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333) (tstamp 9b76f0a4-a4c5-4ca9-aa26-3c16b73129c8))
   (pad "EP" smd roundrect (at 0 0) (size 2.65 3.65) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.01886792453) (tstamp 30886188-adc9-4176-8777-70d83e5798b6))
+  (model ":jitter:ADS1284IRHFT.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
