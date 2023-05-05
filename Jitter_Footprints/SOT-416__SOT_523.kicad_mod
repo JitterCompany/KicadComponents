@@ -27,7 +27,7 @@
   (pad 1 smd rect (at -0.65 -0.5) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -0.65 0.5) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0.65 0) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:sot-523.step
+  (model :JITTER:sot-523.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

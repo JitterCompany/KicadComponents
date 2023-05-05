@@ -53,7 +53,7 @@
   (pad "1" thru_hole roundrect (at 0 0) (size 1.5 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp 481a1827-510e-4067-8e70-8bd45451d858))
   (pad "2" thru_hole oval (at 2.5 0) (size 1.5 2) (drill 1) (layers *.Cu *.Mask) (tstamp 8d8f218b-7139-4e60-8a16-84312367f9f6))
   (pad "3" thru_hole oval (at 5 0) (size 1.5 2) (drill 1) (layers *.Cu *.Mask) (tstamp 78460ac8-24cf-40a2-b60f-2b6bf60e63da))
-  (model ":jitter:Stocko_MKS_1853-6-0-303_1x3_P2.50mm_Vertical.step"
+  (model ":JITTER:Stocko_MKS_1853-6-0-303_1x3_P2.50mm_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

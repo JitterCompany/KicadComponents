@@ -57,7 +57,7 @@
   (pad MP smd roundrect (at -1.5625 1.5625 90) (size 0.375 0.375) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad MP smd roundrect (at 1.5625 1.5625 180) (size 0.375 0.375) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad MP smd roundrect (at 1.5625 -1.5625 270) (size 0.375 0.375) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model :jitter:QFN16_3x3.STEP
+  (model :JITTER:QFN16_3x3.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

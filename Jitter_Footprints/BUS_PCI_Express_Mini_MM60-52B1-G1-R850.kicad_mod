@@ -101,7 +101,7 @@
   (pad MP smd rect (at -14.65 3.5) (size 2.3 3.2) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at -12.5 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 12.5 0) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask))
-  (model :jitter:MM60-52B1-G1-R850.step
+  (model :JITTER:MM60-52B1-G1-R850.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

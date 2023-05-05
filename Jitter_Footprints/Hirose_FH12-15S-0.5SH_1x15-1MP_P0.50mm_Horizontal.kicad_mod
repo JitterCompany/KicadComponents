@@ -60,7 +60,7 @@
   (pad 13 smd rect (at 2.5 -1.85) (size 0.3 1.3) (layers F.Cu F.Paste F.Mask))
   (pad 15 smd rect (at 3.5 -1.85) (size 0.3 1.3) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at 3 -1.85) (size 0.3 1.3) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:FH12-15S-0.5SH.stp
+  (model :JITTER:FH12-15S-0.5SH.stp
     (offset (xyz 18.2 -10.6 -187.9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 90 180))

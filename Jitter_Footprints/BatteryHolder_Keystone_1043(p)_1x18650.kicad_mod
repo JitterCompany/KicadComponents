@@ -38,7 +38,7 @@
   (pad "" np_thru_hole circle (at 27.6 -8 180) (size 3.55 3.55) (drill 3.45) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 35.93 8 180) (size 2.39 2.39) (drill 2.39) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 36.11 0) (size 3 3) (drill 1.4) (layers *.Cu *.Mask))
-  (model :jitter:keystone_1043__1043p_batteryholder.STEP
+  (model :JITTER:keystone_1043__1043p_batteryholder.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

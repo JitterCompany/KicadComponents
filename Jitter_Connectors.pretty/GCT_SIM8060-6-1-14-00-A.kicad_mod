@@ -221,7 +221,7 @@
       )
     )
   )
-  (model ":jitter:SIM8060-6-1-14-00-A.stp"
+  (model ":JITTER:SIM8060-6-1-14-00-A.stp"
     (offset (xyz 0 -7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

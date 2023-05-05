@@ -31,7 +31,7 @@
   (pad 2 smd rect (at 0 -5.3) (size 0.65 1.75) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -2.54 -5.3) (size 0.65 1.75) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at -1.27 0.49) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
-  (model :jitter:ABPMAN-series-pressure-sensor.STEP
+  (model :JITTER:ABPMAN-series-pressure-sensor.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

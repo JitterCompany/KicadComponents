@@ -9,7 +9,7 @@
   (fp_line (start -38 -100) (end 38 -100) (layer F.Fab) (width 0.12))
   (fp_line (start 38 -100) (end 38 0) (layer F.Fab) (width 0.12))
   (fp_line (start 38 0) (end -38 0) (layer F.Fab) (width 0.12))
-  (model :jitter:enclosure_100x76x35.STEP
+  (model :JITTER:enclosure_100x76x35.STEP
     (offset (xyz 0 0 -7.9))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

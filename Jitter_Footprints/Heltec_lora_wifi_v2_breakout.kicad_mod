@@ -95,7 +95,7 @@
   (pad 35 thru_hole oval (at 11.43 -19.05) (size 1.8 1.5) (drill 1) (layers *.Cu *.Mask))
   (pad 31 thru_hole oval (at 11.43 -8.89) (size 1.8 1.5) (drill 1) (layers *.Cu *.Mask))
   (pad 33 thru_hole oval (at 11.43 -13.97) (size 1.8 1.5) (drill 1) (layers *.Cu *.Mask))
-  (model :jitter:wifi_lora_32_v2.STEP
+  (model :JITTER:wifi_lora_32_v2.STEP
     (offset (xyz 0 -0.8 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

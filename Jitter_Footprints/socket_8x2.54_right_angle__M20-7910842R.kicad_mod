@@ -24,7 +24,7 @@
   (pad 6 smd rect (at 3.81 0) (size 1.02 2) (layers F.Cu F.Paste F.Mask))
   (pad 7 smd rect (at 6.35 0) (size 1.02 2) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 8.89 0) (size 1.02 2) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:m20-7910842_asm.stp
+  (model :JITTER:m20-7910842_asm.stp
     (offset (xyz 0 7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 90 0))

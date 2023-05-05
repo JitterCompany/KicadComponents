@@ -40,7 +40,7 @@
   (pad 6 smd roundrect (at 4.92 0.635) (size 1.35 0.69) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 7 smd roundrect (at 4.92 -0.635) (size 1.35 0.69) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 8 smd roundrect (at 4.92 -1.905) (size 1.35 0.69) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model :jitter:SSOP_axial_port_1317A.STEP
+  (model :JITTER:SSOP_axial_port_1317A.STEP
     (offset (xyz -0.7 -0.85 1.8))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

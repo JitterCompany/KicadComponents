@@ -106,7 +106,7 @@
   (pad "30" smd rect (at 7.25 -1.85) (size 0.3 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c7e7f2b4-6ca6-48ec-b393-febf4c3ee125))
   (pad "MP" smd rect (at -9.15 1.4) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5007ca44-6e82-481b-a178-a9f5252d071d))
   (pad "MP" smd rect (at 9.15 1.4) (size 1.8 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 84e069cd-dc7b-4b94-bc35-7d299f37afbe))
-  (model ":jitter:FH12-15S-0.5SH.stp"
+  (model ":JITTER:FH12-15S-0.5SH.stp"
     (offset (xyz 18.2 -10.6 -187.9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 90 180))

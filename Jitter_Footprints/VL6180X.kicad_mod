@@ -32,7 +32,7 @@
   (pad 11 smd rect (at 1 -1.125) (size 0.6 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd rect (at 1 -0.375) (size 0.6 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 1 1.125) (size 0.6 0.55) (layers F.Cu F.Paste F.Mask))
-  (model ":jitter:VL6180X v5.step"
+  (model ":JITTER:VL6180X v5.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

@@ -31,7 +31,7 @@
   (pad "2" smd roundrect (at -0.435 0.835) (size 0.51 0.76) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 297c1c5d-a394-42e1-b244-1339238dbff6))
   (pad "3" smd roundrect (at 0.435 0.835) (size 0.51 0.76) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp dcbbe039-4db1-48b7-ab41-6e0ef228446e))
   (pad "4" smd roundrect (at 0.435 -0.835) (size 0.51 0.76) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 3366b443-fda9-4e29-9c48-2aae78be6828))
-  (model ":jitter:L_CommonModeChoke_Coilcraft_0805USB.stp"
+  (model ":JITTER:L_CommonModeChoke_Coilcraft_0805USB.stp"
     (offset (xyz 0 0 0.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 90))

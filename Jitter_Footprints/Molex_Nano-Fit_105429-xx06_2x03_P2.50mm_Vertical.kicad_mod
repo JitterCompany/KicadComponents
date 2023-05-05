@@ -58,7 +58,7 @@
   (pad 5 smd roundrect (at 0 3.25 180) (size 1.24 3) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 0 smd roundrect (at 4.305 0 180) (size 1.1 10.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 0 smd roundrect (at -4.305 0) (size 1.1 10.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model :jitter:1054291206.stp
+  (model :JITTER:1054291206.stp
     (offset (xyz 0 0 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

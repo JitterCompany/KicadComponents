@@ -64,7 +64,7 @@
     (solder_paste_margin_ratio -0.15))
   (pad "" smd rect (at 1.7 0.975 180) (size 0.5 0.34) (layers F.Paste)
     (solder_paste_margin_ratio -0.15))
-  (model :jitter:PG-TSDSON-8.stp
+  (model :JITTER:PG-TSDSON-8.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

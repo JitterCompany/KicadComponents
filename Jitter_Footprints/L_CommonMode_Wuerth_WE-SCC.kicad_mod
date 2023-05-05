@@ -46,7 +46,7 @@
   (pad 2 smd rect (at -1.75 -4.975) (size 2.5 3.85) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 1.75 4.975 180) (size 2.5 3.85) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at -1.75 4.975 180) (size 2.5 3.85) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:WE-SCC-1260_rev1__CommonMode.stp
+  (model :JITTER:WE-SCC-1260_rev1__CommonMode.stp
     (offset (xyz 0 0 2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

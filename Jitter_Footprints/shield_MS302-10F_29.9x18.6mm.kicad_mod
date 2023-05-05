@@ -78,7 +78,7 @@
     (primitives
       (gr_line (start 0 -1.2) (end 0 0.05) (width 1.5))
     ))
-  (model :jitter:ms302-10_2.step
+  (model :JITTER:ms302-10_2.step
     (offset (xyz 0 0 3.6))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

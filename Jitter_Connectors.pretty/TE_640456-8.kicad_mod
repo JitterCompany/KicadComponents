@@ -56,7 +56,7 @@
   (pad "6" thru_hole circle (at -12.7 0) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask) (tstamp 5e35ae3b-a488-4295-acd7-cf24bc56660c))
   (pad "7" thru_hole circle (at -15.24 0) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask) (tstamp 59b379c6-e998-471e-9818-addd9c77bbe8))
   (pad "8" thru_hole circle (at -17.78 0) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask) (tstamp 11493ca2-066b-430f-b8f3-9aea7b7ee18f))
-  (model ":jitter:TE_640456-8.step"
+  (model ":JITTER:TE_640456-8.step"
     (offset (xyz -8.9 0.45 2.54))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

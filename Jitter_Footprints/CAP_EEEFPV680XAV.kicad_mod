@@ -47,7 +47,7 @@
   (pad "2" smd rect (at 0 -2.55 90) (size 2 3.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7aad9767-8520-4f29-901f-d9516e72905c))
   (pad "2" smd rect (at 0 -3.875 90) (size 0.65 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 96ebe5b3-6ddf-4f7b-9416-3c3fefe8908a))
   (pad "2" smd rect (at 0 -1.075 90) (size 0.95 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f7337f9b-d098-414b-9c47-e723489c84b8))
-  (model ":jitter:EEEFPV680XAV.stp"
+  (model ":JITTER:EEEFPV680XAV.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

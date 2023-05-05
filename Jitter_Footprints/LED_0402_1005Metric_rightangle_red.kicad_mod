@@ -24,7 +24,7 @@
   )
   (pad 1 smd roundrect (at -0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 2 smd roundrect (at 0.5 0) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model :jitter:HSMC-C230_LED_red_right_angle_0402.STEP
+  (model :JITTER:HSMC-C230_LED_red_right_angle_0402.STEP
     (offset (xyz 0 0.25 0.32))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -90))

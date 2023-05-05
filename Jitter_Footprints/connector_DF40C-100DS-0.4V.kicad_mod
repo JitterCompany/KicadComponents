@@ -227,7 +227,7 @@
   (pad 29 smd rect (at -1.54 -4.2 270) (size 0.2 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 43 smd rect (at -1.54 -1.4 270) (size 0.2 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 51 smd rect (at -1.54 0.2 270) (size 0.2 0.7) (layers F.Cu F.Paste F.Mask))
-  (model ":jitter:DF40HC(3.0)-100DS-0.4V.stp"
+  (model ":JITTER:DF40HC(3.0)-100DS-0.4V.stp"
     (offset (xyz 0 -0.115 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

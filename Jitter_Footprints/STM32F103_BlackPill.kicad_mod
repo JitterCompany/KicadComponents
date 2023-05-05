@@ -106,7 +106,7 @@
   (pad PB13 thru_hole circle (at -8.89 -20.32) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad PB11 thru_hole circle (at 8.89 -22.86) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
   (pad PB12 thru_hole circle (at -8.89 -22.86) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask))
-  (model :jitter:blackpill_mcu_board.STEP
+  (model :JITTER:blackpill_mcu_board.STEP
     (offset (xyz 0 2.5 2.54))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

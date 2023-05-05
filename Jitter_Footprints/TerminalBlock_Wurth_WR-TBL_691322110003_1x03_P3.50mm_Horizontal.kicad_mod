@@ -30,7 +30,7 @@
   (pad 1 thru_hole roundrect (at 0 0) (size 2.5 3.2) (drill 1.4) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
   (pad 3 thru_hole oval (at 7 0) (size 2.5 3.2) (drill 1.4) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 3.5 0) (size 2.5 3.2) (drill 1.4) (layers *.Cu *.Mask))
-  (model :jitter:691322110003_Wurth_WR-1x03P3.50mm_Horizontal.stp
+  (model :JITTER:691322110003_Wurth_WR-1x03P3.50mm_Horizontal.stp
     (offset (xyz 3.5 -3.4 3.6))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

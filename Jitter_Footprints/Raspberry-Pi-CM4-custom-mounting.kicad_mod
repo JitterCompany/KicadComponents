@@ -518,17 +518,17 @@
   (pad 198 smd rect (at 18.54 9.4 270) (size 0.2 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 199 smd rect (at 15.46 9.8 270) (size 0.2 0.7) (layers F.Cu F.Paste F.Mask))
   (pad 200 smd rect (at 18.54 9.8 270) (size 0.2 0.7) (layers F.Cu F.Paste F.Mask))
-  (model ":jitter:DF40HC(3.0)-100DS-0.4V.stp"
+  (model ":JITTER:DF40HC(3.0)-100DS-0.4V.stp"
     (offset (xyz -16.96 -0.12 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model ":jitter:DF40HC(3.0)-100DS-0.4V.stp"
+  (model ":JITTER:DF40HC(3.0)-100DS-0.4V.stp"
     (offset (xyz 16.96 -0.12 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model :jitter:RPI-CM4-min.step
+  (model :JITTER:RPI-CM4-min.step
     (offset (xyz 36 -25 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

@@ -38,7 +38,7 @@
   (pad S6 thru_hole circle (at 3.325 -0.03) (size 1.1 1.1) (drill 0.7) (layers *.Cu *.Mask))
   (pad None np_thru_hole circle (at -2.8 -1.07) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
   (pad None np_thru_hole circle (at 2.8 -1.07) (size 0.8 0.8) (drill 0.8) (layers *.Cu *.Mask))
-  (model :jitter:USB3150-30-130-A.STEP
+  (model :JITTER:USB3150-30-130-A.STEP
     (offset (xyz 0 0.3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

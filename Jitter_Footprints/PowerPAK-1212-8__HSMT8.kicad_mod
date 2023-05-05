@@ -37,7 +37,7 @@
   (pad S smd rect (at -1.435 0.33) (size 0.5 0.405) (layers F.Cu F.Paste F.Mask))
   (pad S smd rect (at -1.435 -0.33) (size 0.5 0.405) (layers F.Cu F.Paste F.Mask))
   (pad S smd rect (at -1.435 -0.99) (size 0.5 0.405) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:HSMT8.STEP
+  (model :JITTER:HSMT8.STEP
     (offset (xyz -1.55 1.62 0.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

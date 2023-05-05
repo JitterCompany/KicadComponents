@@ -43,7 +43,7 @@
   (pad 13 smd rect (at 0 -2.8 180) (size 0.68 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 14 smd rect (at -1.27 -2.8 180) (size 0.68 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 12 smd rect (at 1.27 -2.8 180) (size 0.68 1.8) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:ADXL355BEZ-RL.stp
+  (model :JITTER:ADXL355BEZ-RL.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

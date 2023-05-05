@@ -128,7 +128,7 @@
   (pad 7 smd rect (at 1.549999 -0.325001 90) (size 0.399999 0.700001) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd rect (at 1.549999 -0.974999 90) (size 0.399999 0.700001) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 0.645 0) (size 2.51 2.55) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:CSD17552Q3A.stp
+  (model :JITTER:CSD17552Q3A.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -53,7 +53,7 @@
   (pad 7 thru_hole oval (at 15 0) (size 1.7 1.95) (drill 0.95) (layers *.Cu *.Mask))
   (pad 8 thru_hole oval (at 17.5 0) (size 1.7 1.95) (drill 0.95) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -1.6 2) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
-  (model :jitter:B8B-XH-A.STEP
+  (model :JITTER:B8B-XH-A.STEP
     (offset (xyz 8.75 -0.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

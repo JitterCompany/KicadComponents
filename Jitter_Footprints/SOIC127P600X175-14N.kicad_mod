@@ -36,7 +36,7 @@
   (pad "12" smd roundrect (at 2.475 -1.27) (size 1.97 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 018ea8af-dbbe-44da-aacc-6045109e49bb))
   (pad "13" smd roundrect (at 2.475 -2.54) (size 1.97 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 836bbb41-3957-4c7e-9c84-429321a34fd6))
   (pad "14" smd roundrect (at 2.475 -3.81) (size 1.97 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 6558ee78-f134-4cab-b917-bc04d1410dfe))
-  (model ":jitter:SN74LV125AD.step"
+  (model ":JITTER:SN74LV125AD.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

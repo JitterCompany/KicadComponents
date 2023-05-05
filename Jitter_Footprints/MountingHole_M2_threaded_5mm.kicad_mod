@@ -53,7 +53,7 @@
   (pad 1 thru_hole circle (at -1.56 -1.56 180) (size 0.8 0.8) (drill 0.3) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -1.56 1.56 270) (size 0.8 0.8) (drill 0.3) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -2.2 0) (size 0.8 0.8) (drill 0.3) (layers *.Cu *.Mask))
-  (model :jitter:spacer_M2x5mm_Wurth_9774050243R.STEP
+  (model :JITTER:spacer_M2x5mm_Wurth_9774050243R.STEP
     (offset (xyz 0 0 -1.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

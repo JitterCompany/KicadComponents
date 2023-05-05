@@ -56,7 +56,7 @@
     (options (clearance outline) (anchor rect))
     (primitives
     ) (tstamp 44509293-79e2-4fab-8860-b0cecb591afa))
-  (model ":jitter:TBU-DFxxx.STP"
+  (model ":JITTER:TBU-DFxxx.STP"
     (offset (xyz -3.25 -2.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

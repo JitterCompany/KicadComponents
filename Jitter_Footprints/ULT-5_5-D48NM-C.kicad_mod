@@ -27,7 +27,7 @@
   (pad 4 smd circle (at 13.64 7.62) (size 1.8 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 8 smd circle (at 13.64 -7.62) (size 1.8 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd circle (at 13.64 0) (size 1.8 1.8) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:mps_dcdc_ult_smt_a.step
+  (model :JITTER:mps_dcdc_ult_smt_a.step
     (offset (xyz -3 11.45 6.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 180))

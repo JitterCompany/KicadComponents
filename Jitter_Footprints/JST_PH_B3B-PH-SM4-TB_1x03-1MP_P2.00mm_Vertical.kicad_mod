@@ -46,7 +46,7 @@
   (pad 3 smd roundrect (at 2 0.5) (size 1 5.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad MP smd roundrect (at -4.4 -1.75) (size 1.6 3) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.15625))
   (pad MP smd roundrect (at 4.4 -1.75) (size 1.6 3) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.15625))
-  (model :jitter:JST-B3B-PH-SM4-TB.step
+  (model :JITTER:JST-B3B-PH-SM4-TB.step
     (offset (xyz 2 2.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))

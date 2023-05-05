@@ -86,7 +86,7 @@
       )
     )
   )
-  (model ":jitter:L712RAS_switchcraft_dc_jack.step"
+  (model ":JITTER:L712RAS_switchcraft_dc_jack.step"
     (offset (xyz -12.7 0 8.45))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -90))

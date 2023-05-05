@@ -41,7 +41,7 @@
   (pad 13 thru_hole circle (at 0 -3.81) (size 1.1 1.1) (drill 0.66) (layers *.Cu *.Mask))
   (pad 14 thru_hole circle (at 0 -2.54) (size 1.1 1.1) (drill 0.66) (layers *.Cu *.Mask))
   (pad 15 thru_hole circle (at 0 -1.27) (size 1.1 1.1) (drill 0.66) (layers *.Cu *.Mask))
-  (model :jitter:AFBR-S50MV85G.stp
+  (model :JITTER:AFBR-S50MV85G.stp
     (offset (xyz 3.7 2.55 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

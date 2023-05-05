@@ -71,7 +71,7 @@
          (xy 1.28 -0.27) (xy 1.27 -0.19) (xy 1.26 0) (xy -1.2 0) (xy -1.2 -2.45)
          (xy 1.8 -2.45)) (width 0))
     ))
-  (model :jitter:we_8p8c_74980111211.stp
+  (model :JITTER:we_8p8c_74980111211.stp
     (offset (xyz 0 0 6.6))
     (scale (xyz 1 1 1))
     (rotate (xyz -180 0 0))

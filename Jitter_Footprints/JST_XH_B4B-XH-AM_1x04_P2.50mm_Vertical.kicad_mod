@@ -49,7 +49,7 @@
   (pad "" np_thru_hole circle (at -1.6 2) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 2 thru_hole roundrect (at 2.5 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.147))
   (pad 3 thru_hole roundrect (at 5 0) (size 1.7 2) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.147))
-  (model :jitter:jst-b4b-xh-a-1.step
+  (model :JITTER:jst-b4b-xh-a-1.step
     (offset (xyz 3.75 -0.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

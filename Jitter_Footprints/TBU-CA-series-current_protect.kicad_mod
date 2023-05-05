@@ -27,7 +27,7 @@
   (pad 2 smd rect (at 0 0 180) (size 0.8 3.4) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 2.025 0 180) (size 1.85 3.4) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -2.025 0) (size 1.85 3.4) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:tbu-ca.stp
+  (model :JITTER:tbu-ca.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

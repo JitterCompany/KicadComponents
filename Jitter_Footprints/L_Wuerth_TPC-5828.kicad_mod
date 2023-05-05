@@ -79,7 +79,7 @@
           (gr_line (start -1.8 3.1) (end -1.8 2) (width 0.1))
   (gr_arc (start -1.8 -1.999999) (mid -0.563933 0) (end -1.8 1.999999) (width 0.1))
     ) (tstamp d92bbab5-8504-42a5-9f8f-d8fa05885432))
-  (model ":jitter:WE-TPC_5828.stp"
+  (model ":JITTER:WE-TPC_5828.stp"
     (offset (xyz 0 0 2.85))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))

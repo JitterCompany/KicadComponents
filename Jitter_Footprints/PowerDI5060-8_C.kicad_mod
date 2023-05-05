@@ -37,7 +37,7 @@
   (pad "" smd rect (at 1.04902 1.13792 180) (size 1.8 1.6) (layers F.Paste))
   (pad 5 smd rect (at 2.825 1.955) (size 1.27 0.61) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 0.675 1.13) (size 3.81 1.65) (layers F.Cu F.Mask))
-  (model :jitter:PowerDI5060-8-Type-C.stp
+  (model :JITTER:PowerDI5060-8-Type-C.stp
     (offset (xyz 0 -1.7 0.25))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 90 0))

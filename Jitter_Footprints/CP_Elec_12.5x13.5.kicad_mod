@@ -46,7 +46,7 @@
   (fp_line (start -4.5 -7.1) (end 7.1 -7.1) (layer F.CrtYd) (width 0.05))
   (pad 1 smd roundrect (at -4.85 0) (size 5.7 2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.132))
   (pad 2 smd roundrect (at 4.85 0) (size 5.7 2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.132))
-  (model :jitter:capacitor_SMD_12.5x13.5__panasonic_H13.STEP
+  (model :JITTER:capacitor_SMD_12.5x13.5__panasonic_H13.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

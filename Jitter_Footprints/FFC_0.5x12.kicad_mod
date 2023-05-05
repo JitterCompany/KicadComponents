@@ -21,7 +21,7 @@
   (pad 10 connect rect (at 1.75 -2) (size 0.35 4) (layers F.Cu F.Mask))
   (pad 11 connect rect (at 2.25 -2) (size 0.35 4) (layers F.Cu F.Mask))
   (pad 12 connect rect (at 2.75 -2) (size 0.35 4) (layers F.Cu F.Mask))
-  (model :jitter:FFC_stiffener_6.5x5x0.2.step
+  (model :JITTER:FFC_stiffener_6.5x5x0.2.step
     (offset (xyz -3.25 5 -0.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

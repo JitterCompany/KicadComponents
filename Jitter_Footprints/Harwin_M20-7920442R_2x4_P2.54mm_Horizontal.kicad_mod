@@ -25,7 +25,7 @@
   (pad 6 smd roundrect (at 1.27 1.75) (size 1 2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 7 smd roundrect (at 3.81 -1.75) (size 1 2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 8 smd roundrect (at 3.81 1.75) (size 1 2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model :jitter:m20-7920442_asm.stp
+  (model :JITTER:m20-7920442_asm.stp
     (offset (xyz -3.81 9 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))

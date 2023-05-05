@@ -26,7 +26,7 @@
   (pad 8 smd rect (at 6.35 0) (size 1.27 2) (layers F.Cu F.Paste F.Mask))
   (pad 9 smd rect (at 8.89 0) (size 1.27 2) (layers F.Cu F.Paste F.Mask))
   (pad 10 smd rect (at 11.43 0) (size 1.27 2) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:pin_header_a-sl254-ea-g10mp1.stp
+  (model :JITTER:pin_header_a-sl254-ea-g10mp1.stp
     (offset (xyz 0 3.75 1.27))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
