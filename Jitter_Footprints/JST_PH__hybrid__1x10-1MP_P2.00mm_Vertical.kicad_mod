@@ -100,7 +100,7 @@
   (pad "10" smd roundrect (at 9 0.5) (size 1 5.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp fc32538d-e763-4912-a8c0-bc510e98308a))
   (pad "MP" smd roundrect (at -11.4 -1.75) (size 1.6 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15625) (tstamp 00b16840-e252-4f42-89a3-84efab05a69a))
   (pad "MP" smd roundrect (at 11.4 -1.75) (size 1.6 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15625) (tstamp 99dd073b-4e25-438d-a355-03de3fa6e491))
-  (model ":jitter:B10B-PH-SM4-TB.STEP"
+  (model ":JITTER:B10B-PH-SM4-TB.STEP"
     (offset (xyz -12 11.2 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

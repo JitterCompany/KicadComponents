@@ -47,7 +47,7 @@
          (xy 0.95 -0.82) (xy 1.09 -0.92) (xy 1.2 -1.01) (xy 1.35 -1.16) (xy 1.47 -1.31)
          (xy 1.55 -1.44) (xy 1.64 -1.6)) (width 0))
     ))
-  (model :jitter:WE-TPC_4818.stp
+  (model :JITTER:WE-TPC_4818.stp
     (offset (xyz 0 0 1.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

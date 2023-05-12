@@ -22,7 +22,7 @@
     (zone_connect 1))
   (pad 2 thru_hole circle (at 1.767767 -1.767767 315) (size 2.15 2.15) (drill 1.2) (layers *.Cu *.Mask)
     (zone_connect 1))
-  (model :jitter:TE_T4141012041-000.stp
+  (model :JITTER:TE_T4141012041-000.stp
     (offset (xyz 0 0 23.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

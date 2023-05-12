@@ -17,7 +17,7 @@
   (fp_line (start -1.89 11.4) (end -1.89 -11.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start -1.89 -11.4) (end 1.89 -11.4) (layer Dwgs.User) (width 0.12))
   (fp_line (start 1.89 11.4) (end -1.89 11.4) (layer Dwgs.User) (width 0.12))
-  (model ":jitter:DF40HC(3.0)-100DS-0.4V.stp"
+  (model ":JITTER:DF40HC(3.0)-100DS-0.4V.stp"
     (offset (xyz 0 -0.115 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

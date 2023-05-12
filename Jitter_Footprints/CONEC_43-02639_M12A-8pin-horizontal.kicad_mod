@@ -60,7 +60,7 @@
   (pad "" np_thru_hole circle (at 7.5 0 180) (size 2.05 2.05) (drill 2.05) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -7.5 -4) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 7.5 -4) (size 2.8 2.8) (drill 2.8) (layers *.Cu *.Mask))
-  (model :jitter:CONEC_43-02639.stp
+  (model :JITTER:CONEC_43-02639.stp
     (offset (xyz 0 28.5 8.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))

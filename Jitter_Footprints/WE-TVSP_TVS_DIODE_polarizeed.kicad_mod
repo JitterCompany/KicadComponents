@@ -26,7 +26,7 @@
   (fp_line (start -3.4 1.5) (end 0.6 1.5) (layer F.SilkS) (width 0.12))
   (pad 1 smd roundrect (at -2.1 0) (size 2.3 1.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2))
   (pad 2 smd roundrect (at 2.1 0 180) (size 2.3 1.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2))
-  (model :jitter:WE-TVSP-DO-214AC-Bidirectional_rev1.stp
+  (model :JITTER:WE-TVSP-DO-214AC-Bidirectional_rev1.stp
     (offset (xyz 0 0 1.35))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

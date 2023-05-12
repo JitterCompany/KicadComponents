@@ -44,7 +44,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))
   )
-  (model :jitter:PESD3V3L5UF115.STEP
+  (model :JITTER:PESD3V3L5UF115.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

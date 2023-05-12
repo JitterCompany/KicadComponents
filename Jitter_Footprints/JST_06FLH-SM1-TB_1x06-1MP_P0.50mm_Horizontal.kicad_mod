@@ -49,7 +49,7 @@
   (pad 6 smd rect (at 1.25 -2.3) (size 0.35 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 0.25 -2.3) (size 0.35 1.1) (layers F.Cu F.Paste F.Mask))
   (pad MP smd rect (at 3.75 0.6 180) (size 1.4 1.2) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:JST-06FLH-SM1-TB.step
+  (model :JITTER:JST-06FLH-SM1-TB.step
     (offset (xyz 0 1.95 1.25))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

@@ -56,7 +56,7 @@
   (pad "18" smd rect (at 2.54 4.5) (size 0.8 2.57) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d752b116-19ed-41b9-a26c-31b9d0519397))
   (pad "19" smd rect (at 4.47 2.54 90) (size 0.8 2.57) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5222b39f-d21c-41e2-b739-ecaaec252787))
   (pad "20" smd rect (at 4.46 1.27 90) (size 0.8 2.57) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 18082d44-334f-47dc-9a33-cead76da594b))
-  (model ":jitter:SI1003.stp"
+  (model ":JITTER:SI1003.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

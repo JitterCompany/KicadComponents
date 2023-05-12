@@ -231,7 +231,7 @@
     ))
   (pad "" smd roundrect (at 0.35 0) (size 1.1 0.4) (layers F.Paste) (roundrect_rratio 0.25))
   (pad "" smd roundrect (at 1.65 0) (size 1.1 0.4) (layers F.Paste) (roundrect_rratio 0.25))
-  (model :jitter:LMQ61460.stp
+  (model :JITTER:LMQ61460.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

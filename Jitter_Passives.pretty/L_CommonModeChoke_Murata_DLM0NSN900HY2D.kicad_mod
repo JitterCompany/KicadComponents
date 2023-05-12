@@ -53,7 +53,7 @@
   (pad "2" smd rect (at 0.3 -0.25) (size 0.3 0.3) (layers "F.Cu" "F.Paste") (tstamp 708692df-f1ed-4dfd-8869-70b93a8004bc))
   (pad "3" smd rect (at 0.3 0.25) (size 0.3 0.3) (layers "F.Cu" "F.Paste") (tstamp 64e4ea00-3ecf-4df6-ac5f-77cf4ced88fb))
   (pad "4" smd rect (at -0.3 0.25) (size 0.3 0.3) (layers "F.Cu" "F.Paste") (tstamp a120ec1a-c3ea-4c4e-ad75-54278c183a82))
-  (model ":jitter:DLM0NSN900HY2D_choke.STEP"
+  (model ":JITTER:DLM0NSN900HY2D_choke.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

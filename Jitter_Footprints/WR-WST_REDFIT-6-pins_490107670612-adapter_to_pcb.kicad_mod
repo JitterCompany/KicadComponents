@@ -39,7 +39,7 @@
   (pad 6 thru_hole circle (at -3.175 1.24) (size 1.85 1.85) (drill 1.5) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at -0.635 1.24) (size 1.85 1.85) (drill 1.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 1.905 1.27) (size 1.85 1.85) (drill 1.5) (layers *.Cu *.Mask))
-  (model :jitter:490107670612.stp
+  (model :JITTER:490107670612.stp
     (offset (xyz -2.4 0 5.9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

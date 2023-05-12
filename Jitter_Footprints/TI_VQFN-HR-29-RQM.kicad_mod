@@ -211,7 +211,7 @@
   (pad "27" smd roundrect (at 0 -1.7) (size 0.2 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp bdc5eecf-fb24-4519-97d9-d3c0b600a9c0))
   (pad "28" smd roundrect (at -0.45 -1.7) (size 0.2 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp f2e6cecd-1b6c-4463-96e0-494e5253fa68))
   (pad "29" smd roundrect (at -0.9 -1.725) (size 0.2 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 3a5473fb-2b79-4921-a537-c65f4668c578))
-  (model ":jitter:LMQ61460.stp"
+  (model ":JITTER:LMQ61460.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

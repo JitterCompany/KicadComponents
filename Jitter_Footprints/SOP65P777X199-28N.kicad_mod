@@ -54,7 +54,7 @@
   (pad "26" smd rect (at 3.46 -2.925) (size 1.7 0.48) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 95fb7a5e-acd7-4599-b86c-ba1bd8775778))
   (pad "27" smd rect (at 3.46 -3.575) (size 1.7 0.48) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ac643641-6d7e-4060-9201-47ceeda31b4d))
   (pad "28" smd rect (at 3.46 -4.225) (size 1.7 0.48) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d1388fb5-061f-4bdb-91c4-6ea62d238190))
-  (model ":jitter:MAX5322EAIT.step"
+  (model ":JITTER:MAX5322EAIT.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

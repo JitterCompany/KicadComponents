@@ -59,7 +59,7 @@
   (pad "" smd rect (at 3.12 0.635 180) (size 1.2 0.5) (layers F.Paste))
   (pad "" smd rect (at 3.12 1.905 180) (size 1.2 0.5) (layers F.Paste))
   (pad "" smd rect (at -2.53 -0.635 90) (size 0.88 0.5) (layers F.Paste))
-  (model :jitter:TDSON-8-33-P-v01_00-EN.stp
+  (model :JITTER:TDSON-8-33-P-v01_00-EN.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

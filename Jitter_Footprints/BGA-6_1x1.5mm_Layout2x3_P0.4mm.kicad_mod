@@ -38,7 +38,7 @@
   (pad "" smd roundrect (at 0.2 0) (size 0.25 0.25) (layers F.Paste) (roundrect_rratio 0.25))
   (pad "" smd roundrect (at 0.2 0.4) (size 0.25 0.25) (layers F.Paste) (roundrect_rratio 0.25))
   (pad "" smd roundrect (at -0.2 0.4) (size 0.25 0.25) (layers F.Paste) (roundrect_rratio 0.25))
-  (model ":jitter:BGA-6_1x1.5mm_2x3p0.4 v2.step"
+  (model ":JITTER:BGA-6_1x1.5mm_2x3p0.4 v2.step"
     (offset (xyz 0 0 0.15))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

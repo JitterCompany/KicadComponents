@@ -30,7 +30,7 @@
   (fp_line (start 2.6 0) (end 2.6 1.4) (layer "F.Fab") (width 0.1) (tstamp c7750eb6-79ff-48dd-8bc6-2728ac8de20a))
   (pad "1" smd roundrect (at -2.015 0) (size 1.4 1.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 8c1bef6a-8a7e-4afe-815b-d43660fc6125))
   (pad "2" smd roundrect (at 2.015 0 180) (size 1.4 1.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 5bb2fa7f-e500-4694-8abb-7dc7a8930e71))
-  (model ":jitter:WE-TVSP-DO-214AC-Bidirectional_rev1.stp"
+  (model ":JITTER:WE-TVSP-DO-214AC-Bidirectional_rev1.stp"
     (offset (xyz 0 0 1.35))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -92,7 +92,7 @@
     (property "Value" "Jitter_Debug_HostSide" (id 1) (at 19.05 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Jitter_Footprints:WR-WST_REDFIT-6-pins_490107670612" (id 2) (at 6.35 24.13 0)
+    (property "Footprint" "Jitter_Footprints:WR-WST_REDFIT-6-pins_490107670612-adapter_to_pcb" (id 2) (at 6.35 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.we-online.de/katalog/datasheet/490107670612.pdf" (id 3) (at 6.35 24.13 0)

@@ -28,7 +28,7 @@
   (pad 2 smd rect (at 2.25 -6) (size 2 4) (layers F.Cu F.Paste))
   (pad 3 smd rect (at 2.25 6) (size 2 4) (layers F.Cu F.Paste))
   (pad 4 smd rect (at -2.25 6) (size 2 4) (layers F.Cu F.Paste))
-  (model :jitter:PLT10HH101150PNL.step
+  (model :JITTER:PLT10HH101150PNL.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

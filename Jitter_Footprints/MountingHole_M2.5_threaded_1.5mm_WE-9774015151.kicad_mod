@@ -118,7 +118,7 @@
     ) (tstamp a79d38a9-da22-40bc-aa66-ecf38f7cb425))
   (pad "1" thru_hole circle (at 0 -2.425 270) (size 0.7 0.7) (drill 0.3) (layers *.Cu *.Mask)
     (zone_connect 2) (tstamp adf8a53e-36a0-4ef9-adf3-576a3007a88b))
-  (model ":jitter:spacer_M2.5x1.5mm_Wurth_9774015151R.step"
+  (model ":JITTER:spacer_M2.5x1.5mm_Wurth_9774015151R.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

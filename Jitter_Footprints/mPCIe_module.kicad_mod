@@ -10,7 +10,7 @@
   (fp_poly (pts (xy 0 0) (xy 0 -24) (xy 15 -24) (xy 15 0)) (layer Dwgs.User) (width 0.1))
   (fp_poly (pts (xy 0 -24) (xy 0 0) (xy -15 0) (xy -15 -24)) (layer Dwgs.User) (width 0.1))
   (fp_poly (pts (xy 0 24) (xy 0 0) (xy 15 0) (xy 15 24)) (layer Dwgs.User) (width 0.1))
-  (model :jitter:mPCIe-spec.STEP
+  (model :JITTER:mPCIe-spec.STEP
     (offset (xyz -25.76 -16.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

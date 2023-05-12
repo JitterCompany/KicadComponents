@@ -99,7 +99,7 @@
   (pad J6 smd circle (at 0.5 2) (size 0.23 0.23) (layers F.Cu F.Paste F.Mask))
   (pad J8 smd circle (at 1.5 2) (size 0.23 0.23) (layers F.Cu F.Paste F.Mask))
   (pad J9 smd circle (at 2 2) (size 0.23 0.23) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:UFBGA73.STEP
+  (model :JITTER:UFBGA73.STEP
     (offset (xyz 0 0 0.11))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

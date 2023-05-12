@@ -28,7 +28,7 @@
   (fp_line (start 3.6775 2.56) (end -3.6775 2.56) (layer "F.Fab") (width 0.1) (tstamp a13a9b14-6ea7-48ad-8fbc-c8102044fb9d))
   (pad "1" smd roundrect (at -3.7 0) (size 2.3 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.13) (tstamp 0e9958c4-3b5b-4631-86e8-3483b69acf03))
   (pad "2" smd roundrect (at 3.7 0 180) (size 2.3 5.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.13) (tstamp a3197c60-7b2d-4e7e-b589-f74aaba5dd8b))
-  (model ":jitter:2920L110_60MR.STEP"
+  (model ":JITTER:2920L110_60MR.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

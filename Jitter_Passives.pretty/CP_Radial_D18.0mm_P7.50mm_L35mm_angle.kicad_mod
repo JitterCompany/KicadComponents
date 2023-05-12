@@ -47,7 +47,7 @@
   (fp_rect (start 12.8 1.75) (end -5.3 -39.05) (layer "F.Fab") (width 0.1) (fill none) (tstamp 910dabfe-5b6f-40b4-95aa-13d3fe4a65ba))
   (pad "1" thru_hole rect (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 0e569e36-ec77-4a13-8bc9-3c2d1cd9e906))
   (pad "2" thru_hole circle (at 7.5 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp ef1b8ee6-1dd3-452f-a546-e50ac08326f0))
-  (model ":jitter:ElCapLA-7.5-18x35-black.step"
+  (model ":JITTER:ElCapLA-7.5-18x35-black.step"
     (offset (xyz 3.75 0 -0.25))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

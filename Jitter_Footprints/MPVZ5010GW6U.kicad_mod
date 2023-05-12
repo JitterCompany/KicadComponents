@@ -32,7 +32,7 @@
   (pad 6 smd roundrect (at 8.38 1.27 180) (size 2.54 1.52) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 7 smd roundrect (at 8.38 -1.27 180) (size 2.54 1.52) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad "" np_thru_hole circle (at 0 0) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
-  (model :jitter:MPVZ5010GW6U.STEP
+  (model :JITTER:MPVZ5010GW6U.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -437,7 +437,7 @@
       )
     )
   )
-  (model ":jitter:1002427_ME_fit.stp"
+  (model ":JITTER:1002427_ME_fit.stp"
     (offset (xyz 7.73 0 -3.8))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 -90))

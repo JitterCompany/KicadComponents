@@ -21,7 +21,7 @@
   (fp_line (start -3.75 4) (end -3.75 -4) (layer F.CrtYd) (width 0.1))
   (pad 1 thru_hole circle (at 0 0) (size 1.575 1.575) (drill 1.05) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 7.5 0) (size 1.575 1.575) (drill 1.05) (layers *.Cu *.Mask))
-  (model :jitter:B57211P0100M301.stp
+  (model :JITTER:B57211P0100M301.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

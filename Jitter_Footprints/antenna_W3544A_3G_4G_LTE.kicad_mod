@@ -82,7 +82,7 @@
          (xy 6.1 0.35) (xy -1.78 0.35) (xy -1.78 -0.99) (xy -0.45 -0.99) (xy 6.1 -0.99)
 ) (width 0))
     ))
-  (model :jitter:w3544b_7-65_26_3.stp
+  (model :JITTER:w3544b_7-65_26_3.stp
     (offset (xyz 13 3.825 3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

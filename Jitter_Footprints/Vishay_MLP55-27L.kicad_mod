@@ -59,7 +59,7 @@
   (pad 25 smd rect (at -0.75 -2.525 180) (size 0.35 0.95) (layers F.Cu F.Paste F.Mask))
   (pad 26 smd rect (at -1.25 -2.525 180) (size 0.35 0.95) (layers F.Cu F.Paste F.Mask))
   (pad 27 smd rect (at -1.75 -2.525 180) (size 0.35 0.95) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:Vishay_PowerPAK_MLP55_27L.step
+  (model :JITTER:Vishay_PowerPAK_MLP55_27L.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

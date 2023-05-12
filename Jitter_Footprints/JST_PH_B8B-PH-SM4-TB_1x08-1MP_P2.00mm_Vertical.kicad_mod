@@ -76,7 +76,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model :jitter:JST-B8B-PH-SM4-TB.step
+  (model :JITTER:JST-B8B-PH-SM4-TB.step
     (offset (xyz 7 2.35 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

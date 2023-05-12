@@ -37,7 +37,7 @@
   (pad "1" smd rect (at 10.85 3.15) (size 1.5 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7ae7db38-4cb1-49e6-b401-6e8285cca39a))
   (pad "1" smd rect (at -10.85 3.15) (size 1.5 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 853494c9-80cc-4c2c-9d8b-c94c6e64e650))
   (pad "1" smd rect (at -13.35 3.15) (size 1.5 2.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c3938993-bad7-4383-aaff-283c9c9275da))
-  (model ":jitter:MM60-EZH039-B5.step"
+  (model ":JITTER:MM60-EZH039-B5.step"
     (offset (xyz 0 3.15 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

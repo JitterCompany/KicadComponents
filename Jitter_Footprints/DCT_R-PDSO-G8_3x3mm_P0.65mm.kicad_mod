@@ -42,7 +42,7 @@
   (pad 7 smd roundrect (at 1.9 -0.325) (size 1.1 0.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 6 smd roundrect (at 1.9 0.325) (size 1.1 0.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 5 smd roundrect (at 1.9 0.975) (size 1.1 0.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model :jitter:DCT__R-PDSO-G8.stp
+  (model :JITTER:DCT__R-PDSO-G8.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

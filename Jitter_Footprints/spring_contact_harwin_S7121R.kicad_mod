@@ -26,7 +26,7 @@
     (effects (font (size 0.5 0.5) (thickness 0.15)))
   )
   (pad 1 smd rect (at -0.3 0) (size 3.1 1.5) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:s7121-42r.step
+  (model :JITTER:s7121-42r.step
     (offset (xyz -0.5 0 0.7))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

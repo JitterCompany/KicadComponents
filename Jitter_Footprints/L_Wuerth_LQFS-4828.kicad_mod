@@ -23,7 +23,7 @@
   (fp_line (start 2.4 -2.5) (end -2.4 -2.5) (layer F.SilkS) (width 0.12))
   (pad 1 smd rect (at -1.7 0) (size 2 3.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.7 0) (size 2 3.6) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:WE-LQFS-4828.stp
+  (model :JITTER:WE-LQFS-4828.stp
     (offset (xyz -0.4 0.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

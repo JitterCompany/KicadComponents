@@ -47,7 +47,7 @@
   (pad 4 smd rect (at 0.25 -1.85) (size 0.3 1.3) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 0.75 -1.85) (size 0.3 1.3) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at 1.25 -1.85) (size 0.3 1.3) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:Conn_HIROSE_FH12-6S-0.5SH_55_eec.STEP
+  (model :JITTER:Conn_HIROSE_FH12-6S-0.5SH_55_eec.STEP
     (offset (xyz 0 -1.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

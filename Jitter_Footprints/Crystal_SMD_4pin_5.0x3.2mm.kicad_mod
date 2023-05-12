@@ -38,7 +38,7 @@
   (pad 2 smd rect (at 2 1.2) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 2 -1.2) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -2 -1.2) (size 1.8 1.2) (layers F.Cu F.Paste F.Mask))
-  (model :jitter:Crystal_SMD5032.step
+  (model :JITTER:Crystal_SMD5032.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

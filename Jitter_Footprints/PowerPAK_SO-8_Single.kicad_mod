@@ -30,7 +30,7 @@
   (pad 5 smd rect (at 2.795 -0.635) (size 1.02 0.61) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 2.795 -1.905) (size 1.02 0.61) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 0.69 0) (size 3.81 3.91) (layers F.Cu F.Paste F.Mask))
-  (model ":jitter:PowerPAK SO-8.step"
+  (model ":JITTER:PowerPAK SO-8.step"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

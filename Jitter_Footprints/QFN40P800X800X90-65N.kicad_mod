@@ -98,7 +98,7 @@
   (pad 65_E thru_hole circle (at 1.135 1.135) (size 0.45 0.45) (drill 0.35) (layers *.Cu *.Mask))
   (pad 65_D thru_hole circle (at -1.135 1.135) (size 0.45 0.45) (drill 0.35) (layers *.Cu *.Mask))
   (pad 65_A thru_hole circle (at -1.135 -1.135) (size 0.45 0.45) (drill 0.35) (layers *.Cu *.Mask))
-  (model :jitter:KSZ8794CNXCC-TR.step
+  (model :JITTER:KSZ8794CNXCC-TR.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

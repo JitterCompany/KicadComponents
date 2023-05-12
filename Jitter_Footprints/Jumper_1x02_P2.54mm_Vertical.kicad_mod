@@ -32,7 +32,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ":jitter:Pin header jumper.STEP"
+  (model ":JITTER:Pin header jumper.STEP"
     (offset (xyz 0 0 2.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

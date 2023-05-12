@@ -32,7 +32,7 @@
   (fp_line (start 4.6 4.25) (end -4.6 4.25) (layer "F.Fab") (width 0.1) (tstamp 99b2c504-1c3d-4e51-b134-253bf5a4572a))
   (pad "1" smd rect (at -3.6175 0) (size 2.42 5.33) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9388e4de-411b-49c8-85dd-40d68afadad8))
   (pad "2" smd rect (at 3.6175 0) (size 2.42 5.33) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8582fa2f-71e9-48ed-845f-01d3ab78f175))
-  (model ":jitter:WE-LHMI_8040.stp"
+  (model ":JITTER:WE-LHMI_8040.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

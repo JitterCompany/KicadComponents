@@ -45,7 +45,7 @@
   (pad "12" smd rect (at 5.715 2.25) (size 1.5 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7bdeb6ce-e407-49e3-85df-5e0aac5a7a51))
   (pad "13" smd rect (at 6.985 -2.25) (size 1.5 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ade860cb-bc90-4580-831a-52c060bf04b1))
   (pad "14" smd rect (at 8.255 2.25) (size 1.5 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e17a3bce-0835-41ae-8f28-fb14ac363cb5))
-  (model ":jitter:TE_8-188275-4.step"
+  (model ":JITTER:TE_8-188275-4.step"
     (offset (xyz 0 0 5.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

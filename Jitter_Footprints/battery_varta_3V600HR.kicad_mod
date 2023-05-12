@@ -27,7 +27,7 @@
   (pad 1 thru_hole rect (at 5 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at -5 0) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 -22.25) (size 2 2) (drill 1.2) (layers *.Cu *.Mask))
-  (model :jitter:VARTA_3V600HR.STEP
+  (model :JITTER:VARTA_3V600HR.STEP
     (offset (xyz 0 0 13.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -33,7 +33,7 @@
   )
   (pad 2 smd rect (at -16.9 0) (size 2.9 3.8) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 16.9 0) (size 2.6 3.8) (layers F.Cu F.Paste F.Mask))
-  (model ":jitter:SMTU 2450N-1-LF_with_battery.STEP"
+  (model ":JITTER:SMTU 2450N-1-LF_with_battery.STEP"
     (offset (xyz 0 0 0.25))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
