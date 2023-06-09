@@ -25,7 +25,7 @@ To install the schematic library, open the *Symbol Library Editor*. Then go to *
  ### 3D footprints
 
  Open the *Footprint Editor*. Go to *Preferences*, *configure paths*.
- Under *3D Search Paths*, add an alias *'jitter'*. The path should be the absolute path to the *3D* folder in this repository.
+ Under *3D Search Paths*, add an alias *'jitter'*. **NB: in KiCAD 7 this must be in all caps 'JITTER'**. The path should be the absolute path to the *3D* folder in this repository.
 
  All footprints pointing to a 3d file in te format *jitter:<my3dshape.step>* should now resolve correctly.
 
