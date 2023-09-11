@@ -1,16 +1,51 @@
-(module mPCIe_module (layer F.Cu) (tedit 5ECCF05C)
-  (attr virtual)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
+(footprint "mPCIe_module" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bd626809-af5d-4d4a-b16d-a41a01c08304)
   )
-  (fp_text value mPCIe_module (at 0 -0.5) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value "mPCIe_module" (at 0 -0.5) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ad2ffd5d-a4e2-4b3f-b2f7-3ec7a9515bff)
   )
-  (fp_poly (pts (xy 0 0) (xy 0 24) (xy -15 24) (xy -15 0)) (layer Dwgs.User) (width 0.1))
-  (fp_poly (pts (xy 0 0) (xy 0 -24) (xy 15 -24) (xy 15 0)) (layer Dwgs.User) (width 0.1))
-  (fp_poly (pts (xy 0 -24) (xy 0 0) (xy -15 0) (xy -15 -24)) (layer Dwgs.User) (width 0.1))
-  (fp_poly (pts (xy 0 24) (xy 0 0) (xy 15 0) (xy 15 24)) (layer Dwgs.User) (width 0.1))
-  (model :JITTER:mPCIe-spec.STEP
+  (fp_poly
+    (pts
+      (xy 0 -24)
+      (xy 0 0)
+      (xy -15 0)
+      (xy -15 -24)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp d0411f96-be86-4eae-a3fa-fb65674f58f6))
+  (fp_poly
+    (pts
+      (xy 0 0)
+      (xy 0 -24)
+      (xy 15 -24)
+      (xy 15 0)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 289e51d1-f9ee-4248-959e-ae12c2c3a14f))
+  (fp_poly
+    (pts
+      (xy 0 0)
+      (xy 0 24)
+      (xy -15 24)
+      (xy -15 0)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp f30bbc5f-3daa-477b-a459-d7b4acdba710))
+  (fp_poly
+    (pts
+      (xy 0 24)
+      (xy 0 0)
+      (xy 15 0)
+      (xy 15 24)
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 2d471227-64e7-41ff-a69a-f0c45a15eec8))
+  (model ":JITTER:mPCIe-spec.STEP"
     (offset (xyz -25.76 -16.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
