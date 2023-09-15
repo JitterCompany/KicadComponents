@@ -4669,7 +4669,7 @@
     (property "Value" "CSD17581Q3A" (at 5.08 0 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET" (at 5.08 -1.905 0)
+    (property "Footprint" "Jitter_Footprints:CSD17552Q3A" (at 5.08 -1.905 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd17581q3a.pdf" (at 0 0 90)
@@ -4679,9 +4679,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "30 V, 3.2 mΩ, NexFET N-Channel power MOSFET VSON8 3.3x3.3mm" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "VSON*3.3x3.3mm*P0.65mm*NexFET*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "CSD17581Q3A_0_1"

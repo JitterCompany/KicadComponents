@@ -1,0 +1,38 @@
+(footprint "SIM card" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5a591db8-8d0c-4577-a260-b86df6f39d36)
+  )
+  (fp_text value "SIM card" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 57be02b9-69aa-412f-b7fc-9cb3a8cd26ed)
+  )
+  (fp_text user "SIM" (at -0.5 0 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a33dc879-6ebf-4f44-806e-4c52f2dccc83)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f0bf9763-84da-435b-acd4-1b3a5d5f2af3)
+  )
+  (fp_line (start -3.075 -2.2) (end 2.225 -2.2)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp d5c4d3f6-1ad3-497c-8590-31f7ecc1b78c))
+  (fp_line (start -3.075 2.2) (end -3.075 -2.2)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp e10d315b-b0cc-48f6-96da-266c84b95f0e))
+  (fp_line (start -3.075 2.2) (end 3.075 2.2)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp e153008b-4b65-4f6f-8ef9-7448f3a2428e))
+  (fp_line (start 2.225 -2.2) (end 3.075 -1.35)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 3b969836-4eab-42ee-8dcc-d4232d9d0184))
+  (fp_line (start 3.075 -1.35) (end 3.075 2.2)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp d54bb6ba-e7ed-4bc3-84c3-1329d6b06f48))
+  (fp_poly
+    (pts
+      (xy 1.75 -0.75)
+      (xy 2.5 0)
+      (xy 1.75 0.75)
+    )
+
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "F.SilkS") (tstamp c48f5adf-63b1-4b66-bd60-ffdff03fa70c))
+)

@@ -3,11 +3,11 @@
   (attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
   (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp bd626809-af5d-4d4a-b16d-a41a01c08304)
+    (tstamp 0ee3f4eb-0481-4928-937a-c33eaf3eab87)
   )
   (fp_text value "mPCIe_module" (at 0 -0.5) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp ad2ffd5d-a4e2-4b3f-b2f7-3ec7a9515bff)
+    (tstamp 242e17b7-d53c-4d54-af17-518f9eee7de8)
   )
   (fp_poly
     (pts
@@ -17,7 +17,7 @@
       (xy -15 -24)
     )
 
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp d0411f96-be86-4eae-a3fa-fb65674f58f6))
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp af52202c-1118-435d-aea8-8ab3d2c29c24))
   (fp_poly
     (pts
       (xy 0 0)
@@ -26,7 +26,7 @@
       (xy 15 0)
     )
 
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 289e51d1-f9ee-4248-959e-ae12c2c3a14f))
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 4ea3da00-c3c3-4715-9314-55f9c520e694))
   (fp_poly
     (pts
       (xy 0 0)
@@ -35,7 +35,7 @@
       (xy -15 0)
     )
 
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp f30bbc5f-3daa-477b-a459-d7b4acdba710))
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 96f08037-83c2-471c-beba-8b17fbdebad1))
   (fp_poly
     (pts
       (xy 0 24)
@@ -44,7 +44,7 @@
       (xy 15 24)
     )
 
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 2d471227-64e7-41ff-a69a-f0c45a15eec8))
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp ad7a51cb-dc31-4c31-b588-9de39fad552a))
   (model ":JITTER:mPCIe-spec.STEP"
     (offset (xyz -25.76 -16.5 0))
     (scale (xyz 1 1 1))
