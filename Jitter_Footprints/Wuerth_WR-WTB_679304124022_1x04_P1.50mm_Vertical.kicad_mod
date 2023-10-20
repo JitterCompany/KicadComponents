@@ -42,9 +42,9 @@
   (pad "1" smd rect (at -2.25 3.2) (size 0.7 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp aedce9a4-6cbd-46b1-8b9a-0d54fd5c2fd6))
   (pad "2" smd rect (at -0.75 3.2) (size 0.7 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6d8732a1-f3aa-4999-894f-797ffcbd2a51))
   (pad "3" smd rect (at 0.75 3.2) (size 0.7 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp be3671a7-6a78-413c-9454-9584815b0d77))
-  (pad "4" smd rect (at -4.3 1.15) (size 1.5 2.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2bd88ff8-c01f-496d-9832-831a325dbf8f))
   (pad "4" smd rect (at 2.25 3.2) (size 0.7 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f9d72180-de3a-4261-98bb-7eba82396283))
-  (pad "4" smd rect (at 4.3 1.15) (size 1.5 2.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f1f37e75-8767-44cb-8a64-eaef2f410d0e))
+  (pad "MP" smd rect (at -4.3 1.15) (size 1.5 2.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2bd88ff8-c01f-496d-9832-831a325dbf8f))
+  (pad "MP" smd rect (at 4.3 1.15) (size 1.5 2.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f1f37e75-8767-44cb-8a64-eaef2f410d0e))
   (model "${JITTER}/679304124022_vertical.stp"
     (offset (xyz 0 -1.2 2.5))
     (scale (xyz 1 1 1))
