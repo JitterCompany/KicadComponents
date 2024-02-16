@@ -2,6 +2,7 @@
   (layer "F.Cu")
   (descr "Laird Technologies BMI-S-202-F Shielding Cabinet Two Piece SMD 16.50x16.50mm (https://assets.lairdtech.com/home/brandworld/files/Board%20Level%20Shields%20Catalog%20Download.pdf)")
   (tags "Shielding Cabinet")
+  (zone_connect 2)
   (attr smd)
   (fp_text reference "REF**" (at 0 -9.65) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
