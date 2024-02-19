@@ -103,7 +103,7 @@
     )
   )
   (model ":JITTER:Molex_436500304.step"
-    (offset (xyz 3 8.88 0))
+    (offset (xyz 3 8.88 0.46))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
