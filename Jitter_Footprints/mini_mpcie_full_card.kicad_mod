@@ -13,7 +13,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
     (tstamp 0b71e52e-40cc-4b5f-841b-b0cb1130fa77)
   )
-  (fp_text user "Made pad such that board-edge = 0.3mm" (at 0 -51.5 unlocked) (layer "Cmts.User")
+  (fp_text user "Made pads such that board-edge = 0.3mm" (at 0 -51.5 unlocked) (layer "Cmts.User")
       (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
     (tstamp 45ac73bf-d44f-4de4-83e3-ef032c0af51c)
   )
