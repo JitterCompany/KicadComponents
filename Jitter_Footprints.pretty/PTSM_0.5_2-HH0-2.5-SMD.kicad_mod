@@ -1,4 +1,4 @@
-(footprint "PTSM_0.5_4-HH0-2.5-SMD"
+(footprint "PTSM_0.5_2-HH0-2.5-SMD"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "PTSM_0.5_4-HH0-2.5-SMD"
+	(property "Value" "PTSM_0.5_2-HH0-2.5-SMD"
 		(at 0.025 5.425 0)
 		(layer "F.Fab")
 		(uuid "c3e134b4-133f-4111-b7b1-6274ed7f4aeb")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "PTSM_0.5_4-HH0-2.5-SMD"
+	(property "Footprint" "PTSM_0.5_2-HH0-2.5-SMD"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -65,8 +65,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -6 -3.9)
-		(end -4.7 -3.9)
+		(start -3.5 -3.9)
+		(end -2.2 -3.9)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "c3d30405-94a1-4b63-90d4-1945d4dc667d")
 	)
 	(fp_line
-		(start -6 -3.3)
-		(end -6 -3.9)
+		(start -3.5 -3.3)
+		(end -3.5 -3.9)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "7c613df1-87ff-4d8e-9eea-46e0165b6fcc")
 	)
 	(fp_line
-		(start -6 3.9)
-		(end -6 3.3)
+		(start -3.5 3.9)
+		(end -3.5 3.3)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -95,8 +95,8 @@
 		(uuid "42a4922e-4533-425d-9689-9201cca1be87")
 	)
 	(fp_line
-		(start -6 3.9)
-		(end 6 3.9)
+		(start -3.5 3.9)
+		(end 3.5 3.9)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "07a7169d-c681-40dd-b4c2-11c510357972")
 	)
 	(fp_line
-		(start 6 -3.9)
-		(end 5.4 -3.9)
+		(start 3.5 -3.9)
+		(end 2.9 -3.9)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -115,8 +115,8 @@
 		(uuid "ef14f691-8b15-489d-ac0c-a83acd6ccd63")
 	)
 	(fp_line
-		(start 6 -3.9)
-		(end 6 -3.3)
+		(start 3.5 -3.9)
+		(end 3.5 -3.3)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "511cc3e5-ba4c-4c7d-a39a-01d6dccbf305")
 	)
 	(fp_line
-		(start 6 3.9)
-		(end 6 3.3)
+		(start 3.5 3.9)
+		(end 3.5 3.3)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -135,8 +135,8 @@
 		(uuid "2ebaefe1-8685-417b-9d94-fdb10fdee97b")
 	)
 	(fp_line
-		(start -8.4 -3.4)
-		(end -8.4 3)
+		(start -5.9 -3.4)
+		(end -5.9 3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,8 +145,8 @@
 		(uuid "0382e298-eec8-4eed-b812-a4f005481faf")
 	)
 	(fp_line
-		(start -8.4 3)
-		(end -6.3 3)
+		(start -5.9 3)
+		(end -3.8 3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -155,8 +155,8 @@
 		(uuid "c775d835-3e10-4c18-93d4-e450e75ae88e")
 	)
 	(fp_line
-		(start -6.3 -4.05)
-		(end -4.65 -4.05)
+		(start -3.8 -4.05)
+		(end -2.15 -4.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -165,8 +165,8 @@
 		(uuid "24edda43-cb84-45d9-813d-ee24b93fcac4")
 	)
 	(fp_line
-		(start -6.3 -3.4)
-		(end -8.4 -3.4)
+		(start -3.8 -3.4)
+		(end -5.9 -3.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -175,8 +175,8 @@
 		(uuid "75d6f369-7db9-4ebc-88ee-71974b563dd9")
 	)
 	(fp_line
-		(start -6.3 -3.4)
-		(end -6.3 -4.05)
+		(start -3.8 -3.4)
+		(end -3.8 -4.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -185,8 +185,8 @@
 		(uuid "fe44a873-b3ab-4c61-9c70-c1f40d2dedba")
 	)
 	(fp_line
-		(start -6.3 3)
-		(end -6.3 4.025)
+		(start -3.8 3)
+		(end -3.8 4.025)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -195,8 +195,8 @@
 		(uuid "2c9d092c-b5f5-470b-8af2-f79e40c0b566")
 	)
 	(fp_line
-		(start -6.3 4.025)
-		(end 6.3 4.025)
+		(start -3.8 4.025)
+		(end 3.8 4.025)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -205,8 +205,8 @@
 		(uuid "2e07f3ff-57fa-47f0-a8bb-f1531d72cd5e")
 	)
 	(fp_line
-		(start -4.65 -6.35)
-		(end -4.65 -4.05)
+		(start -2.15 -6.35)
+		(end -2.15 -4.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -215,8 +215,8 @@
 		(uuid "a1b7c279-29fa-40e3-84b6-e41f6e96f312")
 	)
 	(fp_line
-		(start 4.65 -6.35)
-		(end -4.65 -6.35)
+		(start 2.15 -6.35)
+		(end -2.15 -6.35)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -225,8 +225,8 @@
 		(uuid "5ef07995-14a0-41ec-be49-2cb6b41d765a")
 	)
 	(fp_line
-		(start 4.65 -6.35)
-		(end 4.65 -4.05)
+		(start 2.15 -6.35)
+		(end 2.15 -4.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -235,8 +235,8 @@
 		(uuid "c484eccf-f1c1-4287-b095-b54cb68a354e")
 	)
 	(fp_line
-		(start 4.65 -4.05)
-		(end 6.3 -4.05)
+		(start 2.15 -4.05)
+		(end 3.8 -4.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -245,8 +245,8 @@
 		(uuid "2bf85243-e489-4c0c-9e6d-97ceabbc887c")
 	)
 	(fp_line
-		(start 6.3 -3.4)
-		(end 6.3 -4.05)
+		(start 3.8 -3.4)
+		(end 3.8 -4.05)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -255,8 +255,8 @@
 		(uuid "a22f8896-4c3d-4896-942f-e4bd577ef3b4")
 	)
 	(fp_line
-		(start 6.3 -3.4)
-		(end 8.4 -3.4)
+		(start 3.8 -3.4)
+		(end 5.9 -3.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -265,8 +265,8 @@
 		(uuid "e36437dd-876c-42ed-bd5a-3dfc6872f5ff")
 	)
 	(fp_line
-		(start 6.3 3)
-		(end 6.3 4.025)
+		(start 3.8 3)
+		(end 3.8 4.025)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -275,8 +275,8 @@
 		(uuid "139dfd2e-09dc-4f79-b7c7-f43c36aa7e2b")
 	)
 	(fp_line
-		(start 6.3 3)
-		(end 8.4 3)
+		(start 3.8 3)
+		(end 5.9 3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -285,8 +285,8 @@
 		(uuid "4db672b7-3338-497c-91b3-635baabe13f5")
 	)
 	(fp_line
-		(start 8.4 -3.4)
-		(end 8.4 3)
+		(start 5.9 -3.4)
+		(end 5.9 3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -295,8 +295,8 @@
 		(uuid "45210d0f-2692-4ce3-b097-dbc6cd8a9563")
 	)
 	(fp_line
-		(start -5.85 -3.75)
-		(end -5.85 3.75)
+		(start -3.35 -3.75)
+		(end -3.35 3.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -305,8 +305,8 @@
 		(uuid "b3a31ab3-a7a7-4f57-b779-925ea8938ca3")
 	)
 	(fp_line
-		(start -5.85 -3.75)
-		(end 5.85 -3.75)
+		(start -3.35 -3.75)
+		(end 3.35 -3.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -315,8 +315,8 @@
 		(uuid "ecf463e3-d3c8-4b7d-a7c2-d1c4a53eed57")
 	)
 	(fp_line
-		(start -5.85 3.75)
-		(end 5.85 3.75)
+		(start -3.35 3.75)
+		(end 3.35 3.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -325,8 +325,8 @@
 		(uuid "ea460ada-aff8-4320-87bb-3e6d378fe47d")
 	)
 	(fp_line
-		(start -4.225 -3.6)
-		(end -3.725 -2.892893)
+		(start -1.725 -3.6)
+		(end -1.225 -2.892893)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -335,8 +335,8 @@
 		(uuid "1e6369f9-8cc5-4750-a4a1-dcb950c0f62c")
 	)
 	(fp_line
-		(start -3.725 -2.892893)
-		(end -3.225 -3.6)
+		(start -1.225 -2.892893)
+		(end -0.725 -3.6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -345,8 +345,8 @@
 		(uuid "6c65e701-7ab5-43d3-aadb-37ee26486aac")
 	)
 	(fp_line
-		(start 5.85 -3.75)
-		(end 5.85 3.75)
+		(start 3.35 -3.75)
+		(end 3.35 3.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -366,64 +366,50 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -4.85 0.9 180)
+		(at -2.35 0.9 180)
 		(size 1.1 1.1)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(uuid "830831cb-8b19-4c7e-86ae-a00bb9968855")
 	)
 	(pad "" np_thru_hole circle
-		(at 4.85 0.9)
+		(at 2.35 0.9)
 		(size 1.1 1.1)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(uuid "fb5c95df-37ad-44c9-af9e-8491530d5c65")
 	)
 	(pad "1" smd roundrect
-		(at -3.75 -4.45)
+		(at -1.25 -4.45)
 		(size 1.2 3.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "54c682db-4702-42e9-8bfe-f57d2b53db61")
 	)
 	(pad "2" smd roundrect
-		(at -1.25 -4.45)
-		(size 1.2 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "8c0eaadf-7b78-4e3e-957e-4807d34f6c84")
-	)
-	(pad "3" smd roundrect
 		(at 1.25 -4.45)
-		(size 1.2 3.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "597ff746-aec7-4688-9436-4eeea5aca096")
-	)
-	(pad "4" smd roundrect
-		(at 3.75 -4.45)
 		(size 1.2 3.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "faf98005-a6ad-480d-b0aa-d2d5064aef46")
 	)
 	(pad "MP" smd roundrect
-		(at -7 -0.25)
+		(at -4.5 -0.25)
 		(size 2.2 5.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.167)
 		(uuid "ee1456cd-7d25-473c-b398-85d29ecdcbaf")
 	)
 	(pad "MP" smd roundrect
-		(at 7 -0.25)
+		(at 4.5 -0.25)
 		(size 2.2 5.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.167)
 		(uuid "07a15dfa-b8ab-4137-b6c0-76e7d6eb7835")
 	)
-	(model ":JITTER:PTSM_0.5_4-HH0-2.5-SMD.STEP"
+	(model ":JITTER:PTSM_0.5_2-HH0-2.5-SMD.STEP"
 		(offset
-			(xyz 5.8 -3.75 0)
+			(xyz 3.3 -3.75 0)
 		)
 		(scale
 			(xyz 1 1 1)
