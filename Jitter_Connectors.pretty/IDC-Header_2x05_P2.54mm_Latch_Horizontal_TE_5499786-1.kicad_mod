@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,39 +62,20 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.74 -0.5)
-		(end -2.74 0.5)
+		(start -1.35 0.35)
+		(end -1.05 0)
 		(stroke
 			(width 0.12)
-			(type solid)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "da78086e-9b66-4e2f-bd6d-22d8ab283b88")
-	)
-	(fp_line
-		(start -2.74 0.5)
-		(end -1.74 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "324bc8a7-796a-4a0c-b549-3dbe73ab64b0")
-	)
-	(fp_line
-		(start -1.74 0)
-		(end -2.74 -0.5)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1adc65b3-815d-446f-887d-02db48ba457d")
+		(uuid "94620ee9-b179-4796-b7e2-a60c42f09cb6")
 	)
 	(fp_line
 		(start -1.35 21.24)
@@ -103,6 +86,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "ea947c96-d1d3-4bc2-a826-b37a838efaee")
+	)
+	(fp_line
+		(start -1.05 0)
+		(end -1.35 -0.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "81e363b5-74da-4cdc-a5ff-e08563a6b53c")
 	)
 	(fp_line
 		(start 5.98 -11.1)
@@ -404,6 +397,18 @@
 		(layer "F.SilkS")
 		(uuid "405f73c2-5d12-4504-ae4a-3dcadb76c9f6")
 	)
+	(fp_poly
+		(pts
+			(xy -1.35 0.35) (xy -1.05 0) (xy -1.35 -0.35)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "9e7f4c84-5ec8-43d1-a5f1-f9e0fe2c0ad0")
+	)
 	(fp_line
 		(start -1.74 -11.47)
 		(end -1.74 21.63)
@@ -493,6 +498,26 @@
 		)
 		(layer "F.Fab")
 		(uuid "d479f2f4-6bb5-43ff-b8c4-8b8fd5394494")
+	)
+	(fp_line
+		(start 0 0)
+		(end -1.2 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b9a26f57-9fe7-4a8c-b648-579b243750e5")
+	)
+	(fp_line
+		(start 0 0)
+		(end -1.2 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7d0e744e-c09d-47d2-ae45-d05968af25fd")
 	)
 	(fp_line
 		(start 5.87 -10.97)
