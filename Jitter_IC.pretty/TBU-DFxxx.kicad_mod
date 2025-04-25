@@ -1,64 +1,306 @@
-(footprint "TBU-DFxxx" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 62330ABA)
-  (descr "Bourns TBU-DFxxx")
-  (tags "Bourns TBU-DFxxx")
-  (property "DNP" "")
-  (property "Sheetfile" "VP_RS_485.kicad_sch")
-  (property "Sheetname" "")
-  (property "mouser#" "652-TBU-DF085-050-WH")
-  (property "mpn" "TBU-DF085-050-WH")
-  (attr smd)
-  (fp_text reference "Q1" (at 0 -3.75 unlocked) (layer "F.SilkS") hide
-    (effects (font (size 0.5 0.5) (thickness 0.075)))
-    (tstamp d9ad01c4-9416-4b1f-8447-afc1d446fa8a)
-  )
-  (fp_text value "TBU-DF085-050-WH" (at 0 3.75 unlocked) (layer "F.Fab") hide
-    (effects (font (size 0.4 0.4) (thickness 0.05)))
-    (tstamp d68589fa-205b-4356-a20d-821c85f5f45e)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0.1 unlocked) (layer "F.Fab")
-    (effects (font (size 0.4 0.4) (thickness 0.05)))
-    (tstamp 6ae901e7-3f37-4fdc-9fbb-f82666744826)
-  )
-  (fp_line (start 3.4 -2.8) (end 3.4 2.8) (layer "F.SilkS") (width 0.1) (tstamp 3675ad1a-972f-4046-b23a-e6ca04304035))
-  (fp_line (start -3.4 -2.8) (end -3.4 0) (layer "F.SilkS") (width 0.1) (tstamp bb5e8a0f-2ed5-4c2a-91b7-cb63c4c66e15))
-  (fp_line (start -3.5 3) (end 3.5 3) (layer "F.CrtYd") (width 0.05) (tstamp 59142adb-6887-41fc-851e-9a7f51511d60))
-  (fp_line (start 3.5 3) (end 3.5 -3) (layer "F.CrtYd") (width 0.05) (tstamp 5b04e20f-8575-4362-b040-2e2133d670c8))
-  (fp_line (start -3.5 -3) (end -3.5 3) (layer "F.CrtYd") (width 0.05) (tstamp b6f041a4-3ea0-418b-94a2-50c938beafa2))
-  (fp_line (start 3.5 -3) (end -3.5 -3) (layer "F.CrtYd") (width 0.05) (tstamp edb2db40-12f7-45b3-a514-2a1299ac0231))
-  (fp_line (start 3.25 2.75) (end -2.75 2.75) (layer "F.Fab") (width 0.05) (tstamp 02b1295e-cf95-47ff-9c57-f8ada28f2e94))
-  (fp_line (start -3.25 2.25) (end -2.75 2.75) (layer "F.Fab") (width 0.05) (tstamp 4aee84d1-0859-48ac-a053-5a981ee1b24a))
-  (fp_line (start -3.25 2.25) (end -3.25 -2.75) (layer "F.Fab") (width 0.05) (tstamp 62a1b97d-067d-487c-835b-0166330d25fe))
-  (fp_line (start 3.25 -2.75) (end 3.25 2.75) (layer "F.Fab") (width 0.05) (tstamp ae293969-fa6d-4cb1-9969-16f8784d07e3))
-  (fp_line (start 3.25 -2.75) (end -3.25 -2.75) (layer "F.Fab") (width 0.05) (tstamp d4876469-b949-49ce-b8fe-43cb458692a4))
-  (pad "1" smd custom (at -2.025 1.4) (size 1.85 2) (layers "F.Cu" "F.Paste" "F.Mask")
-    (options (clearance outline) (anchor rect))
-    (primitives
-    ) (tstamp bbb99edd-f016-43ea-b1c7-0bcdd1915ee8))
-  (pad "2" smd custom (at 0 1.4) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask")
-    (options (clearance outline) (anchor rect))
-    (primitives
-    ) (tstamp d9198b20-68ab-4f03-9039-95a74aeba0d6))
-  (pad "3" smd custom (at 2.025 1.4) (size 1.85 2) (layers "F.Cu" "F.Paste" "F.Mask")
-    (options (clearance outline) (anchor rect))
-    (primitives
-    ) (tstamp dbfb14d7-1f97-4dd2-9004-1d129d3b4221))
-  (pad "4" smd custom (at 2.025 -1.4) (size 1.85 2) (layers "F.Cu" "F.Paste" "F.Mask")
-    (options (clearance outline) (anchor rect))
-    (primitives
-    ) (tstamp acd72527-a657-482d-a530-89a1347375fc))
-  (pad "5" smd custom (at 0 -1.4) (size 0.8 2) (layers "F.Cu" "F.Paste" "F.Mask")
-    (options (clearance outline) (anchor rect))
-    (primitives
-    ) (tstamp 3b19a97f-624a-48d9-8072-15bdeede0fff))
-  (pad "6" smd custom (at -2.025 -1.4) (size 1.85 2) (layers "F.Cu" "F.Paste" "F.Mask")
-    (options (clearance outline) (anchor rect))
-    (primitives
-    ) (tstamp 44509293-79e2-4fab-8860-b0cecb591afa))
-  (model ":JITTER:TBU-DFxxx.STP"
-    (offset (xyz -3.25 -2.75 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "TBU-DFxxx"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Bourns TBU-DFxxx")
+	(tags "Bourns TBU-DFxxx")
+	(property "Reference" "Q1"
+		(at 0 -3.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d9ad01c4-9416-4b1f-8447-afc1d446fa8a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(property "Value" "TBU-DF085-050-WH"
+		(at 0 3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d68589fa-205b-4356-a20d-821c85f5f45e")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ae84dc6-2183-4e43-a767-83e7851b66f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25997aa7-64f7-4c29-b4fc-e9d59f41d727")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e848a03a-8903-458d-a2cb-8f1f93122efa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DNP" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a39e46c-5ad0-4c52-b60a-e1d00f456c66")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mouser#" "652-TBU-DF085-050-WH"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb1de5df-47be-4c74-add4-f7f5566002f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "mpn" "TBU-DF085-050-WH"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1619ea32-2a21-483a-9b96-6cecd54f4d8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.4 -2.8)
+		(end -3.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb5e8a0f-2ed5-4c2a-91b7-cb63c4c66e15")
+	)
+	(fp_line
+		(start 3.4 -2.8)
+		(end 3.4 2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3675ad1a-972f-4046-b23a-e6ca04304035")
+	)
+	(fp_line
+		(start -3.5 -3)
+		(end -3.5 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6f041a4-3ea0-418b-94a2-50c938beafa2")
+	)
+	(fp_line
+		(start -3.5 3)
+		(end 3.5 3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59142adb-6887-41fc-851e-9a7f51511d60")
+	)
+	(fp_line
+		(start 3.5 -3)
+		(end -3.5 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "edb2db40-12f7-45b3-a514-2a1299ac0231")
+	)
+	(fp_line
+		(start 3.5 3)
+		(end 3.5 -3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b04e20f-8575-4362-b040-2e2133d670c8")
+	)
+	(fp_line
+		(start -3.25 2.25)
+		(end -3.25 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "62a1b97d-067d-487c-835b-0166330d25fe")
+	)
+	(fp_line
+		(start -3.25 2.25)
+		(end -2.75 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4aee84d1-0859-48ac-a053-5a981ee1b24a")
+	)
+	(fp_line
+		(start 3.25 -2.75)
+		(end -3.25 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4876469-b949-49ce-b8fe-43cb458692a4")
+	)
+	(fp_line
+		(start 3.25 -2.75)
+		(end 3.25 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ae293969-fa6d-4cb1-9969-16f8784d07e3")
+	)
+	(fp_line
+		(start 3.25 2.75)
+		(end -2.75 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "02b1295e-cf95-47ff-9c57-f8ada28f2e94")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6ae901e7-3f37-4fdc-9fbb-f82666744826")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -2.025 1.4)
+		(size 1.85 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "bbb99edd-f016-43ea-b1c7-0bcdd1915ee8")
+	)
+	(pad "2" smd custom
+		(at 0 1.4)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "d9198b20-68ab-4f03-9039-95a74aeba0d6")
+	)
+	(pad "3" smd custom
+		(at 2.025 1.4)
+		(size 1.85 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "dbfb14d7-1f97-4dd2-9004-1d129d3b4221")
+	)
+	(pad "4" smd custom
+		(at 2.025 -1.4)
+		(size 1.85 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "acd72527-a657-482d-a530-89a1347375fc")
+	)
+	(pad "5" smd custom
+		(at 0 -1.4)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "3b19a97f-624a-48d9-8072-15bdeede0fff")
+	)
+	(pad "6" smd custom
+		(at -2.025 -1.4)
+		(size 1.85 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives)
+		(uuid "44509293-79e2-4fab-8860-b0cecb591afa")
+	)
+	(model ":JITTER:TBU-DFxxx.STP"
+		(offset
+			(xyz -3.25 -2.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
