@@ -96,6 +96,16 @@
 		(uuid "4ef2367a-d4a0-45f9-a57b-9b687e3c56da")
 	)
 	(fp_line
+		(start 5.2 -2.5)
+		(end 6.4 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84a9c36f-74c4-4f23-90b1-7223d3b5238b")
+	)
+	(fp_line
 		(start 6.3 1.3)
 		(end 6.65 1.3)
 		(stroke
@@ -156,7 +166,7 @@
 		(uuid "68f46b27-17f5-4203-b232-02f332aced02")
 	)
 	(fp_line
-		(start 6.2 -2.4)
+		(start 5 -2.4)
 		(end -6.7 -2.4)
 		(stroke
 			(width 0.05)
@@ -166,8 +176,8 @@
 		(uuid "1e813687-a8c1-4f41-bbb2-11f087b7acaf")
 	)
 	(fp_line
-		(start 6.2 -2.4)
-		(end 6.2 -2.7)
+		(start 5 -2.4)
+		(end 5 -2.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -177,7 +187,7 @@
 	)
 	(fp_line
 		(start 6.7 -2.7)
-		(end 6.2 -2.7)
+		(end 5 -2.7)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -216,8 +226,8 @@
 		(uuid "b4cf3aa6-f779-4de0-a675-5bb518c62129")
 	)
 	(fp_line
-		(start -4.5 1.2)
-		(end -4.5 1.4)
+		(start -2 0.85)
+		(end -2 2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -226,14 +236,44 @@
 		(uuid "2e30dfbe-4c31-4a94-99f1-bf3304536b50")
 	)
 	(fp_line
-		(start -4.5 1.4)
-		(end 4.5 1.4)
+		(start -2 0.85)
+		(end 2 0.85)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3c5fca0b-8404-440e-9684-9d479b3ece14")
+		(uuid "71bb5fa7-452a-41ac-8665-3fb3b4830f40")
+	)
+	(fp_line
+		(start -2 1.2)
+		(end -6.55 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05784fbf-f47c-4ca2-aa2c-3434b66bd113")
+	)
+	(fp_line
+		(start -2 2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d33005b6-01e4-493a-ab66-10e63fa514b6")
+	)
+	(fp_line
+		(start 2 0.85)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8635713f-f20a-4e4c-a9b3-55aeafddfd6a")
 	)
 	(fp_line
 		(start 3.5 -1.2)
@@ -266,16 +306,6 @@
 		(uuid "4bac81c0-b048-40af-89ac-50db59aa10c8")
 	)
 	(fp_line
-		(start 4.5 1.2)
-		(end 4.5 1.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "99f8678a-1683-4749-bea5-2c9959323f68")
-	)
-	(fp_line
 		(start 4.75 -0.492893)
 		(end 5.25 -1.2)
 		(stroke
@@ -297,7 +327,7 @@
 	)
 	(fp_line
 		(start 6.55 1.2)
-		(end -6.55 1.2)
+		(end 2 1.2)
 		(stroke
 			(width 0.1)
 			(type solid)

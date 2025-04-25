@@ -1,0 +1,203 @@
+(footprint "TISP4015L1AJRS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Bidirectional Thyristor Overvoltage Protector")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(layer "F.SilkS")
+		(uuid "6f382f02-4289-4fcc-a6b3-f19e98f71be3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "TISP4015L1AJRS"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "24e2cb53-ce8d-441d-a4d2-2688a7be2a8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "042ce13b-ee23-4ee1-a509-dc58e8a1250c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d05689f9-7ceb-4ae4-9633-16684bb798fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cfd251a-5df8-4f96-b610-cc3466cada8f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.158 -1.403)
+		(end 2.158 -1.403)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a808d0ac-1d70-4511-90ea-57e9efbdd403")
+	)
+	(fp_line
+		(start -2.158 1.403)
+		(end 2.158 1.403)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ba8f857e-31ad-44bc-9ed9-10ca66f17820")
+	)
+	(fp_line
+		(start -4.13 -2.103)
+		(end 4.13 -2.103)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70b78faf-b30c-498b-b99e-57a791ecf505")
+	)
+	(fp_line
+		(start -4.13 2.103)
+		(end -4.13 -2.103)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2057ad6-3f9c-43d6-8462-ef6007be9e10")
+	)
+	(fp_line
+		(start 4.13 -2.103)
+		(end 4.13 2.103)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b1b360c-b91d-410b-8922-f2fa3168f5be")
+	)
+	(fp_line
+		(start 4.13 2.103)
+		(end -4.13 2.103)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d15f5424-7cdd-4872-b926-03ef2b8989d0")
+	)
+	(fp_line
+		(start -2.158 -1.303)
+		(end 2.158 -1.303)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91e4b7e8-015d-4ce5-abce-0f343f03dba7")
+	)
+	(fp_line
+		(start -2.158 1.303)
+		(end -2.158 -1.303)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "610224fc-3f87-4e3b-85d8-01b4b28a0593")
+	)
+	(fp_line
+		(start 2.158 -1.303)
+		(end 2.158 1.303)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffe11d59-17f5-4df4-bafd-67726937e6aa")
+	)
+	(fp_line
+		(start 2.158 1.303)
+		(end -2.158 1.303)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d0ce70e-2203-40a8-aea1-4c527ad66229")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "50fa7d80-ad2d-405a-a203-5f9faace5d9d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.25 0 90)
+		(size 1.9 2.16)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "89f7cd6d-8adb-42e4-b7fb-424fa7829c1a")
+	)
+	(pad "2" smd rect
+		(at 2.25 0 90)
+		(size 1.9 2.16)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0d8bb0d0-cf2d-4cfb-be70-38deaf071a0a")
+	)
+	(model "${JITTER}/TISP4015L1AJR-S.stp"
+		(offset
+			(xyz 0 0 1.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

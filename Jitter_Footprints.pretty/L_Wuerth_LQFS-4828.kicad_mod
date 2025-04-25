@@ -1,31 +1,212 @@
-(module L_Wuerth_LQFS-4828 (layer F.Cu) (tedit 60E707DB)
-  (descr "Inductor, Wuerth Elektronik, Wuerth_MAPI-4030, 4.0mmx4.0mm")
-  (tags "inductor Wuerth smd")
-  (attr smd)
-  (fp_text reference REF** (at 0 -3.2) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value L_Wuerth_LQFS-4828 (at 0 3.35) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -2.4 2.5) (end 2.4 2.5) (layer F.SilkS) (width 0.12))
-  (fp_line (start 2.9 2.7) (end 2.9 -2.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.4 2.4) (end 2.4 -2.4) (layer F.Fab) (width 0.1))
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 0.8 0.8) (thickness 0.15)))
-  )
-  (fp_line (start 2.4 -2.4) (end -2.4 -2.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.4 -2.4) (end -2.4 2.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.4 2.4) (end 2.4 2.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.9 -2.7) (end -2.9 2.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.9 -2.7) (end -2.9 -2.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.9 2.7) (end -2.9 2.7) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.4 -2.5) (end -2.4 -2.5) (layer F.SilkS) (width 0.12))
-  (pad 1 smd rect (at -1.7 0) (size 2 3.6) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.7 0) (size 2 3.6) (layers F.Cu F.Paste F.Mask))
-  (model :JITTER:WE-LQFS-4828.stp
-    (offset (xyz -0.4 0.7 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "L_Wuerth_LQFS-4828"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor, Wuerth Elektronik, Wuerth_MAPI-4030, 4.0mmx4.0mm")
+	(tags "inductor Wuerth smd")
+	(property "Reference" "REF**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "46a1843d-79c9-4cc1-b8dd-ce43a8654d2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wuerth_LQFS-4828"
+		(at 0 3.35 0)
+		(layer "F.Fab")
+		(uuid "bac17395-15be-4508-bdf0-d59e2dc9d8f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46e292e2-8f27-4b89-a3f7-fe591290596b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "844fb698-3f42-4ba4-af73-09d1921e1ac7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce834c2a-5179-4790-a816-19f00d2077ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4 2.5)
+		(end 2.4 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "842f7daa-f439-431b-a77e-7eb79064230b")
+	)
+	(fp_line
+		(start 2.4 -2.5)
+		(end -2.4 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0b706376-31f2-4e3c-9dab-11417518b97e")
+	)
+	(fp_circle
+		(center -2.7 -2.25)
+		(end -2.75 -2.15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "6d83b352-2cbf-420e-a1f5-2a17d8eba8a3")
+	)
+	(fp_line
+		(start -2.9 -2.7)
+		(end -2.9 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "950055a3-3c13-4f73-a849-1f9a39d141cc")
+	)
+	(fp_line
+		(start 2.9 -2.7)
+		(end -2.9 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a164175-8a58-4412-93b4-0233ef87876f")
+	)
+	(fp_line
+		(start 2.9 2.7)
+		(end -2.9 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2f4e26e-54d6-4513-8592-6111716f4c1b")
+	)
+	(fp_line
+		(start 2.9 2.7)
+		(end 2.9 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97b5caf0-c49d-4cbc-b00e-79558b2e7e71")
+	)
+	(fp_line
+		(start -2.4 -2.4)
+		(end -2.4 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fdd33d89-b365-4b27-8470-fdc2d94010f7")
+	)
+	(fp_line
+		(start -2.4 2.4)
+		(end 2.4 2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "098b55ea-9795-48a8-ace4-be013ffd5d7e")
+	)
+	(fp_line
+		(start 2.4 -2.4)
+		(end -2.4 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c618c9ae-6ad7-4448-aa04-b114e22f9251")
+	)
+	(fp_line
+		(start 2.4 2.4)
+		(end 2.4 -2.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4be63c3-c1e8-49ed-8133-648b9ae09d63")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "267a784c-b402-4652-8e43-ecafcc52c623")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.7 0)
+		(size 2 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aee88f75-d9f2-4e37-94aa-1432c698763d")
+	)
+	(pad "2" smd rect
+		(at 1.7 0)
+		(size 2 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fd27c003-cf26-450c-959b-51394342c4ea")
+	)
+	(model ":JITTER:WE-LQFS-4828.stp"
+		(offset
+			(xyz -0.4 0.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

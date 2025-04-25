@@ -38,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -50,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,6 +64,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -182,7 +185,6 @@
 		(drill 3.7)
 		(layers "F&B.Cu" "*.Mask")
 		(solder_mask_margin 0.2)
-		(clearance 0.3)
 		(uuid "9dd6364b-dc95-4d4f-bf38-c5e3a4b805fb")
 	)
 	(pad "" smd custom
@@ -241,19 +243,9 @@
 		)
 		(primitives
 			(gr_arc
-				(start -1.186804 1.168579)
-				(mid -0.395782 -0.3923)
-				(end 1.163713 -1.186047)
-				(width 0.2)
-			)
-			(gr_line
-				(start -0.353077 1.169322)
-				(end -1.18 1.175)
-				(width 0.2)
-			)
-			(gr_line
-				(start 1.175 -0.35)
-				(end 1.175 -1.19)
+				(start -0.35259 1.167122)
+				(mid 0.188258 0.183322)
+				(end 1.173939 -0.354089)
 				(width 0.2)
 			)
 			(gr_poly
@@ -264,10 +256,20 @@
 				(width 0.1)
 				(fill yes)
 			)
+			(gr_line
+				(start 1.175 -0.35)
+				(end 1.175 -1.19)
+				(width 0.2)
+			)
+			(gr_line
+				(start -0.353077 1.169322)
+				(end -1.18 1.175)
+				(width 0.2)
+			)
 			(gr_arc
-				(start -0.35259 1.167122)
-				(mid 0.188258 0.183322)
-				(end 1.173939 -0.354089)
+				(start -1.186804 1.168579)
+				(mid -0.395782 -0.3923)
+				(end 1.163713 -1.186047)
 				(width 0.2)
 			)
 		)
@@ -295,8 +297,8 @@
 		(primitives
 			(gr_circle
 				(center 1.75 1.75)
-				(end 4.27 1.75)
-				(width 0.96)
+				(end 4.3 1.75)
+				(width 0.9)
 				(fill no)
 			)
 		)

@@ -1,25 +1,168 @@
-(module connector_DF40C-100DS-0.4V_virtual (layer F.Cu) (tedit 6114F871)
-  (attr smd)
-  (fp_text reference REF** (at -0.06 0.49 90) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Hirose_DF40C-100DS-0.4V_2x50_P0.4mm_Vertical (at -0.04 -0.5) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user %R (at 0 0 90) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 1.89 -11.4) (end 1.89 11.4) (layer F.Fab) (width 0.12))
-  (fp_line (start -1.89 11.4) (end -1.89 -11.4) (layer F.Fab) (width 0.12))
-  (fp_line (start -1.89 -11.4) (end 1.89 -11.4) (layer F.Fab) (width 0.12))
-  (fp_line (start 1.89 11.4) (end -1.89 11.4) (layer F.Fab) (width 0.12))
-  (fp_line (start 1.89 -11.4) (end 1.89 11.4) (layer Dwgs.User) (width 0.12))
-  (fp_line (start -1.89 11.4) (end -1.89 -11.4) (layer Dwgs.User) (width 0.12))
-  (fp_line (start -1.89 -11.4) (end 1.89 -11.4) (layer Dwgs.User) (width 0.12))
-  (fp_line (start 1.89 11.4) (end -1.89 11.4) (layer Dwgs.User) (width 0.12))
-  (model ":JITTER:DF40HC(3.0)-100DS-0.4V.stp"
-    (offset (xyz 0 -0.115 1.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "connector_DF40C-100DS-0.4V_virtual"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.06 0.49 90)
+		(layer "F.SilkS")
+		(uuid "fb05d9bb-671a-4c1f-a3ae-217d7961aff2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Hirose_DF40C-100DS-0.4V_2x50_P0.4mm_Vertical"
+		(at -0.04 -0.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "345b3815-5cab-4076-a7c8-b3dc595cab0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "239e1b4b-192f-4127-b78b-4594a54531f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5568fc0-a0bf-4331-850e-599af8f23bf0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9d6152f-6ad5-498d-ab25-958f31cb90be")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.89 -11.4)
+		(end 1.89 -11.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "29395e01-0f3f-4fe4-aa8d-da3b1dd5968b")
+	)
+	(fp_line
+		(start -1.89 11.4)
+		(end -1.89 -11.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7e99c2fd-cba5-489f-b922-4713d42d49bc")
+	)
+	(fp_line
+		(start 1.89 -11.4)
+		(end 1.89 11.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d9899f20-eff3-439b-87c1-4563e7d02e3d")
+	)
+	(fp_line
+		(start 1.89 11.4)
+		(end -1.89 11.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "358370a0-2431-4c42-8316-0ffcea76c9cc")
+	)
+	(fp_line
+		(start -1.89 -11.4)
+		(end 1.89 -11.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2481535d-f4d6-4677-bb76-a81bca5b6786")
+	)
+	(fp_line
+		(start -1.89 11.4)
+		(end -1.89 -11.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1fe16638-fcc9-4691-b89b-1752945d33e2")
+	)
+	(fp_line
+		(start 1.89 -11.4)
+		(end 1.89 11.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea6dc319-a489-4ab9-9168-f9d4a80721fb")
+	)
+	(fp_line
+		(start 1.89 11.4)
+		(end -1.89 11.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6fc097b5-46cd-40f8-b899-c4934102254a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "49e387d0-6864-4744-89a7-9d50e2cecca6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${JITTER}/DF40C-100DS-0.4V_51_.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )

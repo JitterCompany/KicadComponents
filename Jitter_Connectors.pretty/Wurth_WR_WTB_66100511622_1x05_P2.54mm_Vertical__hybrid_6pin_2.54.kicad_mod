@@ -1,0 +1,219 @@
+(footprint "Wurth_WR_WTB_66100511622_1x05_P2.54mm_Vertical__hybrid_6pin_2.54"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.5 -3.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "65a64c9a-957a-43a5-99ad-aaec4f8af243")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Wurth_WR_WTB_66100511622_1x05_P2.54mm_Vertical__hybrid_6pin_2.54"
+		(at 5.09 1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b83007fa-876d-4983-af0c-3b04e49a1a60")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.03)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ad956cf-d04f-49a8-ab4f-df83dc04b7ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a8180d2-2dc0-422a-9de0-7a432c115b10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c500276b-ad82-4ab4-805b-167d91a83dd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.22 -1.65)
+		(end 11.32 -1.65)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ecc36056-156d-4de6-ae44-0da2ff8fb429")
+	)
+	(fp_line
+		(start -0.16 1.59)
+		(end -0.16 2.65)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "609fd16e-cee4-4f9d-869c-ccb70afac961")
+	)
+	(fp_line
+		(start -0.16 1.59)
+		(end 10.26 1.59)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "abd49bf3-0d4b-4e1f-a86b-f6b7fea146e2")
+	)
+	(fp_line
+		(start 10.26 1.59)
+		(end 10.26 2.65)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "81adab4f-35e2-42bf-a024-22a4ffbd0e25")
+	)
+	(fp_poly
+		(pts
+			(xy -1.22 1.59) (xy -1.22 -2.65) (xy 11.32 -2.65) (xy 11.32 2.65) (xy -0.16 2.65)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0a3e6d9c-4678-4861-a3e6-5d29f6ac32e1")
+	)
+	(fp_rect
+		(start -4.24 -3.1)
+		(end 11.82 3.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d3c08ef0-9373-40f2-b35d-453aba3d6e60")
+	)
+	(fp_poly
+		(pts
+			(xy -1.12 1.55) (xy -1.12 -2.55) (xy 11.22 -2.55) (xy 11.22 2.55) (xy -0.12 2.55)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "29a396d7-43b2-4bf5-b871-44b20722a67e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.19 -1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e73b6ba3-bcad-43a5-84a7-6c54fff3f40c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -2.54 0)
+		(size 1.6 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e0cc738-7e94-4c5a-9713-be6e083fa514")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 1.6 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15625)
+		(uuid "b2d05d64-960c-428e-a999-5ec330f8f195")
+	)
+	(pad "3" thru_hole oval
+		(at 2.54 0)
+		(size 1.6 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e2fb4df-a473-47b2-946e-d2358dd23043")
+	)
+	(pad "4" thru_hole oval
+		(at 5.08 0)
+		(size 1.6 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d441d30a-31b3-4ba2-86dd-12a38d59553c")
+	)
+	(pad "5" thru_hole oval
+		(at 7.62 0)
+		(size 1.6 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b347280-54a8-4450-9a15-c08b8aa979ec")
+	)
+	(pad "6" thru_hole oval
+		(at 10.16 0)
+		(size 1.6 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a6946aa1-3f07-451d-a15e-3cf98a4d27d4")
+	)
+	(model "${JITTER}/Wurth_WR_WTB_66100511622_1x05_P2.54mm_Vertical.stp"
+		(offset
+			(xyz 7.91 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
