@@ -31,10 +31,9 @@
 	)
 	(property "Footprint" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "94f7c11a-2a83-41ef-a1bf-7a12c682509b")
+		(uuid "ba2f6b3b-7850-4bf5-ac6f-42c122baaa05")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,10 +43,9 @@
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "55482251-1b0c-4d13-af5a-98011c9053e2")
+		(uuid "4ea59000-ade5-4eff-8920-67cbac4ce14c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,10 +55,9 @@
 	)
 	(property "Description" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9bb7491e-adcc-4342-bee4-9f405e09754b")
+		(uuid "1b9f0c89-1ae6-4e5e-a47c-e1a639247fd5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -185,6 +182,7 @@
 		(drill 3.7)
 		(layers "F&B.Cu" "*.Mask")
 		(solder_mask_margin 0.2)
+		(clearance 0.19)
 		(uuid "9dd6364b-dc95-4d4f-bf38-c5e3a4b805fb")
 	)
 	(pad "" smd custom
@@ -243,9 +241,19 @@
 		)
 		(primitives
 			(gr_arc
-				(start -0.35259 1.167122)
-				(mid 0.188258 0.183322)
-				(end 1.173939 -0.354089)
+				(start -1.186804 1.168579)
+				(mid -0.395782 -0.3923)
+				(end 1.163713 -1.186047)
+				(width 0.2)
+			)
+			(gr_line
+				(start -0.353077 1.169322)
+				(end -1.18 1.175)
+				(width 0.2)
+			)
+			(gr_line
+				(start 1.175 -0.35)
+				(end 1.175 -1.19)
 				(width 0.2)
 			)
 			(gr_poly
@@ -256,20 +264,10 @@
 				(width 0.1)
 				(fill yes)
 			)
-			(gr_line
-				(start 1.175 -0.35)
-				(end 1.175 -1.19)
-				(width 0.2)
-			)
-			(gr_line
-				(start -0.353077 1.169322)
-				(end -1.18 1.175)
-				(width 0.2)
-			)
 			(gr_arc
-				(start -1.186804 1.168579)
-				(mid -0.395782 -0.3923)
-				(end 1.163713 -1.186047)
+				(start -0.35259 1.167122)
+				(mid 0.188258 0.183322)
+				(end 1.173939 -0.354089)
 				(width 0.2)
 			)
 		)
@@ -284,11 +282,17 @@
 		(zone_connect 2)
 		(uuid "04f66dbe-d7de-4c5c-b23f-730c547a8cfa")
 	)
+	(pad "1" smd circle
+		(at -1.767767 -1.767767 45)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 0)
+		(uuid "6b58d79f-8c7a-464a-b103-a75183b92983")
+	)
 	(pad "1" smd custom
 		(at -1.75 -1.75)
 		(size 0.5 0.5)
 		(layers "F.Cu" "F.Mask")
-		(zone_connect 2)
 		(thermal_bridge_angle 90)
 		(options
 			(clearance outline)
@@ -297,8 +301,8 @@
 		(primitives
 			(gr_circle
 				(center 1.75 1.75)
-				(end 4.3 1.75)
-				(width 0.9)
+				(end 4.27 1.75)
+				(width 0.96)
 				(fill no)
 			)
 		)
