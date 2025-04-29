@@ -1,4 +1,4 @@
-(footprint "wortel"
+(footprint "root-logo"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -63,7 +63,9 @@
 			)
 		)
 	)
-	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		allow_soldermask_bridges
+	)
 	(fp_poly
 		(pts
 			(xy -7.766667 4.589356) (xy -7.783334 4.606045) (xy -7.8 4.589356) (xy -7.783334 4.572668)
@@ -56642,7 +56644,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu" "*.SilkS" "*.Mask")
+		(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
+			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+			"In30.Cu" "B.Cu" "B.SilkS" "F.SilkS" "B.Mask" "F.Mask"
+		)
 		(uuid "45ecdea7-fd49-4bd3-b6c1-505fc10fccc8")
 		(name "keepout")
 		(hatch edge 0.5)
@@ -56684,7 +56691,7 @@
 				(xy 4.841565 8.806773) (xy 5.384993 8.485391) (xy 5.907169 8.13052) (xy 6.406032 7.743563) (xy 6.879614 7.326044)
 				(xy 7.326044 6.879614) (xy 7.743563 6.406032) (xy 8.13052 5.907169) (xy 8.485391 5.384993) (xy 8.806773 4.841565)
 				(xy 9.0934 4.279029) (xy 9.344138 3.699606) (xy 9.558 3.105582) (xy 9.734141 2.499303) (xy 9.871865 1.883159)
-				(xy 9.97063 1.259583) (xy 10.030045 0.631037) (xy 10.049876 0)
+				(xy 9.97063 1.259583) (xy 10.030045 0.631037)
 			)
 		)
 	)
