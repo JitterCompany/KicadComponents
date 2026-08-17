@@ -1,26 +1,82 @@
-(footprint "NetTie-2_SMD_Pad0.2mm" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Net tie, 2 pin, 0.5mm square SMD pads")
-  (tags "net tie")
-  (attr exclude_from_pos_files exclude_from_bom)
-  (net_tie_pad_groups "1, 2")
-  (fp_text reference "REF**" (at 0 -1.2) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 569eda29-b846-4478-864a-d0a7aa5855e9)
-  )
-  (fp_text value "NetTie-2_SMD_Pad0.2mm" (at 0 1.2) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 3a0b1f75-290e-4630-9c1d-32b5447289fe)
-  )
-  (fp_poly
-    (pts
-      (xy -0.5 -0.1)
-      (xy 0.5 -0.1)
-      (xy 0.5 0.1)
-      (xy -0.5 0.1)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp 3f878fd5-cd36-44bb-aed4-6518fca3b48d))
-  (pad "1" smd circle (at -0.5 0) (size 0.2 0.2) (layers "F.Cu") (tstamp 2043fcae-af31-4fcd-8786-139d0f505177))
-  (pad "2" smd circle (at 0.5 0) (size 0.2 0.2) (layers "F.Cu") (tstamp ac2ff825-87ee-4b14-aad7-d286585a8681))
+(footprint "NetTie-2_SMD_Pad0.2mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Net tie, 2 pin, 0.5mm square SMD pads")
+	(tags "net tie")
+	(property "Reference" "REF**"
+		(at 0 -1.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "21fc37ea-2c0a-4e29-b89b-922833fc059f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NetTie-2_SMD_Pad0.2mm"
+		(at 0 1.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0011ad37-9a31-4181-ab27-e1d8b930392e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd17efb5-c4bf-473c-9b38-10a144754604")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "607cafa9-bcfa-4e06-bb53-d4ff65db6cd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(net_tie_pad_groups "1, 2")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -0.5 -0.1) (xy 0.5 -0.1) (xy 0.5 0.1) (xy -0.5 0.1)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "2215e2df-a2ec-4550-be7a-4ce4648addbf")
+	)
+	(pad "1" smd circle
+		(at -0.5 0)
+		(size 0.2 0.2)
+		(layers "F.Cu")
+		(uuid "73e5c359-6699-44fd-90ab-646587a4eb3d")
+	)
+	(pad "2" smd circle
+		(at 0.5 0)
+		(size 0.2 0.2)
+		(layers "F.Cu")
+		(uuid "b9163550-68a6-402f-bccf-1e41e9653086")
+	)
+	(embedded_fonts no)
 )

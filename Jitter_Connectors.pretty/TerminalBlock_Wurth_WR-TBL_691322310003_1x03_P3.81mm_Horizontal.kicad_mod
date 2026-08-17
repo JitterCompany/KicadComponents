@@ -1,0 +1,272 @@
+(footprint "TerminalBlock_Wurth_WR-TBL_691322310003_1x03_P3.81mm_Horizontal"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Wurth WR-TBL series 322 pluggable header 3.81 pitch")
+	(tags "pluggable terminal block")
+	(property "Reference" "REF**"
+		(at 1.7 -3 0)
+		(layer "F.SilkS")
+		(uuid "949fc9d7-6ef2-4ec5-a361-54dee1f58a2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_Wurth_WR-TBL_691322310003_1x03_P3.81mm_Horizontal"
+		(at 1.75 5.56 0)
+		(layer "F.Fab")
+		(uuid "3269cc9c-6ec4-4959-bb33-b470babf4a8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef344c2a-0732-4919-9a71-76bbb87a3615")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5993e576-964c-4e9b-b092-0c0a2ebb4be8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.6 -1.3)
+		(end -2.6 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "043c56a0-01e4-4868-9005-afe31e8c5192")
+	)
+	(fp_line
+		(start -2.6 -1.3)
+		(end -1.7 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77cb3ab1-a335-4c80-90c8-7104c0e41ec0")
+	)
+	(fp_line
+		(start -2.6 8.1)
+		(end -2.6 7.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abecd655-109b-4ae5-b095-0cef9673c02f")
+	)
+	(fp_line
+		(start -2.6 8.1)
+		(end -1.7 8.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32055673-7219-42dc-a190-b2278f0d2dd7")
+	)
+	(fp_line
+		(start -1.7 -1.3)
+		(end -1.7 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fd907ab-f3c7-4af0-80a7-8d2e4a612a95")
+	)
+	(fp_line
+		(start 10.22 -1.3)
+		(end 9.32 -1.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4399fce-c78f-4f60-a995-3ec6c1f318fa")
+	)
+	(fp_line
+		(start 10.22 -1.3)
+		(end 10.22 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd54cb45-2518-4df1-84bb-6e570c1e2e6e")
+	)
+	(fp_line
+		(start 10.22 8.1)
+		(end 9.32 8.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4c13445-f4b1-428e-a78f-87f9114ac96b")
+	)
+	(fp_line
+		(start 10.22 8.1)
+		(end 10.22 7.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c243b32-6e55-45df-9954-5dd090c40d0c")
+	)
+	(fp_line
+		(start -2.8 -1.8)
+		(end -2.8 8.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1eae0b00-03dc-45f4-bba5-f832d479f0c1")
+	)
+	(fp_line
+		(start -2.8 -1.8)
+		(end 10.42 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1e725201-bac2-4c0a-a8ca-7eb50d3257fc")
+	)
+	(fp_line
+		(start -2.8 8.3)
+		(end 10.42 8.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f9406f3-67e7-4368-aa84-a8cfb3bb8e3a")
+	)
+	(fp_line
+		(start 10.42 -1.8)
+		(end 10.42 8.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29e32057-88aa-418b-82d6-63cc3a4d0f0b")
+	)
+	(fp_line
+		(start -2.5 -1.2)
+		(end -2.5 8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8265d816-5cad-4fff-8ccd-2920aebdab48")
+	)
+	(fp_line
+		(start -2.5 -1.2)
+		(end 10.12 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc3576b1-fea6-410f-aba2-a70c6618cfb8")
+	)
+	(fp_line
+		(start -2.5 8)
+		(end 10.12 8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e5e3573-2ff1-4d0b-bf1e-bf1ecc03c2aa")
+	)
+	(fp_line
+		(start 10.12 -1.2)
+		(end 10.12 8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "743e01af-94fe-4527-b8b2-e026c720c554")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.75 2.4 0)
+		(layer "F.Fab")
+		(uuid "dbf1deea-d8f9-4f4f-a7db-1cc016d541bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.5 3.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "6be4bf1c-ddff-4fd7-bdfa-26b1b5772b4a")
+	)
+	(pad "2" thru_hole oval
+		(at 3.81 0)
+		(size 2.5 3.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6587a4c-7ede-471f-abef-f237f6d45855")
+	)
+	(pad "3" thru_hole oval
+		(at 7.62 0)
+		(size 2.5 3.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cfae40cc-57ad-46ab-b97e-274aac676bf7")
+	)
+	(embedded_fonts no)
+	(model "${JITTER}/691322310003_Wurth_WR-1x03P3.81mm_Horizontal.stp"
+		(offset
+			(xyz 3.81 -3.4 3.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 180 -0)
+		)
+	)
+)

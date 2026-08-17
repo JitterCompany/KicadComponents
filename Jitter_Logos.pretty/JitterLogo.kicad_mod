@@ -1,14 +1,71 @@
-(module JitterLogo (layer F.Cu) (tedit 5E176D22)
-  (attr virtual)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value JitterLogo (at 0 -0.5) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_poly (pts (xy 3.261333 2.694) (xy -2.326667 2.694) (xy -2.326667 -1.962667) (xy -1.649334 -1.962667)
-    (xy -1.649334 2.101333) (xy -1.056667 2.101333) (xy -1.056667 -1.454667) (xy 0.633231 -1.454667)
-    (xy 0.656115 0.302167) (xy 0.679 2.059) (xy 2.922666 2.106248) (xy 2.922666 1.508667)
-    (xy 1.229333 1.508667) (xy 1.229333 -1.962667) (xy -1.649334 -1.962667) (xy -2.326667 -1.962667)
-    (xy -2.326667 -2.894) (xy 3.261333 -2.894) (xy 3.261333 2.694)) (layer F.SilkS) (width 0.01))
+(footprint "JitterLogo"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "766daf2c-7151-485e-a315-bc3ef444bf38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "JitterLogo"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c28ae24-b8ec-43cf-a378-9b2bf092a109")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "831e76d2-ef64-4324-a02d-de68b1bdbbdb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39bf6c23-1e20-42d9-9a8c-a90a99a282d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_poly
+		(pts
+			(xy 3.261333 2.694) (xy -2.326667 2.694) (xy -2.326667 -1.962667) (xy -1.649334 -1.962667) (xy -1.649334 2.101333)
+			(xy -1.056667 2.101333) (xy -1.056667 -1.454667) (xy 0.633231 -1.454667) (xy 0.656115 0.302167) (xy 0.679 2.059)
+			(xy 2.922666 2.106248) (xy 2.922666 1.508667) (xy 1.229333 1.508667) (xy 1.229333 -1.962667) (xy -1.649334 -1.962667)
+			(xy -2.326667 -1.962667) (xy -2.326667 -2.894) (xy 3.261333 -2.894) (xy 3.261333 2.694)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "68ae16f4-9860-42b9-a192-8c793398abf0")
+	)
+	(embedded_fonts no)
 )

@@ -1,0 +1,407 @@
+(footprint "TerminalBlock_Wurth_WR-TBL_latch_691305330003_1x03_P3.81mm_Vertical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Wurth WR-TBL series 3052 pluggable header 3.81 pitch with latch")
+	(tags "pluggable terminal block latch")
+	(property "Reference" "REF**"
+		(at 1.7 -3 0)
+		(layer "F.SilkS")
+		(uuid "c3a6c799-61e4-453d-8b3f-1c2302f5a8df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_Wurth_WR-TBL_latch_691305330003_1x03_P3.81mm_Vertical"
+		(at 1.75 5.56 0)
+		(layer "F.Fab")
+		(uuid "e8c16897-2fd5-4ddf-b2a1-c491198b0b9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8bae450-ca0d-45a0-b950-58a3b6d4ce5b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f5efe5a-e5e7-4356-b201-09e91c826f4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.65 -1)
+		(end -3.65 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3b3b6fcc-2da2-4f0b-85c5-43e8473d6365")
+	)
+	(fp_line
+		(start -3.65 -1)
+		(end -2.7 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0f6b404b-852d-40ee-9e12-a6782592a1c9")
+	)
+	(fp_line
+		(start -3.65 1)
+		(end -2.7 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ef8dcdb-c934-400d-b386-fc3f161170bc")
+	)
+	(fp_line
+		(start -2.67 -4.65)
+		(end -2.67 -3.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c50e0bd-69e0-4646-8991-736c7c783e4d")
+	)
+	(fp_line
+		(start -2.67 -4.65)
+		(end -1.77 -4.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35a84037-e1cf-4c52-85b1-ddb86b5e1714")
+	)
+	(fp_line
+		(start -2.67 3.05)
+		(end -2.67 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecb15848-793a-4d3f-9475-b19ee702c4e0")
+	)
+	(fp_line
+		(start -2.67 3.05)
+		(end -1.77 3.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9a12409-52ca-4966-a7c0-2e0f9582c2ad")
+	)
+	(fp_line
+		(start 10.29 -4.65)
+		(end 9.39 -4.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d23f152-1491-4c76-be98-a1a608d3464c")
+	)
+	(fp_line
+		(start 10.29 -4.65)
+		(end 10.29 -3.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "656ffedf-a62f-4085-97f3-e819fad0ab4a")
+	)
+	(fp_line
+		(start 10.29 3.05)
+		(end 9.39 3.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bda47a60-17b7-4ccc-b6c6-641881e6a175")
+	)
+	(fp_line
+		(start 10.29 3.05)
+		(end 10.29 2.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99f381cb-31db-49ff-b509-dc9cfe35d3b1")
+	)
+	(fp_line
+		(start 11.27 -1)
+		(end 10.32 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4f93bb82-a3c2-4900-96f8-5b3ed110eb86")
+	)
+	(fp_line
+		(start 11.27 1)
+		(end 10.32 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3aa320ae-d389-457c-8cca-c3a236ed3f09")
+	)
+	(fp_line
+		(start 11.27 1)
+		(end 11.27 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0929cf05-03c1-4b4a-ab5a-a9941524960c")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -4.6) (xy 0.2 -4.8) (xy -0.2 -4.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f04e3a2e-4553-41e0-896a-6a89a1f43444")
+	)
+	(fp_rect
+		(start -7.19 -4.95)
+		(end 14.81 3.35)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "Eco1.User")
+		(uuid "36576ad5-738e-4149-89f5-ee75fe15ad22")
+	)
+	(fp_line
+		(start -4.87 -4.9)
+		(end -4.87 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa03dc23-97ea-4705-b52f-63e3dec2fb1c")
+	)
+	(fp_line
+		(start -4.87 -4.9)
+		(end 12.5 -4.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e987c444-a86f-41db-bea3-e9f9670d742b")
+	)
+	(fp_line
+		(start -4.87 3.25)
+		(end 12.5 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e95f3e9-acda-4e4e-a99c-8b96215f1ad9")
+	)
+	(fp_line
+		(start 12.49 -4.9)
+		(end 12.49 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5562edcd-0fef-4e42-b28d-712b73b91dc0")
+	)
+	(fp_line
+		(start -2.57 -4.55)
+		(end -2.57 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6644db83-7fb4-4ba7-b04d-0245873c2fb9")
+	)
+	(fp_line
+		(start -2.57 -4.55)
+		(end 10.19 -4.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ed7db83-c309-4057-a0e8-edc5c42a25f3")
+	)
+	(fp_line
+		(start -2.57 2.95)
+		(end 10.19 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d597e9d-c0c5-4037-add6-19f62ab4786c")
+	)
+	(fp_line
+		(start 10.19 -4.55)
+		(end 10.19 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10252e45-dfbe-4e61-8249-43647951831a")
+	)
+	(fp_text user "Mating connector"
+		(at 3.81 -4.5 0)
+		(unlocked yes)
+		(layer "Eco1.User")
+		(uuid "4bf7a03e-cd78-42c6-8285-f554feb5856e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.75 2.4 0)
+		(layer "F.Fab")
+		(uuid "f5212d8e-e28e-4af4-a4e9-fa711d1a7ee7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text_box "Keep clear of high objects\nso user can easily plugin\nthe mating connector"
+		(start 14.8 -4.95)
+		(end 30.7 3.423621)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "Eco2.User")
+		(uuid "047f8ed5-6c15-443e-9dd1-20f3befc2b69")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.08)
+			)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(knockout no)
+	)
+	(fp_text_box "Keep clear of high objects\nso user can easily plugin\nthe mating connector"
+		(start -23.1 -4.95)
+		(end -7.2 3.423621)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "Eco2.User")
+		(uuid "e885b35f-d0f5-4750-9493-5a191cd3ef44")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.08)
+			)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(knockout no)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.5 3.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "38246840-2e73-4821-8834-062d1698e540")
+	)
+	(pad "2" thru_hole oval
+		(at 3.81 0)
+		(size 2.5 3.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6cfd512-b097-4d8b-a9ca-33f893fcaa8e")
+	)
+	(pad "3" thru_hole oval
+		(at 7.62 0)
+		(size 2.5 3.2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "340f4f05-4d45-418d-a6fd-8ed98b354cf3")
+	)
+	(embedded_fonts no)
+	(model "${JITTER}/691305330003_Wurth_WR-1x03P3.81mm_Vertical_latch.stp"
+		(offset
+			(xyz 3.81 0.8 4.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${JITTER}/691304330003_Wurth_WR-1x03_push-in.stp"
+		(offset
+			(xyz 3.81 1 16.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
