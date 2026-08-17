@@ -1,0 +1,8 @@
+{
+"description": "power switch with configurable slew rate\n4A max @ 5.5V",
+"keywords": "switch, slew, rise time",
+"fields": {
+"Vmax": "5.5V",
+"Imax": "4A"
+}
+}

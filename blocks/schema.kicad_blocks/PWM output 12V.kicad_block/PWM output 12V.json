@@ -1,0 +1,5 @@
+{
+"description": "high-side PWM output switch with tunable rise time, overload detection up to 100mA",
+"keywords": "PWM, output, high-side",
+"fields": {}
+}
