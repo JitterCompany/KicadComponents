@@ -2,8 +2,13 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "458d6836-4184-4a87-8222-c8564e4f2887")
+	(uuid "fade6956-a32f-4421-ae5c-828a8bae4f3f")
 	(paper "A4")
+	(title_block
+		(title "PCB temperature sensor")
+		(date "2026-08-14")
+		(rev "2.0")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -415,7 +420,7 @@
 			(symbol "MCP9701A_0_1"
 				(rectangle
 					(start -5.08 5.08)
-					(end 5.08 -5.08)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -582,9 +587,9 @@
 					)
 				)
 				(pin bidirectional line
-					(at 7.62 0 180)
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "DQ"
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -755,9 +760,20 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Optional. can be left out to cost optimize"
+		(exclude_from_sim no)
+		(at 84.455 57.785 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a79aa8a-dfbf-4bbd-abe3-dbfd7fa2edfd")
+	)
 	(text "Temperature sensor"
 		(exclude_from_sim no)
-		(at 115.57 111.76 0)
+		(at 83.82 54.61 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -770,7 +786,7 @@
 	)
 	(text "V_{0C} = 400mV (0 C), T_{C} = 19.5mV/C\nV_{out} = T_{C}*T_{A}+V_{0C} --> \n0 - 100C = 0.4V - 2.35V"
 		(exclude_from_sim no)
-		(at 119.38 149.86 0)
+		(at 87.63 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -780,26 +796,26 @@
 		(uuid "aa26a204-209f-4b72-94c7-56a38b3491b6")
 	)
 	(junction
-		(at 151.13 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cc2840c-88bb-49dc-b66d-8bc3e3f3e415")
-	)
-	(junction
-		(at 124.46 119.38)
+		(at 92.71 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86fed4fb-5628-43ba-b954-80c5b801b1e8")
 	)
 	(junction
-		(at 158.75 128.27)
+		(at 127 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ed0c0c9d-5600-468d-8651-dc72817b3854")
+		(uuid "a10bed07-3ef5-4936-98c4-140ad37901d4")
+	)
+	(junction
+		(at 119.38 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d069f8e1-d64e-4b11-98e6-e1ab7b1d1b24")
 	)
 	(polyline
 		(pts
-			(xy 113.03 106.68) (xy 167.64 106.68)
+			(xy 81.28 49.53) (xy 135.89 49.53)
 		)
 		(stroke
 			(width 0)
@@ -807,19 +823,9 @@
 		)
 		(uuid "016d544f-f9c5-4fdb-82ce-44fabbaf71bf")
 	)
-	(wire
-		(pts
-			(xy 144.78 128.27) (xy 151.13 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18784c23-67e4-42a8-bc61-746549c9522c")
-	)
 	(polyline
 		(pts
-			(xy 167.64 151.13) (xy 113.03 151.13)
+			(xy 135.89 93.98) (xy 81.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -829,7 +835,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 128.27) (xy 158.75 128.27)
+			(xy 119.38 71.12) (xy 127 71.12)
 		)
 		(stroke
 			(width 0)
@@ -839,7 +845,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 119.38) (xy 124.46 120.65)
+			(xy 92.71 62.23) (xy 92.71 63.5)
 		)
 		(stroke
 			(width 0)
@@ -849,7 +855,7 @@
 	)
 	(polyline
 		(pts
-			(xy 113.03 106.68) (xy 113.03 151.13)
+			(xy 81.28 49.53) (xy 81.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -859,7 +865,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 119.38) (xy 137.16 120.65)
+			(xy 105.41 62.23) (xy 105.41 63.5)
 		)
 		(stroke
 			(width 0)
@@ -869,7 +875,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 128.27) (xy 168.91 128.27)
+			(xy 127 71.12) (xy 139.7 71.12)
 		)
 		(stroke
 			(width 0)
@@ -879,7 +885,7 @@
 	)
 	(polyline
 		(pts
-			(xy 167.64 106.68) (xy 167.64 151.13)
+			(xy 135.89 49.53) (xy 135.89 93.98)
 		)
 		(stroke
 			(width 0)
@@ -889,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 119.38) (xy 124.46 119.38)
+			(xy 80.01 62.23) (xy 92.71 62.23)
 		)
 		(stroke
 			(width 0)
@@ -899,7 +905,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 119.38) (xy 137.16 119.38)
+			(xy 115.57 71.12) (xy 119.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71775ed-855b-479d-8a07-d83e38544029")
+	)
+	(wire
+		(pts
+			(xy 92.71 62.23) (xy 105.41 62.23)
 		)
 		(stroke
 			(width 0)
@@ -907,9 +923,31 @@
 		)
 		(uuid "d1c5ca47-ab5c-455d-8a3a-11f4479a7306")
 	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 80.01 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6aab56ed-a161-462c-8ccd-562e649d84cb")
+	)
+	(hierarchical_label "PCB_TEMP_A"
+		(shape output)
+		(at 139.7 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdc65cf2-44e5-4aae-b95e-5eade4b6a4be")
+	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 158.75 130.81 0)
+		(at 127 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -918,8 +956,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "185b365a-49c0-4342-912e-1a8d17899abe")
-		(property "Reference" "C41"
-			(at 159.385 128.905 0)
+		(property "Reference" "C90"
+			(at 128.905 73.025 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -930,7 +968,7 @@
 			)
 		)
 		(property "Value" "4.7n"
-			(at 159.385 132.715 0)
+			(at 128.905 75.565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -941,7 +979,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 158.75 130.81 0)
+			(at 127 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -952,7 +990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 130.81 0)
+			(at 127 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -963,7 +1001,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 130.81 0)
+			(at 127 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -974,7 +1012,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 158.75 130.81 0)
+			(at 127 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -985,7 +1023,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 158.75 130.81 0)
+			(at 127 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -996,7 +1034,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 158.75 130.81 0)
+			(at 127 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1006,8 +1044,8 @@
 				)
 			)
 		)
-		(property "rating" ""
-			(at 158.75 130.81 0)
+		(property "rating" "X7R, 50V"
+			(at 127 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1025,8 +1063,8 @@
 		)
 		(instances
 			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707"
-					(reference "C41")
+				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -1034,7 +1072,7 @@
 	)
 	(symbol
 		(lib_id "Jitter_IC:MCP9701A")
-		(at 137.16 128.27 0)
+		(at 105.41 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1043,8 +1081,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e88a691-d8bc-4558-814b-78b33d873777")
-		(property "Reference" "U11"
-			(at 133.35 121.92 0)
+		(property "Reference" "U16"
+			(at 101.6 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1054,7 +1092,7 @@
 			)
 		)
 		(property "Value" "MCP9701A"
-			(at 143.51 121.92 0)
+			(at 111.76 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1064,7 +1102,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 111.76 134.62 0)
+			(at 80.01 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1075,7 +1113,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.rs-online.com/55ea/0900766b813772de.pdf"
-			(at 133.35 121.92 0)
+			(at 101.6 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1085,8 +1123,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 137.16 128.27 0)
+		(property "Description" "Low-Power Linear Active Thermistor IC"
+			(at 105.41 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1097,7 +1135,7 @@
 			)
 		)
 		(property "MPN" "MCP9701AT-E/LT"
-			(at 137.16 128.27 0)
+			(at 105.41 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1108,7 +1146,7 @@
 			)
 		)
 		(property "mouser#" "579-MCP9701AT-E/LT"
-			(at 137.16 128.27 0)
+			(at 105.41 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1119,7 +1157,7 @@
 			)
 		)
 		(property "Mouser" "579-MCP9701AT-E/LT"
-			(at 137.16 128.27 0)
+			(at 105.41 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1130,7 +1168,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 137.16 128.27 0)
+			(at 105.41 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1141,7 +1179,7 @@
 			)
 		)
 		(property "rating" ""
-			(at 137.16 128.27 0)
+			(at 105.41 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1168,8 +1206,8 @@
 		)
 		(instances
 			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707"
-					(reference "U11")
+				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -1177,7 +1215,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 133.35 0)
+		(at 127 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1186,8 +1224,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40fcb575-dfe1-443e-b5fa-6d2962601175")
-		(property "Reference" "#PWR088"
-			(at 158.75 139.7 0)
+		(property "Reference" "#PWR0156"
+			(at 127 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1198,7 +1236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 137.16 0)
+			(at 127 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1208,7 +1246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 133.35 0)
+			(at 127 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1219,7 +1257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 133.35 0)
+			(at 127 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1230,7 +1268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 133.35 0)
+			(at 127 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1245,8 +1283,8 @@
 		)
 		(instances
 			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707"
-					(reference "#PWR088")
+				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -1254,7 +1292,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 135.89 0)
+		(at 105.41 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1263,8 +1301,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fa71171-c74f-4ad9-87d6-a4a0b6105be6")
-		(property "Reference" "#PWR0182"
-			(at 137.16 142.24 0)
+		(property "Reference" "#PWR0155"
+			(at 105.41 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1275,7 +1313,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 139.7 0)
+			(at 105.41 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1285,7 +1323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 135.89 0)
+			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1296,7 +1334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 135.89 0)
+			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1307,7 +1345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 135.89 0)
+			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1322,8 +1360,8 @@
 		)
 		(instances
 			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707"
-					(reference "#PWR0182")
+				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -1331,7 +1369,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 124.46 123.19 0)
+		(at 92.71 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1340,8 +1378,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96f4f020-2504-496d-a736-17a74068f629")
-		(property "Reference" "C40"
-			(at 125.095 121.285 0)
+		(property "Reference" "C89"
+			(at 93.345 64.135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1352,7 +1390,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 125.095 125.095 0)
+			(at 93.345 67.945 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1363,7 +1401,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 124.46 123.19 0)
+			(at 92.71 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1374,7 +1412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 123.19 0)
+			(at 92.71 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1385,7 +1423,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 124.46 123.19 0)
+			(at 92.71 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1396,7 +1434,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 124.46 123.19 0)
+			(at 92.71 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1407,7 +1445,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 124.46 123.19 0)
+			(at 92.71 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1418,7 +1456,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 124.46 123.19 0)
+			(at 92.71 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1429,7 +1467,7 @@
 			)
 		)
 		(property "rating" ""
-			(at 124.46 123.19 0)
+			(at 92.71 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1447,8 +1485,8 @@
 		)
 		(instances
 			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707"
-					(reference "C40")
+				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -1456,7 +1494,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 151.13 128.27 0)
+		(at 119.38 71.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1466,8 +1504,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd64e606-6d0e-4b37-848f-f5c18d19673e")
-		(property "Reference" "TP34"
-			(at 152.4 124.46 0)
+		(property "Reference" "TP28"
+			(at 120.65 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1478,7 +1516,7 @@
 			)
 		)
 		(property "Value" "DNP"
-			(at 153.67 126.238 0)
+			(at 121.92 69.088 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1489,8 +1527,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 146.05 128.27 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 114.3 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1501,7 +1539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 128.27 0)
+			(at 114.3 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1512,7 +1550,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 128.27 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1523,7 +1561,7 @@
 			)
 		)
 		(property "DNP" "1"
-			(at 151.13 128.27 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1534,7 +1572,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 151.13 128.27 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1545,7 +1583,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 151.13 128.27 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1556,7 +1594,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 151.13 128.27 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1567,7 +1605,7 @@
 			)
 		)
 		(property "rating" ""
-			(at 151.13 128.27 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1578,7 +1616,7 @@
 			)
 		)
 		(property "DNI" "1"
-			(at 151.13 128.27 0)
+			(at 119.38 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1593,8 +1631,8 @@
 		)
 		(instances
 			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707"
-					(reference "TP34")
+				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -1602,7 +1640,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 125.73 0)
+		(at 92.71 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1611,8 +1649,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6782057-3a95-4f34-ad3d-862b12a4ab25")
-		(property "Reference" "#PWR0181"
-			(at 124.46 132.08 0)
+		(property "Reference" "#PWR0154"
+			(at 92.71 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1623,7 +1661,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 129.54 0)
+			(at 92.71 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1633,7 +1671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 125.73 0)
+			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1644,7 +1682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 125.73 0)
+			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1655,7 +1693,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 125.73 0)
+			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1670,11 +1708,27 @@
 		)
 		(instances
 			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707"
-					(reference "#PWR0181")
+				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(group "temperature sensor"
+		(uuid "53c8e427-9642-4919-af9e-4bb8424ff621")
+		(lib_id "schema:temperature sensor")
+		(members "016d544f-f9c5-4fdb-82ce-44fabbaf71bf" "185b365a-49c0-4342-912e-1a8d17899abe"
+			"1bcb13f1-4511-4abf-a8a7-81c584da52d8" "32953a0d-c46c-4d71-85dc-f62d9ba5f684"
+			"3e88a691-d8bc-4558-814b-78b33d873777" "40fcb575-dfe1-443e-b5fa-6d2962601175"
+			"49be8f79-c167-4744-8f0d-fcc31aad9d57" "5d6f1e13-4e32-4348-a67d-2e28d27fb078"
+			"66d9474e-ba3a-42fe-898b-e311352df054" "6e0a6b48-789d-433c-ad8a-6ee7530de2c8"
+			"6fa71171-c74f-4ad9-87d6-a4a0b6105be6" "77676f8c-6c27-43ea-a38f-b20673914060"
+			"77b888ab-c2b0-4b2a-ae20-984d896b7176" "86fed4fb-5628-43ba-b954-80c5b801b1e8"
+			"96f4f020-2504-496d-a736-17a74068f629" "aa26a204-209f-4b72-94c7-56a38b3491b6"
+			"bd64e606-6d0e-4b37-848f-f5c18d19673e" "c5de1fc8-756e-41e8-819c-8a039d580d70"
+			"c71775ed-855b-479d-8a07-d83e38544029" "d069f8e1-d64e-4b11-98e6-e1ab7b1d1b24"
+			"d1c5ca47-ab5c-455d-8a3a-11f4479a7306" "d6782057-3a95-4f34-ad3d-862b12a4ab25"
 		)
 	)
 )

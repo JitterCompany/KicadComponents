@@ -1,0 +1,167 @@
+(footprint "Buzzer_PT-1340P-P10-PQ_14x7.7"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Buzzer, D14mm height 7.7mm")
+	(tags "buzzer")
+	(property "Value" "PT-1340P-P10-PQ_14x7.7"
+		(at 3.81 8.89 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c90f8e25-a3fa-4ad0-8e3a-54d41681290d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mspindy.com/spec-sheets/PT-1340P-P10-PQ.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ec60297-5189-4c84-95cf-5c278d116161")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3a187bf-3c6e-47e7-9155-125ebed8330a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "PT-1340P-P10-PQ"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "339a9d8e-73a9-4ec6-80ae-945ab38a0070")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Manufacturer" "Mallory Sonalert"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d2a61de1-d30f-4639-9c6f-ef21e53e7864")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 5 -8.9 0)
+		(layer "F.SilkS")
+		(uuid "87947a91-77b6-4a81-93b8-107e1efeac21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 5 0)
+		(end 12.25 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eff81d2a-2212-4190-a1c0-afd52cbd8607")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 12.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "619e44df-b011-47c5-94c3-b5d2b6edcf7f")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9e54f3bb-8ee4-4553-b75f-e559d25218a6")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 12 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d9598a88-2a33-498c-9943-e28d9b10cd8a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5 -4 0)
+		(layer "F.Fab")
+		(uuid "d7e4c3bf-cfc8-4ed3-a0ec-baecd0016093")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "0ad84015-de71-4e84-bc64-aaa1df062f38")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 2 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da9e3f28-8b88-4b89-b3e2-cd84eeeae66c")
+	)
+	(embedded_fonts no)
+	(model "${JITTER}/PT-1340P-P10-PQ.step"
+		(offset
+			(xyz 5 0 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

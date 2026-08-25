@@ -2192,7 +2192,7 @@
 		(symbol "MCP9701A_0_1"
 			(rectangle
 				(start -5.08 5.08)
-				(end 5.08 -5.08)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2359,9 +2359,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 7.62 0 180)
+				(at 10.16 0 180)
 				(length 2.54)
-				(name "DQ"
+				(name "VOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
