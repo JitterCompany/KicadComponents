@@ -2,7 +2,7 @@
 	(version 20240108)
 	(generator "jitter-logo-gen")
 	(layer "F.SilkS")
-	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(attr exclude_from_bom exclude_from_pos_files allow_missing_courtyard)
 	(property "Reference" "G***" (at 0 0 0) (layer "F.SilkS") (hide yes) (uuid "00000000-0000-0000-0000-000000000001") (effects (font (size 1 1) (thickness 0.15))))
 	(property "Value" "Jitter-mini" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "00000000-0000-0000-0000-000000000002") (effects (font (size 1 1) (thickness 0.15))))
 	(fp_poly
