@@ -85367,7 +85367,7 @@
 				)
 			)
 		)
-		(property "Value" "swd_with_uart_client"
+		(property "Value" "DEPRECATED"
 			(at 15.24 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85400,6 +85400,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "DEPRECATED - use Jitter_Connectors:Jitter_Debug_ClientSide"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -86345,7 +86356,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -2.54 5.08 0)
 				(length 2.54)
 				(name "RX_from_client"
@@ -86363,7 +86374,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -2.54 7.62 0)
 				(length 2.54)
 				(name "TX_to_client"
