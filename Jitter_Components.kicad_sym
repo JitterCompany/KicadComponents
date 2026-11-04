@@ -22568,7 +22568,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.quectel.com/product/lte-eg915n-series/"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22580,7 +22580,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Quectel EG915N series LTE Cat 1 module (EU, LA, EA), LGA-126. Pins per Hardware Design V1.5. * = not supported yet by Quectel (Aux UART, antenna tuner GRFC, WAKEUP_IN, USIM2_DET): pins set to no-connect. GNSS pins 49/51 only on GNSS variants, ADC 2/24 only on EG915N-EU: use the _NC pin alternate where absent."
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22641,7 +22641,7 @@
 			(pin output line
 				(at -25.4 40.64 0)
 				(length 5.08)
-				(name "PSM_IND"
+				(name "SLEEP_IND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -22673,6 +22673,7 @@
 						)
 					)
 				)
+				(alternate "ADC1_NC" no_connect line)
 			)
 			(pin power_in line
 				(at -12.7 -71.12 90)
@@ -22895,7 +22896,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -25.4 0)
+				(at -25.4 -30.48 0)
 				(length 5.08)
 				(name "PWRKEY"
 					(effects
@@ -22932,7 +22933,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -30.48 0)
+				(at -25.4 -35.56 0)
 				(length 5.08)
 				(name "~{RESET}"
 					(effects
@@ -22950,9 +22951,9 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -43.18 0)
+				(at -25.4 -48.26 0)
 				(length 5.08)
-				(name "W_DISABLE#"
+				(name "~{W_DISABLE}"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -22968,7 +22969,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -40.64 0)
+				(at -25.4 -45.72 0)
 				(length 5.08)
 				(name "AP_READY"
 					(effects
@@ -23022,7 +23023,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -15.24 0)
+				(at -25.4 -20.32 0)
 				(length 5.08)
 				(name "DBG_RXD"
 					(effects
@@ -23040,7 +23041,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -17.78 0)
+				(at -25.4 -22.86 0)
 				(length 5.08)
 				(name "DBG_TXD"
 					(effects
@@ -23074,11 +23075,12 @@
 						)
 					)
 				)
+				(alternate "ADC0_NC" no_connect line)
 			)
-			(pin bidirectional line
-				(at 25.4 -50.8 180)
+			(pin no_connect line
+				(at -25.4 -10.16 0)
 				(length 5.08)
-				(name "GPIO1"
+				(name "AUX_RTS"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -23093,10 +23095,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 25.4 -53.34 180)
+			(pin no_connect line
+				(at -25.4 -12.7 0)
 				(length 5.08)
-				(name "GPIO2"
+				(name "AUX_CTS"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -23111,7 +23113,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at -25.4 -7.62 0)
 				(length 5.08)
 				(name "AUX_TXD"
@@ -23129,7 +23131,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin no_connect line
 				(at -25.4 -5.08 0)
 				(length 5.08)
 				(name "AUX_RXD"
@@ -23385,7 +23387,7 @@
 			(pin input line
 				(at 25.4 5.08 180)
 				(length 5.08)
-				(name "USIM_DET"
+				(name "USIM1_DET"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -23403,7 +23405,7 @@
 			(pin power_out line
 				(at 25.4 15.24 180)
 				(length 5.08)
-				(name "USIM_VDD"
+				(name "USIM1_VDD"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -23421,7 +23423,7 @@
 			(pin output line
 				(at 25.4 10.16 180)
 				(length 5.08)
-				(name "USIM_RST"
+				(name "USIM1_RST"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -23439,7 +23441,7 @@
 			(pin bidirectional line
 				(at 25.4 12.7 180)
 				(length 5.08)
-				(name "USIM_DATA"
+				(name "USIM1_DATA"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -23457,7 +23459,7 @@
 			(pin output clock
 				(at 25.4 7.62 180)
 				(length 5.08)
-				(name "USIM_CLK"
+				(name "USIM1_CLK"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -23475,7 +23477,7 @@
 			(pin power_in line
 				(at -10.16 -71.12 90)
 				(length 5.08)
-				(name "USIM_GND"
+				(name "USIM1_GND"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -23526,6 +23528,7 @@
 						)
 					)
 				)
+				(alternate "ANT_GNSS_NC" no_connect line)
 			)
 			(pin power_in line
 				(at -12.7 -71.12 90)
@@ -23546,11 +23549,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 8.89 -64.77 270)
+			(pin output line
+				(at 25.4 33.02 180)
 				(length 5.08)
-				(hide yes)
-				(name "RESERVED"
+				(name "PPS_GNSS"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -23564,6 +23566,7 @@
 						)
 					)
 				)
+				(alternate "PPS_GNSS_NC" no_connect line)
 			)
 			(pin power_in line
 				(at -2.54 58.42 270)
@@ -23999,7 +24002,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -38.1 0)
+				(at -25.4 -43.18 0)
 				(length 5.08)
 				(name "USB_BOOT"
 					(effects
@@ -24016,10 +24019,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at 25.4 25.4 180)
 				(length 5.08)
-				(name "GRFC1"
+				(name "GRFC_1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -24034,10 +24037,10 @@
 					)
 				)
 			)
-			(pin output line
+			(pin no_connect line
 				(at 25.4 22.86 180)
 				(length 5.08)
-				(name "GRFC2"
+				(name "GRFC_2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -24353,10 +24356,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -25.4 -35.56 0)
+			(pin no_connect line
+				(at -25.4 -40.64 0)
 				(length 5.08)
-				(name "WAKEUP_IN"
+				(name "WAKEUP_IN*"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -24487,10 +24490,10 @@
 			)
 		)
 		(symbol "EG915N_1_0"
-			(pin input line
+			(pin no_connect line
 				(at 25.4 -12.7 180)
 				(length 5.08)
-				(name "USIM2_DET"
+				(name "USIM2_DET*"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -24830,7 +24833,7 @@
 			(pin passive line
 				(at 25.4 -40.64 180)
 				(length 5.08)
-				(name "MC_N"
+				(name "MIC_N"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -24959,7 +24962,7 @@
 			(pin passive line
 				(at 25.4 -38.1 180)
 				(length 5.08)
-				(name "MC_P"
+				(name "MIC_P"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -25009,7 +25012,7 @@
 					(justify left)
 				)
 			)
-			(text "Aux UART"
+			(text "Aux UART*"
 				(at -19.558 -3.302 0)
 				(effects
 					(font
@@ -25021,7 +25024,7 @@
 				)
 			)
 			(text "Debug UART"
-				(at -19.558 -13.462 0)
+				(at -19.558 -18.542 0)
 				(effects
 					(font
 						(size 0.8 0.8)
@@ -25032,7 +25035,7 @@
 				)
 			)
 			(text "State control"
-				(at -19.558 -23.622 0)
+				(at -19.558 -28.702 0)
 				(effects
 					(font
 						(size 0.8 0.8)
@@ -25044,6 +25047,28 @@
 			)
 			(text "RF Interface"
 				(at 19.05 43.18 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+						(thickness 0.16)
+						(bold yes)
+					)
+					(justify right)
+				)
+			)
+			(text "GNSS (GNSS variants)"
+				(at 19.05 37.592 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+						(thickness 0.16)
+						(bold yes)
+					)
+					(justify right)
+				)
+			)
+			(text "Antenna tuner*"
+				(at 19.05 27.432 0)
 				(effects
 					(font
 						(size 0.8 0.8)
@@ -25097,8 +25122,19 @@
 					(justify right)
 				)
 			)
-			(text "GPIO"
+			(text "I2C"
 				(at 19.05 -43.688 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+						(thickness 0.16)
+						(bold yes)
+					)
+					(justify right)
+				)
+			)
+			(text "ADC (EG915N-EU only)"
+				(at 19.05 -56.388 0)
 				(effects
 					(font
 						(size 0.8 0.8)
@@ -87454,6 +87490,190 @@
 			)
 		)
 		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "EG915NEAAC-N05-SNNSA"
+		(extends "EG915N")
+		(property "Reference" "U"
+			(at 2.54 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "EG915NEAAC-N05-SNNSA"
+			(at 2.54 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Jitter_IC:Quectel_LGA126_23.6x19.9x2.4"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.quectel.com/product/lte-eg915n-series/"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quectel EG915N-EA without GNSS: set ANT_GNSS/PPS_GNSS (49/51) and ADC0/ADC1 (24/2) to their _NC alternates."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "EG915NEAAC-N05-SNNSA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Quectel"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Quectel EG915N LTE Cat 1 modem"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "EG915NEAAG-N05-SGNSA"
+		(extends "EG915N")
+		(property "Reference" "U"
+			(at 2.54 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "EG915NEAAG-N05-SGNSA"
+			(at 2.54 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Jitter_IC:Quectel_LGA126_23.6x19.9x2.4"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.quectel.com/product/lte-eg915n-series/"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quectel EG915N-EA with GNSS. ADC 2/24 not supported: set them to ADC0_NC/ADC1_NC."
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "EG915NEAAG-N05-SGNSA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manufacturer" "Quectel"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Quectel EG915N LTE Cat 1 modem"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
