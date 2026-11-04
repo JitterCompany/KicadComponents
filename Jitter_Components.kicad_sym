@@ -22556,7 +22556,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Jitter_Footprints:XCVR_BG95"
+		(property "Footprint" "Jitter_IC:Quectel_LGA126_23.6x19.9x2.4"
 			(at -6.35 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
