@@ -1438,7 +1438,7 @@
 		(symbol "SL_modem_mPCIe_CardSide_0_1"
 			(rectangle
 				(start -10.16 35.56)
-				(end 10.16 -38.1)
+				(end 10.16 -40.64)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1513,6 +1513,17 @@
 					(justify right)
 				)
 			)
+			(text "E: ext. antenna"
+				(at 9.398 -35.814 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+						(thickness 0.16)
+						(bold yes)
+					)
+					(justify right)
+				)
+			)
 		)
 		(symbol "SL_modem_mPCIe_CardSide_1_1"
 			(pin no_connect line
@@ -1572,7 +1583,7 @@
 				(alternate "AUX_UART_RX_NC" no_connect line)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1666,7 +1677,7 @@
 				(alternate "USIM_VDD_NC" no_connect line)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -1780,7 +1791,7 @@
 				(alternate "~{USIM_RST}_NC" no_connect line)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -1837,7 +1848,7 @@
 				(alternate "RI_NC" no_connect line)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -1855,11 +1866,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 0 -35.56 90)
-				(length 0)
-				(hide yes)
-				(name "RFU"
+			(pin bidirectional line
+				(at 12.7 -38.1 180)
+				(length 2.54)
+				(name "~{ANT_EXT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1873,6 +1883,7 @@
 						)
 					)
 				)
+				(alternate "~{ANT_EXT}_NC" no_connect line)
 			)
 			(pin no_connect line
 				(at 2.54 -35.56 90)
@@ -1894,7 +1905,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -1987,7 +1998,7 @@
 				(alternate "UART_RTS_NC" no_connect line)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -2006,7 +2017,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -2044,7 +2055,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -2138,7 +2149,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -2157,7 +2168,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -2195,7 +2206,7 @@
 				(alternate "USB_DM_NC" no_connect line)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -2252,7 +2263,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -2309,7 +2320,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -2442,7 +2453,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -2499,7 +2510,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -40.64 90)
+				(at -5.08 -43.18 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -2607,7 +2618,7 @@
 		(symbol "SL_modem_mPCIe_HostSide_0_1"
 			(rectangle
 				(start -15.24 25.4)
-				(end 15.24 -17.78)
+				(end 15.24 -20.32)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2640,6 +2651,17 @@
 			)
 			(text "P: PPS"
 				(at -13.97 -10.922 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+						(thickness 0.16)
+						(bold yes)
+					)
+					(justify left)
+				)
+			)
+			(text "E: ext. antenna"
+				(at -13.97 -16.002 0)
 				(effects
 					(font
 						(size 0.8 0.8)
@@ -2741,7 +2763,7 @@
 				(alternate "AUX_UART_RX_NC" no_connect line)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2835,7 +2857,7 @@
 				(alternate "USIM_VDD_NC" no_connect line)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -2949,7 +2971,7 @@
 				(alternate "~{USIM_RST}_NC" no_connect line)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -3006,7 +3028,7 @@
 				(alternate "RI_NC" no_connect line)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -3024,11 +3046,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -7.62 -15.24 90)
-				(length 0)
-				(hide yes)
-				(name "RFU"
+			(pin bidirectional line
+				(at -17.78 -17.78 0)
+				(length 2.54)
+				(name "~{ANT_EXT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3042,6 +3063,7 @@
 						)
 					)
 				)
+				(alternate "~{ANT_EXT}_NC" no_connect line)
 			)
 			(pin no_connect line
 				(at -5.08 -15.24 90)
@@ -3063,7 +3085,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -3156,7 +3178,7 @@
 				(alternate "UART_RTS_NC" no_connect line)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -3175,7 +3197,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -3213,7 +3235,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -3307,7 +3329,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -3326,7 +3348,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -3364,7 +3386,7 @@
 				(alternate "USB_DM_NC" no_connect line)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -3421,7 +3443,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -3478,7 +3500,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -3611,7 +3633,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -3668,7 +3690,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -22.86 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
