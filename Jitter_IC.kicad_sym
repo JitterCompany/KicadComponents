@@ -10653,7 +10653,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -5.08 0)
+				(at -15.24 -12.7 0)
 				(length 2.54)
 				(name "DEVSLP"
 					(effects
