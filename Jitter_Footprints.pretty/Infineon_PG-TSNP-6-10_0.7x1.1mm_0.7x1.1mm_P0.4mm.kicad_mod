@@ -57,7 +57,7 @@
     (thermal_bridge_angle 45) (tstamp 5ca166d2-c18d-49d0-98b5-feb527ecefb5))
   (pad "6" smd roundrect (at 0.2 -0.4) (size 0.25 0.25) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp b9bed350-55e4-40c9-8e12-c5354c018471))
-  (model ":JITTER:Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm.wrl"
+  (model "${JITTER}/Infineon_PG-TSNP-6-10_0.7x1.1mm_0.7x1.1mm_P0.4mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
