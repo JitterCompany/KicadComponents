@@ -13205,7 +13205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+		(property "Footprint" "Jitter_Footprints:DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 0 -19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
