@@ -101,4 +101,9 @@
     (solder_mask_margin 0.102) (tstamp f5fce996-93ff-44a1-862c-5ebda1985553))
   (pad "7" smd rect (at 0.975 -0.75) (size 0.45 0.25) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp 993edd64-ab16-405d-aa36-5bfa58e63f7f))
+  (model "${JITTER}/RWU0007A.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
