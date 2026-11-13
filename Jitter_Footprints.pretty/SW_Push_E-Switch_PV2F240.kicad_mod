@@ -154,7 +154,7 @@
 		(thermal_gap 0.6)
 		(uuid "22793ddf-4fce-4953-bbee-bb6cd82d0a7c")
 	)
-	(model ":JITTER:PV2F240xx.stp"
+	(model "${JITTER}/PV2F240xx.stp"
 		(offset
 			(xyz 0 0 2)
 		)

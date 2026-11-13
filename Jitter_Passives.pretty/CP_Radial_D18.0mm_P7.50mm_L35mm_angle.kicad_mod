@@ -252,7 +252,7 @@
 		(remove_unused_layers no)
 		(uuid "ef1b8ee6-1dd3-452f-a546-e50ac08326f0")
 	)
-	(model ":JITTER:ElCapLA-7.5-18x35-black.step"
+	(model "${JITTER}/ElCapLA-7.5-18x35-black.step"
 		(offset
 			(xyz 3.75 0 -0.25)
 		)

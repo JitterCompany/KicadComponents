@@ -227,7 +227,7 @@
 		(zone_connect 1)
 		(uuid "bac48d2f-0075-4dec-aa8d-d92a698bae25")
 	)
-	(model ":JITTER:M12B-05PFFP-SF8001.stp"
+	(model "${JITTER}/M12B-05PFFP-SF8001.stp"
 		(offset
 			(xyz 0 0 23.1)
 		)

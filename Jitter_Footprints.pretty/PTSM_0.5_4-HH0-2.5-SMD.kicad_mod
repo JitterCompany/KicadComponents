@@ -421,7 +421,7 @@
 		(roundrect_rratio 0.167)
 		(uuid "07a15dfa-b8ab-4137-b6c0-76e7d6eb7835")
 	)
-	(model ":JITTER:PTSM_0.5_4-HH0-2.5-SMD.STEP"
+	(model "${JITTER}/PTSM_0.5_4-HH0-2.5-SMD.STEP"
 		(offset
 			(xyz 5.8 -3.75 0)
 		)

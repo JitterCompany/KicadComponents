@@ -492,7 +492,7 @@
 		(remove_unused_layers no)
 		(uuid "65f7412f-ab69-4794-8ec5-d1099125662b")
 	)
-	(model ":JITTER:1053091202.stp"
+	(model "${JITTER}/1053091202.stp"
 		(offset
 			(xyz -0 -1.25 4.9)
 		)

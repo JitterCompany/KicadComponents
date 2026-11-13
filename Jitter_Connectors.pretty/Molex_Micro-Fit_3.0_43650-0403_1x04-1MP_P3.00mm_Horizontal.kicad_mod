@@ -101,7 +101,7 @@
       )
     )
   )
-  (model ":JITTER:43650-0403.stp"
+  (model "${JITTER}/43650-0403.stp"
     (offset (xyz 4.52 3.96 2.37))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

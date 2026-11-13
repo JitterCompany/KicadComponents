@@ -48,7 +48,7 @@
   (pad "7" smd roundrect (at 1.4 -0.325) (size 0.6 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667) (tstamp 8c3b27d9-d386-4342-b9ae-97b82468c97e))
   (pad "8" smd roundrect (at 1.4 -0.975) (size 0.6 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667) (tstamp 498e5765-b5ec-4f30-9433-0fdfab935edb))
   (pad "9" smd roundrect (at 0 0) (size 1.65 2.4) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.0303030303) (tstamp ab37a3e1-4086-4baf-a7dc-59c0d43ce070))
-  (model ":JITTER:TI_VSON8-3x3.stp"
+  (model "${JITTER}/TI_VSON8-3x3.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

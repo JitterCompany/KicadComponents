@@ -550,7 +550,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "61e2f0c5-2d5c-492c-995f-4ae47153c9aa")
 	)
-	(model ":JITTER:FH12-30S-0.5SV.stp"
+	(model "${JITTER}/FH12-30S-0.5SV.stp"
 		(offset
 			(xyz -13.35 4 0.5)
 		)

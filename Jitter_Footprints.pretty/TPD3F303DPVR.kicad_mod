@@ -879,7 +879,7 @@
   (pad "7" smd roundrect (at 0.725 -0.25 270) (size 0.3 0.55) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.3) (tstamp 59950388-61fe-416c-8e0c-48d346a1c6e1))
   (pad "8" smd roundrect (at 0.725 -0.75 270) (size 0.3 0.55) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.3) (tstamp d6f1b610-2178-41b1-a469-064e59ea297f))
   (pad "9" smd roundrect (at 0.000001 -0.000003) (size 0.399999 1.699999) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.49999625) (tstamp 55b06da0-4bb7-4b2b-a39b-b2a30d4adea3))
-  (model ":JITTER:TPD3F303DPVR.step"
+  (model "${JITTER}/TPD3F303DPVR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -271,7 +271,7 @@
 		(remove_unused_layers no)
 		(uuid "30d686b6-b79d-4837-a792-ba6d6ea1579e")
 	)
-	(model ":JITTER:PreciDip_811_6P.step"
+	(model "${JITTER}/PreciDip_811_6P.step"
 		(offset
 			(xyz 0 0 0)
 		)

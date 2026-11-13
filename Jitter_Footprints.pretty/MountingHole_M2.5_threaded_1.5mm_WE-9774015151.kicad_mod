@@ -335,7 +335,7 @@
 		(zone_connect 2)
 		(uuid "8b398016-aadf-4217-94fe-d6b9f3981971")
 	)
-	(model ":JITTER:spacer_M2.5x1.5mm_Wurth_9774015151R.step"
+	(model "${JITTER}/spacer_M2.5x1.5mm_Wurth_9774015151R.step"
 		(offset
 			(xyz 0 0 0)
 		)

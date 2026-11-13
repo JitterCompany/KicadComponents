@@ -76,7 +76,7 @@
   (pad "1" smd roundrect (at 0.25 1.225) (size 2.4 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 77fdca82-18c5-42c7-b525-1ad163c85f18))
   (pad "2" smd roundrect (at -1.9 0) (size 1.2 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 0fa0ef3b-a818-4956-92a3-9d3468164575))
   (pad "3" smd roundrect (at 0.25 -1.225) (size 2.4 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 1306541e-534f-4f16-904f-7b7f33a2d7cf))
-  (model ":JITTER:SCF4030-12-02.stp"
+  (model "${JITTER}/SCF4030-12-02.stp"
     (offset (xyz 1.7 -1.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

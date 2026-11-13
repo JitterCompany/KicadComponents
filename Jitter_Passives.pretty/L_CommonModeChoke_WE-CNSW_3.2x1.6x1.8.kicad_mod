@@ -235,7 +235,7 @@
 		(uuid "58093328-e342-4c2c-8485-5ad77ae5d591")
 	)
 	(embedded_fonts no)
-	(model ":JITTER:WE-CNSW_1206_CNSW.stp"
+	(model "${JITTER}/WE-CNSW_1206_CNSW.stp"
 		(offset
 			(xyz 0 0 1.22)
 		)

@@ -54,7 +54,7 @@
   (pad "7" smd roundrect (at 3.75 -0.635) (size 0.65 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 4122bf6b-da49-4555-b376-b6ae7519eb87))
   (pad "8" smd roundrect (at 3.75 -1.905) (size 0.65 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 9d9c0175-c3dd-4005-aaad-adcd9eeeff82))
   (pad "9" smd rect (at 0 0) (size 3.4 4.3) (layers "F.Cu" "F.Mask") (tstamp a91cb8bf-8266-469e-80e9-284529d39dc6))
-  (model ":JITTER:WSON8-8x6.step"
+  (model "${JITTER}/WSON8-8x6.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

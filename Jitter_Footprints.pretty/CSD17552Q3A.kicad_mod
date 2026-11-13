@@ -85,7 +85,7 @@
     (solder_mask_margin -0.05) (solder_paste_margin -0.05) (tstamp 27b3556a-b04e-43ba-8ad0-50a6d9355754))
   (pad "5" smd roundrect (at 1.45 0.975 90) (size 0.4 0.9) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25)
     (solder_mask_margin -0.05) (solder_paste_margin -0.05) (tstamp e4c0df52-6b00-435e-abd9-7f9d1cd4a4f6))
-  (model ":JITTER:CSD17552Q3A.stp"
+  (model "${JITTER}/CSD17552Q3A.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

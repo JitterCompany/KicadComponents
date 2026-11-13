@@ -23,7 +23,7 @@
   )
   (fp_rect (start -32.5 -9) (end 32.5 9)
     (stroke (width 0.12) (type default)) (fill none) (layer "Cmts.User") (tstamp 46997c9a-e1a1-4408-828e-52ad4a7c23e0))
-  (model ":JITTER:18650.step"
+  (model "${JITTER}/18650.step"
     (offset (xyz -32.5 0 9.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))

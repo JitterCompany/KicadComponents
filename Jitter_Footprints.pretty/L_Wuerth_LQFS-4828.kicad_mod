@@ -198,7 +198,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "fd27c003-cf26-450c-959b-51394342c4ea")
 	)
-	(model ":JITTER:WE-LQFS-4828.stp"
+	(model "${JITTER}/WE-LQFS-4828.stp"
 		(offset
 			(xyz -0.4 0.7 0)
 		)

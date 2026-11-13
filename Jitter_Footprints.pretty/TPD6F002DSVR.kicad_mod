@@ -124,7 +124,7 @@
   (pad "13" smd rect (at 0 -1.35) (size 0.35 0.3) (layers "F.Cu" "F.Mask") (tstamp feadd096-e755-4a14-9956-f6d962e53900))
   (pad "13" smd rect (at 0 0) (size 0.35 2) (layers "F.Cu" "F.Mask") (tstamp 80d14391-4724-446c-b7ab-f1f0735d4188))
   (pad "13" smd rect (at 0 1.35) (size 0.35 0.3) (layers "F.Cu" "F.Mask") (tstamp 79796d32-00ac-4ec0-8f61-821b2126444c))
-  (model ":JITTER:WSON-12_3x1.35mm_P0.5mm.step"
+  (model "${JITTER}/WSON-12_3x1.35mm_P0.5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
