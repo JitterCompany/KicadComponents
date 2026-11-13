@@ -75,7 +75,7 @@
     (stroke (width 0.05) (type solid)) (layer "F.Fab") (tstamp 04370d07-9e6f-4b53-8e2e-bf024612e77e))
   (pad "1" smd rect (at -1.98 0) (size 3.96 2.34) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b934ae71-a698-4d85-93c2-dfbfb306831b))
   (pad "1" smd rect (at 9.63 0) (size 3.96 5.08) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4fb23909-8be8-4a17-a3aa-c1edb45fe02c))
-  (model ":JITTER:keystone_57_re_preloaded.step"
+  (model "${JITTER}/keystone_57_re_preloaded.step"
     (offset (xyz 3.82 0 -0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 0))

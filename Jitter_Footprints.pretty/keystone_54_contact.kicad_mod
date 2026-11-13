@@ -64,7 +64,7 @@
   (pad "1" thru_hole circle (at 0 -2.54) (size 2.55 2.55) (drill 1.85) (layers "*.Cu" "*.Mask") (tstamp c730c3f2-f510-44e6-923c-deecb5b309f9))
   (pad "1" thru_hole circle (at 0 2.54) (size 2.55 2.55) (drill 1.85) (layers "*.Cu" "*.Mask") (tstamp 25122997-0804-4303-8478-ad9435bb2af8))
   (pad "1" thru_hole circle (at 7.62 0) (size 2.55 2.55) (drill 1.85) (layers "*.Cu" "*.Mask") (tstamp ac4b73da-93fa-419a-8ed0-655ff3378486))
-  (model ":JITTER:keystone_54_batteryclip_18650.step"
+  (model "${JITTER}/keystone_54_batteryclip_18650.step"
     (offset (xyz 2.95 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

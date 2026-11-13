@@ -45,7 +45,7 @@
     )
 
     (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp ad7a51cb-dc31-4c31-b588-9de39fad552a))
-  (model ":JITTER:mPCIe-spec.STEP"
+  (model "${JITTER}/mPCIe-spec.STEP"
     (offset (xyz -25.76 -16.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

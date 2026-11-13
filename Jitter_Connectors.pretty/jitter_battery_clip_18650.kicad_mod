@@ -43,12 +43,12 @@
     (stroke (width 0.05) (type solid)) (layer "Edge.Cuts") (tstamp 0bbc84f2-c819-4c98-ade9-72a623acbcb6))
   (fp_rect (start -1.9 -13.4) (end 1.9 13.4)
     (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 1d37c373-3303-432d-83ed-4f806cbd6edb))
-  (model ":JITTER:jitter_batt_clip_18650_clamped.step"
+  (model "${JITTER}/jitter_batt_clip_18650_clamped.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 -90 0))
   )
-  (model ":JITTER:jitter_batt_clip_18650_empty.step" hide
+  (model "${JITTER}/jitter_batt_clip_18650_empty.step" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 -90 0))

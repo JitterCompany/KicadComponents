@@ -301,7 +301,7 @@
 		(remove_unused_layers no)
 		(uuid "f0322775-95cb-4ba9-a6ee-d176b2798828")
 	)
-	(model ":JITTER:691361100002_Wurth_WR-1x02_Plug.stp"
+	(model "${JITTER}/691361100002_Wurth_WR-1x02_Plug.stp"
 		(offset
 			(xyz 1.75 -0.7 14.6)
 		)
@@ -312,7 +312,7 @@
 			(xyz -90 0 180)
 		)
 	)
-	(model ":JITTER:691321100002_Wurth_WR-1x02P3.50mm_Vertical.stp"
+	(model "${JITTER}/691321100002_Wurth_WR-1x02P3.50mm_Vertical.stp"
 		(offset
 			(xyz 1.75 0.8 4.65)
 		)

@@ -682,7 +682,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "6ba0ddd4-5316-445a-a171-089a81bea894")
 	)
-	(model ":JITTER:microSD_Wurth_693071010811.stp"
+	(model "${JITTER}/microSD_Wurth_693071010811.stp"
 		(offset
 			(xyz -2.1 0.7 0)
 		)
@@ -693,7 +693,7 @@
 			(xyz 0 0 -180)
 		)
 	)
-	(model ":JITTER:MicroSD.stp"
+	(model "${JITTER}/MicroSD.stp"
 		(offset
 			(xyz -1.2 -1.8 0.65)
 		)

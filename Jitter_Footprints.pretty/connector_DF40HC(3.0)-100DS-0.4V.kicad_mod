@@ -2044,7 +2044,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "94947970-4169-44c7-a075-c176da74cf07")
 	)
-	(model ":JITTER:DF40HC(3.0)-100DS-0.4V.stp"
+	(model "${JITTER}/DF40HC(3.0)-100DS-0.4V.stp"
 		(offset
 			(xyz 0 -0.115 1.5)
 		)

@@ -467,7 +467,7 @@
 		(remove_unused_layers no)
 		(uuid "11493ca2-066b-430f-b8f3-9aea7b7ee18f")
 	)
-	(model ":JITTER:TE_640456-8.step"
+	(model "${JITTER}/TE_640456-8.step"
 		(offset
 			(xyz -8.9 0.45 2.54)
 		)

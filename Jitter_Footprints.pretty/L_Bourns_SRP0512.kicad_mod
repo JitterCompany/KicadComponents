@@ -45,7 +45,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f754e1cf-c5c0-41f7-9d3f-58ff77b604b4))
   (pad "1" smd rect (at -2.15 0) (size 1.5 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f99bd684-afa1-4286-a12f-ff6d1c9fece6))
   (pad "2" smd rect (at 2.15 0) (size 1.5 3.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ccbc771a-57e4-45bc-8394-9c546ab73570))
-  (model ":JITTER:SRP0512.stp"
+  (model "${JITTER}/SRP0512.stp"
     (offset (xyz 0 1.225 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))

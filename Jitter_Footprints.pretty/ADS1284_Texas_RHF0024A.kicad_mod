@@ -446,7 +446,7 @@
 		(roundrect_rratio 0.01886792453)
 		(uuid "30886188-adc9-4176-8777-70d83e5798b6")
 	)
-	(model ":JITTER:ADS1284IRHFT.stp"
+	(model "${JITTER}/ADS1284IRHFT.stp"
 		(offset
 			(xyz 0 0 0)
 		)

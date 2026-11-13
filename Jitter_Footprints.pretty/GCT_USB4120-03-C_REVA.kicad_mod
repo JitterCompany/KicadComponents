@@ -430,7 +430,7 @@
 		(remove_unused_layers no)
 		(uuid "2bf73d8b-2dde-4f3d-96ff-79d35a75b835")
 	)
-	(model ":JITTER:GCT_USB4120-03-C_REVA.step"
+	(model "${JITTER}/GCT_USB4120-03-C_REVA.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -85,7 +85,7 @@
     (thermal_bridge_angle 45) (tstamp 8a1fabb8-c0c8-4fb0-952e-b9146d4e31a0))
   (pad "2" smd roundrect (at 3.7 0.75) (size 1.6 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 4e93740b-dd39-4073-b970-429a7e4cafb5))
-  (model ":JITTER:TCO_Bourns_SA_series.step"
+  (model "${JITTER}/TCO_Bourns_SA_series.step"
     (offset (xyz -2.7 -1.6 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

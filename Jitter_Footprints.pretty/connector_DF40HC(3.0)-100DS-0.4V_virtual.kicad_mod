@@ -154,7 +154,7 @@
 			)
 		)
 	)
-	(model ":JITTER:DF40HC(3.0)-100DS-0.4V.stp"
+	(model "${JITTER}/DF40HC(3.0)-100DS-0.4V.stp"
 		(offset
 			(xyz 0 -0.115 1.5)
 		)

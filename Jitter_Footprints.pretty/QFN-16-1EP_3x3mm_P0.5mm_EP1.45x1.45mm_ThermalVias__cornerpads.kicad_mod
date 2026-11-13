@@ -448,7 +448,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "fc4ea778-a563-4b9e-9c6b-9eb83d33c9a5")
 	)
-	(model ":JITTER:QFN16_3x3.STEP"
+	(model "${JITTER}/QFN16_3x3.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -279,7 +279,7 @@
 		(uuid "21432707-e462-4e5d-aa57-6cc480f1383e")
 	)
 	(embedded_fonts no)
-	(model ":JITTER:Honeywell_ABP2-L-SN_SMT_leadles.step"
+	(model "${JITTER}/Honeywell_ABP2-L-SN_SMT_leadles.step"
 		(offset
 			(xyz -4.9345 5.888570925 0)
 		)

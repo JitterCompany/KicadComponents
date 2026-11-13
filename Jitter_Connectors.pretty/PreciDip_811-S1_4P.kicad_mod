@@ -47,7 +47,7 @@
   (pad "2" smd circle (at 0 -1.27) (size 2 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 952c3514-3c40-4b94-b021-dcefee4abb68))
   (pad "3" smd circle (at 0 1.27) (size 2 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f5ab8f6b-c3de-4b77-831b-e6c86ab28908))
   (pad "4" smd circle (at 0 3.81) (size 2 2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c40871c5-d91d-4d77-b45c-e8d899020f7b))
-  (model ":JITTER:slc_connector_811-s1-004-30-014101.stp"
+  (model "${JITTER}/slc_connector_811-s1-004-30-014101.stp"
     (offset (xyz 0 0 0.45))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

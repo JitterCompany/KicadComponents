@@ -294,7 +294,7 @@
 		(remove_unused_layers no)
 		(uuid "d48fd711-d1eb-45cd-b069-cfe49dd386aa")
 	)
-	(model ":JITTER:Harting_09185066324.STP"
+	(model "${JITTER}/Harting_09185066324.STP"
 		(offset
 			(xyz 1.25 -2.5 9.4)
 		)

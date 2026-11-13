@@ -72,7 +72,7 @@
   (pad "1" smd rect (at 8.15 0) (size 1 3.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e154cc0b-7ea8-4560-8b36-4a0adb13e111))
   (pad "1" smd rect (at 8.15 5.875) (size 1 3.55) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 440b08ac-94dc-4048-b10d-4e31bb0e999a))
   (pad "1" smd rect (at 8.15 8.15) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp eccafefc-3c46-40ce-a865-5b94f021f7b7))
-  (model ":JITTER:Laird_BMI-S-202-F.STP"
+  (model "${JITTER}/Laird_BMI-S-202-F.STP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
