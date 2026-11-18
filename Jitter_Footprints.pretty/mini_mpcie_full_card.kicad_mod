@@ -1,6 +1,6 @@
 (footprint "mini_mpcie_full_card" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr through_hole)
+  (attr through_hole allow_missing_courtyard)
   (fp_text reference "Ref**" (at 12.15 -15.2 90) (layer "F.SilkS")
       (effects (font (size 1.524 1.524) (thickness 0.15)))
     (tstamp ebd2fa7c-2f95-4ccc-9204-d154bad00f9f)
