@@ -1,0 +1,13 @@
+doc_id       = "Littelfuse XtremeGuard XGD datasheet"
+manufacturer = ""
+origin       = "manual"
+extracted_by = "S de Wit"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  part         = "XGD10402KR"
+  package      = "R_0402_1005Metric"
+  mpns         = ["XGD10402KR"]
+  confidence   = "manual"
+  marked       = "none"

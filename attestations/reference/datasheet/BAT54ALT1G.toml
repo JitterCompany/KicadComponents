@@ -1,0 +1,24 @@
+doc_id       = "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+manufacturer = "onsemi"
+origin       = "manual"
+extracted_by = "S de Wit"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  part         = "BAT54ALT1G"
+  package      = "SOT-23"
+  mpns         = ["BAT54ALT1G"]
+  source       = ""
+  confidence   = "manual"
+  pin_count    = 3
+
+    [variant.pins]
+    1 = "C2"
+    2 = "C1"
+    3 = "A"
+
+    [variant.symbol_alias]
+    1 = ""   # datasheet: C2
+    2 = ""   # datasheet: C1
+    3 = ""   # datasheet: A

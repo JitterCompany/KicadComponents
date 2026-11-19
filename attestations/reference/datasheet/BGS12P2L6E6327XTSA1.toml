@@ -1,0 +1,22 @@
+# provenance: family-only — a series document for 'BGS12P2L6'; it never prints the full order code 'BGS12P2L6E6327XTSA1' -- confirm it covers this variant
+
+doc_id       = "https://www.infineon.com/dgdl/Infineon-BGS12P2L6-DataSheet-v02_00-EN.pdf"
+manufacturer = ""
+origin       = "datasheet"
+extracted_by = "bomcheck-extract"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  package      = ""
+  mpns         = ["BGS12P2L6E6327XTSA1"]
+  source       = "pages auto"
+  confidence   = "reviewed"
+
+    [variant.pins]
+    1 = "RF2"
+    2 = "GND"
+    3 = "RF1"
+    4 = "VDD"
+    5 = "RFin"
+    6 = "CTRL"

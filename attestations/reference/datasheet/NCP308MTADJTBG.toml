@@ -1,0 +1,26 @@
+doc_id       = "https://www.onsemi.com/download/data-sheet/pdf/ncp308-d.pdf"
+manufacturer = ""
+origin       = "manual"
+extracted_by = "S de Wit"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  part         = "NCP308MTADJTBG"
+  package      = "WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+  mpns         = ["NCP308MTADJTBG"]
+  source       = ""
+  confidence   = "manual"
+  pin_count    = 7
+
+    [variant.pins]
+    1 = "vdd"
+    2 = "sense"
+    3 = "ct"
+    4 = "~MR"
+    5 = "GND"
+    6 = "~RESET"
+    7 = "EXP-PAD"
+
+    [variant.symbol_alias]
+    7 = "EP"   # datasheet: EXP-PAD

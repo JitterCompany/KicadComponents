@@ -1,0 +1,22 @@
+doc_id       = "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
+manufacturer = ""
+origin       = "manual"
+extracted_by = "S de Wit"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  part         = "NX3008NBKSH"
+  package      = "SOT-363_SC-70-6"
+  mpns         = ["NX3008NBKSH"]
+  source       = ""
+  confidence   = "manual"
+  pin_count    = 6
+
+    [variant.pins]
+    1 = "s1"
+    2 = "g1"
+    3 = "d2"
+    4 = "s2"
+    5 = "g2"
+    6 = "d1"

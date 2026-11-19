@@ -1,0 +1,14 @@
+doc_id       = "https://search.kemet.com/download/specsheet/T527I107M006ATE070"
+manufacturer = ""
+origin       = "manual"
+extracted_by = "S de Wit"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  mark         = "band"
+  part         = "T527I107M006ATE070"
+  package      = "CP_EIA-3216-10_Kemet-I"
+  mpns         = ["T527I107M006ATE070"]
+  confidence   = "manual"
+  marked       = "plus"

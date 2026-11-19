@@ -1,0 +1,14 @@
+doc_id       = "https://search.kemet.com/component-documentation/download/specsheet/T520B337M006ATE040"
+manufacturer = ""
+origin       = "manual"
+extracted_by = "S de Wit"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  mark         = "band"
+  part         = "T520B337M006ATE040"
+  package      = "CP_EIA-3528-21_Kemet-B"
+  mpns         = ["T520B337M006ATE040"]
+  confidence   = "manual"
+  marked       = "plus"
