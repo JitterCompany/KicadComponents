@@ -1,0 +1,41 @@
+# provenance: confirmed — TPS25940LRVCR appears as a whole token on page(s) 43, 45, 46
+
+doc_id       = "https://www.ti.com/lit/ds/symlink/tps25940.pdf"
+manufacturer = "Texas Instruments"
+origin       = "datasheet"
+extracted_by = "bomcheck-extract"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  package      = ""
+  mpns         = ["TPS25940LRVCR"]
+  source       = "pages auto"
+  confidence   = "reviewed"
+  pin_count    = 21   # from the orderable-parts table, plus 1 exposed pad(s), never the symbol
+
+    [variant.pins]
+    1 = "DEVSLP"
+    2 = "PGOOD"
+    3 = "PGTH"
+    4 = "OUT"
+    5 = "OUT"
+    6 = "OUT"
+    7 = "OUT"
+    8 = "OUT"
+    9 = "IN"
+    10 = "IN"
+    11 = "IN"
+    12 = "IN"
+    13 = "IN"
+    14 = "EN/UVLO"
+    15 = "OVP"
+    16 = "GND"
+    17 = "ILIM"
+    18 = "dVdT"
+    19 = "IMON"
+    20 = "FLT"
+    21 = "powerpad"   # typed by hand
+
+    [variant.symbol_alias]
+    21 = "GND"   # datasheet: powerpad

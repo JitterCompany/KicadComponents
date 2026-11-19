@@ -1,0 +1,37 @@
+doc_id       = "https://assets.nexperia.com/documents/data-sheet/NXU0204.pdf"
+manufacturer = "Nexperia"
+origin       = "manual"
+extracted_by = "S de Wit"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  part         = "NXU0204BQX"
+  package      = "DHVQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
+  mpns         = ["NXU0204BQX"]
+  source       = ""
+  confidence   = "manual"
+  pin_count    = 15
+
+    [variant.pins]
+    1 = "vccA"
+    2 = "a1"
+    3 = "a2"
+    4 = "ya3"
+    5 = "ya4"
+    6 = "nc"
+    7 = "GND"
+    8 = "OE"
+    9 = "nc"
+    10 = "b4"
+    11 = "b3"
+    12 = "yb2"
+    13 = "yb1"
+    14 = "vccB"
+    15 = "GND/EP"
+
+    [variant.symbol_alias]
+    4 = "A3Y"   # datasheet: ya3
+    5 = "A4Y"   # datasheet: ya4
+    12 = "B2Y"   # datasheet: yb2
+    13 = "B1Y"   # datasheet: yb1

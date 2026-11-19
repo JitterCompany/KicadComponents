@@ -1,0 +1,26 @@
+doc_id       = "GCT SIM8051 Nano SIM Connector drawing (2013)"
+manufacturer = ""
+origin       = "manual"
+extracted_by = "S de Wit"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  part         = "SIM8051-6-0-14-01-A"
+  package      = "nanoSIM_SIM8051-6-0-14_small_court"
+  mpns         = ["SIM8051-6-0-14-01-A"]
+  source       = ""
+  confidence   = "manual"
+  pin_count    = 7
+
+    [variant.pins]
+    1 = "C1"
+    2 = "C2"
+    3 = "C3"
+    5 = "C5"
+    6 = "C6"
+    7 = "C7"
+    SH = "SH"
+
+    [variant.symbol_alias]
+    SH = "SHIELD"   # datasheet: SH

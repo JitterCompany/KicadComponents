@@ -1,0 +1,24 @@
+# provenance: confirmed — TPS61022RWUT appears as a whole token on page(s) 24
+
+doc_id       = "https://www.ti.com/lit/ds/symlink/tps61022.pdf"
+manufacturer = ""
+origin       = "datasheet"
+extracted_by = "bomcheck-extract"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  package      = ""
+  mpns         = ["TPS61022RWUT"]
+  source       = "pages auto"
+  confidence   = "reviewed"
+  pin_count    = 7   # from the orderable-parts table, never the symbol
+
+    [variant.pins]
+    1 = "GND"
+    2 = "SW"
+    3 = "VOUT"
+    4 = "FB"
+    5 = "EN"
+    6 = "MODE"
+    7 = "VIN"

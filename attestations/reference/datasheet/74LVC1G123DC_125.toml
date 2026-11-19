@@ -1,0 +1,24 @@
+doc_id       = "https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf"
+manufacturer = "Nexperia"
+origin       = "manual"
+extracted_by = "S de Wit"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  part         = "74LVC1G123DC,125"
+  package      = "VSSOP-8_2.3x2mm_P0.5mm"
+  mpns         = ["74LVC1G123DC,125"]
+  source       = ""
+  confidence   = "manual"
+  pin_count    = 8
+
+    [variant.pins]
+    1 = "~A"
+    2 = "B"
+    3 = "~CLR"
+    4 = "GND"
+    5 = "Q"
+    6 = "CEXT"
+    7 = "REXT/CEXT"
+    8 = "VCC"

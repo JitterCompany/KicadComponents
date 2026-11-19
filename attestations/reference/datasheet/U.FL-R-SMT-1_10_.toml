@@ -1,0 +1,21 @@
+doc_id       = "https://static.datasheets.com/doc/25794430-hirose-u.fl-r-smt-1-10--ds.pdf"
+manufacturer = ""
+origin       = "manual"
+extracted_by = "S de Wit"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  part         = "U.FL-R-SMT-1(10)"
+  package      = "U.FL_Hirose_U.FL-R-SMT-1_Vertical_With_Ground_Plane_L2void"
+  mpns         = ["U.FL-R-SMT-1(10)"]
+  source       = ""
+  confidence   = "manual"
+  pin_count    = 2
+
+    [variant.pins]
+    1 = "center"
+    2 = "shield"
+
+    [variant.symbol_alias]
+    1 = "A"   # datasheet: center

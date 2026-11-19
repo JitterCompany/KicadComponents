@@ -1,0 +1,35 @@
+# provenance: confirmed — TPD4E05U06QDQARQ1 appears as a whole token on page(s) 15, 17, 18
+
+doc_id       = "https://www.ti.com/lit/ds/symlink/tpd1e05u06-q1.pdf"
+manufacturer = ""
+origin       = "datasheet"
+extracted_by = "bomcheck-extract"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-19"
+
+  [[variant]]
+  package      = ""
+  mpns         = ["TPD4E05U06QDQARQ1"]
+  source       = "pages auto"
+  confidence   = "reviewed"
+  pin_count    = 10   # from the orderable-parts table, never the symbol
+
+    [variant.pins]
+    1 = "D1+"
+    2 = "D1-"
+    3 = "GND"
+    4 = "D2+"
+    5 = "D2-"
+    6 = "NC"
+    7 = "NC"
+    8 = "GND"
+    9 = "NC"
+    10 = "NC"
+
+    [variant.symbol_alias]
+    1 = "IO1"   # datasheet: D1+
+    2 = "IO2"   # datasheet: D1-
+    3 = "G"   # datasheet: GND
+    4 = "IO3"   # datasheet: D2+
+    5 = "IO4"   # datasheet: D2-
+    8 = "G"   # datasheet: GND
