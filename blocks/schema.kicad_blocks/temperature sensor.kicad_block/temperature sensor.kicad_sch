@@ -1061,14 +1061,6 @@
 		(pin "1"
 			(uuid "87009d9c-5582-4b83-8227-3cdea52c3d13")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
-					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Jitter_IC:MCP9701A")
@@ -1204,14 +1196,6 @@
 		(pin "5"
 			(uuid "18d6ab4a-5f0e-4058-ae47-702e1a208c89")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
-					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1281,14 +1265,6 @@
 		(pin "1"
 			(uuid "242231cc-7762-43bf-8aad-5ced13c1a528")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
-					(reference "#PWR0156")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1357,14 +1333,6 @@
 		)
 		(pin "1"
 			(uuid "1f14322d-d3be-4c7a-bef2-de27146736c7")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
-					(reference "#PWR0155")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1482,14 +1450,6 @@
 		)
 		(pin "1"
 			(uuid "29df5536-b494-4b20-86ec-71f940a67361")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
-					(reference "C89")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1629,14 +1589,6 @@
 		(pin "1"
 			(uuid "0b7eb3ec-ba94-4cf5-87c6-ff8d6af1d72b")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
-					(reference "TP28")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1705,14 +1657,6 @@
 		)
 		(pin "1"
 			(uuid "e0cb469f-021f-4960-8a80-5a17c50711bb")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/4e82b9ce-cdf5-49fa-9b04-4d3ee7768e03"
-					(reference "#PWR0154")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(group "temperature sensor"

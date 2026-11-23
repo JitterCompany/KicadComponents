@@ -1607,14 +1607,6 @@
 		(pin "1"
 			(uuid "31304b81-d51a-469c-b668-87bc278c559b")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:Q_Dual_NMOS_S1G1D2S2G2D1")
@@ -1755,14 +1747,6 @@
 		(pin "2"
 			(uuid "13d5c64e-9399-414b-9c47-95d6c55f255c")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1877,14 +1861,6 @@
 		)
 		(pin "2"
 			(uuid "017315ca-fd6f-4dfc-a22e-5092d8000f84")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "R32")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2003,14 +1979,6 @@
 		(pin "2"
 			(uuid "0c4c00d8-9c47-4746-a9db-e8de45d7fade")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2127,14 +2095,6 @@
 		)
 		(pin "2"
 			(uuid "7883f1d8-928d-4d84-bf6a-6474f3b166ad")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "R33")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2276,14 +2236,6 @@
 		(pin "2"
 			(uuid "13d5c64e-9399-414b-9c47-95d6c55f255c")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "Q2")
-					(unit 2)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2354,14 +2306,6 @@
 		(pin "1"
 			(uuid "46e4946d-bfba-4c79-bd68-eaa3d598b8b6")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2431,14 +2375,6 @@
 		)
 		(pin "1"
 			(uuid "f0a9f4df-2c8b-43a9-82f8-b483c1768278")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2554,14 +2490,6 @@
 		)
 		(pin "2"
 			(uuid "287e5460-9f94-45a3-befe-33cf93b3a04f")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "R30")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2680,14 +2608,6 @@
 		(pin "2"
 			(uuid "65914683-4dee-4d7e-8ff0-91d63bb652d5")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC857BS")
@@ -2774,14 +2694,6 @@
 		(pin "1"
 			(uuid "31304b81-d51a-469c-b668-87bc278c559b")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "Q3")
-					(unit 2)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2850,14 +2762,6 @@
 		)
 		(pin "1"
 			(uuid "d6edc3c5-6ac1-4511-a74d-a0d23b7b2324")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "#PWR077")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -2976,14 +2880,6 @@
 		(pin "2"
 			(uuid "970190dd-60a5-4588-aa34-173b4854928e")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3053,14 +2949,6 @@
 		)
 		(pin "1"
 			(uuid "93025552-20e1-4dcf-be38-1dc30d79f029")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3178,14 +3066,6 @@
 		)
 		(pin "2"
 			(uuid "ea0092d4-cb74-4c8c-939c-70818e9bde12")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "R28")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3305,14 +3185,6 @@
 		(pin "1"
 			(uuid "eba1282d-0686-4791-8791-c1e1976893ed")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "C56")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3428,14 +3300,6 @@
 		(pin "2"
 			(uuid "b371da9a-0222-4885-822e-26e73abbf679")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3504,14 +3368,6 @@
 		)
 		(pin "1"
 			(uuid "c3bf9a6e-2e38-47b0-8ae1-19ceb031490c")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3630,14 +3486,6 @@
 		)
 		(pin "1"
 			(uuid "cfef4606-99f8-44d3-9106-478ced213b65")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "C57")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3779,14 +3627,6 @@
 		(pin "2"
 			(uuid "3c0d788d-a583-4669-b3f9-5ba579646d84")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3903,14 +3743,6 @@
 		)
 		(pin "2"
 			(uuid "0a3a1d96-3afb-43a5-b5ec-5d759adf4942")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/effdd170-e386-4cdc-808e-4391d270ae5a"
-					(reference "R35")
-					(unit 1)
-				)
-			)
 		)
 	)
 )

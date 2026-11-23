@@ -927,14 +927,6 @@
 		(pin "1"
 			(uuid "98f23c8f-dc7c-4e5a-913b-6b6bf186a9e6")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/57ea1d4e-59af-4c62-8b12-5ef11dbf321b"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1052,14 +1044,6 @@
 		(pin "1"
 			(uuid "20b7ec0b-7cec-4208-b7f7-2b0d4c311fda")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/57ea1d4e-59af-4c62-8b12-5ef11dbf321b"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1128,14 +1112,6 @@
 		)
 		(pin "1"
 			(uuid "031fbc0b-852f-4cf0-9fb9-7ccb22d651e2")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/57ea1d4e-59af-4c62-8b12-5ef11dbf321b"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1206,14 +1182,6 @@
 		(pin "1"
 			(uuid "6a180549-5ca2-4667-bad3-83fdaf21ef9c")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/57ea1d4e-59af-4c62-8b12-5ef11dbf321b"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -1282,14 +1250,6 @@
 		)
 		(pin "1"
 			(uuid "b9e5af58-6351-4adb-91e5-c663c6c7fa1d")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/57ea1d4e-59af-4c62-8b12-5ef11dbf321b"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1408,14 +1368,6 @@
 		(pin "1"
 			(uuid "2cdcbb30-a031-4856-b03c-aacc74afb8e6")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/57ea1d4e-59af-4c62-8b12-5ef11dbf321b"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1484,14 +1436,6 @@
 		)
 		(pin "1"
 			(uuid "809fbff2-a333-4b8a-bcb2-0bbe2af5cad4")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/57ea1d4e-59af-4c62-8b12-5ef11dbf321b"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1609,14 +1553,6 @@
 		)
 		(pin "1"
 			(uuid "b372c3a1-6cf5-426a-bc2f-21ee4e90ceae")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/57ea1d4e-59af-4c62-8b12-5ef11dbf321b"
-					(reference "C16")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -1754,14 +1690,6 @@
 		(pin "3"
 			(uuid "ee76be1a-ed7e-42fd-a48c-6b118d93592c")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/57ea1d4e-59af-4c62-8b12-5ef11dbf321b"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -1879,14 +1807,6 @@
 		(pin "1"
 			(uuid "c9945be9-065f-4497-a41d-ade99a671be4")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/57ea1d4e-59af-4c62-8b12-5ef11dbf321b"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1956,14 +1876,6 @@
 		(pin "1"
 			(uuid "db18348f-44ab-4f78-8e60-bcd6c5989b10")
 		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/57ea1d4e-59af-4c62-8b12-5ef11dbf321b"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -2032,14 +1944,6 @@
 		)
 		(pin "1"
 			(uuid "8276223e-01be-42dc-843e-c7969f798bce")
-		)
-		(instances
-			(project "5101-btb-pcb"
-				(path "/cf6d8fca-3363-48df-86b3-991c2a818707/57ea1d4e-59af-4c62-8b12-5ef11dbf321b"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
 		)
 	)
 )
