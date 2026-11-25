@@ -1,0 +1,25 @@
+doc_id       = "https://www.ti.com/lit/ds/symlink/tlv767.pdf"
+manufacturer = ""
+origin       = "manual"
+extracted_by = "S de Wit"
+reviewed_by  = "S de Wit"
+reviewed_on  = "2026-11-24"
+
+  [[variant]]
+  part         = "TLV76733DGNR"
+  package      = "HVSSOP-8-1EP_3x3mm_P0.65mm_EP1.57x1.89mm"
+  mpns         = ["TLV76733DGNR"]
+  source       = ""
+  confidence   = "manual"
+  pin_count    = 9
+
+    [variant.pins]
+    1 = "out"
+    2 = "SNS"
+    3 = "NC"
+    4 = "GND"
+    5 = "EN"
+    6 = "GND"
+    7 = "NC"
+    8 = "IN"
+    9 = "pad"
